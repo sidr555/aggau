@@ -4,7 +4,7 @@
  * Date: 26.01.16
  */
 
-//var log = require('log')(module);
+var log = require('log')(module);
 
 
 module.exports = {
@@ -19,6 +19,7 @@ module.exports = {
     },
     isAdmin: function(req, res, next){
         if (!req.admin) {
+            log.error("Неудачная попытка вызова админской функции");
             return res.status(403).send("Необходимы права администратора");
         }
         next();

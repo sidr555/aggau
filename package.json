@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "private": true,
   "scripts": {
-    "start": "app/aggau.js"
+    "start": "forever app/aggau.js"
   },
   "engines": {
     "node": "0.10.x"
@@ -18,13 +18,17 @@
     "winston": "~2.1.1",
     "nconf": "~0.8.2",
     "cookie": "~0.2.3",
-    "cookie-parser": "~1.4.1"
+    "cookie-parser": "~1.4.1",
+    "forever": "~0.15.1"
   },
   "devDependencies": {
     "mocha": "~2.3.4",
     "should": "~8.2.0",
     "supertest": "~1.1.0",
     "grunt": "~0.4.5",
-    "grunt-exec": "~0.4.6"
+    "grunt-exec": "~0.4.6",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-env": "~0.4.4",
+    "grunt-contrib-copy": "~0.8.2"
   }
 }
