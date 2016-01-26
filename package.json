@@ -1,0 +1,25 @@
+{
+  "name": "aggau",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "start": "aggau.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "express": "~4.13.4",
+    "express-json": "~1.0.0",
+    "express-session": "~1.13.0",
+    "socket.io": "~1.4.4",
+    "debug": "~2.2.0"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "should": "~8.2.0",
+    "supertest": "~1.1.0",
+    "grunt": "~0.4.5",
+    "grunt-exec": "~0.4.6"
+  }
+}
