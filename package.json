@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "private": true,
   "scripts": {
-    "start": "aggau.js"
+    "start": "app/aggau.js"
   },
   "engines": {
     "node": "0.10.x"
@@ -13,7 +13,12 @@
     "express-json": "~1.0.0",
     "express-session": "~1.13.0",
     "socket.io": "~1.4.4",
-    "debug": "~2.2.0"
+    "debug": "~2.2.0",
+    "jade": "~1.11.0",
+    "winston": "~2.1.1",
+    "nconf": "~0.8.2",
+    "cookie": "~0.2.3",
+    "cookie-parser": "~1.4.1"
   },
   "devDependencies": {
     "mocha": "~2.3.4",

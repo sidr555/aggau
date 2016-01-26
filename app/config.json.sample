@@ -1,0 +1,50 @@
+{
+    "main-url": "http://www.navipost.ru",
+    "logo" : "http://infocityplus.ru/images/main_v3/splash.png",
+    "session-secret" : "06797359c28b5d2744a3d9766ec11bc9",
+    "api": {
+        "host": "api2.navipost.ru",
+        "cookie-host": ".navipost.ru",
+        "port": "80",
+        "cookieKey": "sid",
+        "versionKey": "npver"
+    },
+    "db" : {
+        "uri" : "tcp://npweb:3Flh04Rf@pga.navipost.ru/navipost"
+    },
+
+    "session" : {
+        "secret" : "sldfjlskfj34t934fsvlksdvjlk",
+        "key": "sid",
+        "cookie" : {
+            "path": "/",
+            "httpOnly": true,
+            "maxAge": 600000
+        }
+    },
+
+    "redis-store": {
+        "host": "localhost",
+        "port": 6379,
+        "db": 1,
+        "pass": "redis_pass"
+    },
+
+    "dev-cache": {
+        "host": "localhost",
+        "port": 6379,
+        "db": 0,
+        "pass": "redis_pass"
+    },
+
+    "development" : {
+        "port" : 3003
+    },
+    "production" : {
+        "port" : 3003
+    },
+    "testing" : {
+        "test-dealer-key" : "croco",
+        "port" : 3012
+    }
+}
