@@ -1,0 +1,2 @@
+# aggau
+Bankruptcy auction aggregator
