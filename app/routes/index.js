@@ -6,6 +6,8 @@
 
 module.exports = function(app) {
     var user = require("./user");
+    var place = require("./place");
+
     var moment = require("moment");
     moment.locale("ru-ru", {});
 
@@ -24,6 +26,15 @@ module.exports = function(app) {
             .then(function(time){
                 res.status(200).send(moment(time, 'x').toNow(true));
             });
+    });
+
+    app.get("/places", user.isGuest, place.list);
+
+    app.get("/init", user.isGuest, function(req, res){
+        place.init(req, res, function(req, res) {
+
+            res.status(200).send("Redis db initialized");
+        });
     });
 
 }

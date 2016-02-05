@@ -39,8 +39,9 @@
         </div>
         <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
         <div class="pages navbar-through toolbar-through">
-          <!-- Index Page-->
-          <div data-page="index" class="page">
+
+
+          <div class="page cached" data-page="index">
             <div class="page-content">
               <div class="content-block-title">Добро пожаловать!</div>
               <div class="content-block">
@@ -50,10 +51,19 @@
               </div>
               <div class="list-block">
                 <ul>
+
+                  <li>
+                    <a href="#places" class="item-link item-content">
+                      <div class="item-inner">
+                        <div class="item-title">Площадки</div>
+                      </div>
+                    </a>
+                  </li>
+
                   <li><a href="my.html" class="item-link item-content">
-                      <div class="item-inner"> 
-                        <div class="item-title">Мои лоты</div>
-                      </div></a></li>
+                    <div class="item-inner">
+                      <div class="item-title">Мои лоты</div>
+                    </div></a></li>
                   <li><a href="search.html" data-context-name="cars" class="item-link item-content">
                       <div class="item-inner">
                         <div class="item-title">Найти лот</div>
@@ -62,10 +72,14 @@
                       <div class="item-inner">
                         <div class="item-title">Регистрация</div>
                       </div></a></li>-->
-                  <li><a href="#" data-template="about" data-context-name="about" class="item-link item-content">
-                    <div class="item-inner">
-                      <div class="item-title">О проекте</div>
-                    </div></a></li>
+
+                  <li>
+                    <a href="#about" data-template="about" data-context-name="about" class="item-link item-content">
+                      <div class="item-inner">
+                        <div class="item-title">О проекте</div>
+                      </div>
+                    </a>
+                  </li>
                 </ul>
               </div>
               <!--<div class="content-block-title">Side panels</div>
@@ -77,14 +91,56 @@
               </div>-->
             </div>
           </div>
+
+          <div class="page" data-page="places">
+            <div class="page-content">
+              <div class="content-block-title">Площадки</div>
+              <div class="content-block">
+                <div class="content-block-inner">
+                  <p>Список доступных электронных площадок. Нажмите на название для просмотра и правки настроек</p>
+                </div>
+              </div>
+              <div class="list-block">
+                <ul>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="page cached" data-page="about">
+            <!-- Just add additional "back" class to link -->
+            <a href="#index" class="back"> Назад </a>
+          </div>
+
         </div>
         <!-- Bottom Toolbar-->
         <!--<div class="toolbar">
           <div class="toolbar-inner"><a href="#" class="link">Link 1</a><a href="#" class="link">Link 2</a></div>
         </div>-->
       </div>
+
+
     </div>
+
+
+
+
+
+
     <!-- Template7 templates-->
+
+    <script type="text/template7" id="list-item-template">
+      <li>
+        <a href="#{{pagetype}}-page" class="item-link item-content {{pagetype}}" data-id="{{id}}">
+          <div class="item-inner">
+            <div class="item-title">{{name}}</div>
+          </div>
+        </a>
+      </li>
+    </script>
+
+
+
     <script type="text/template7" id="about">
       <div class="navbar">
         <div class="navbar-inner">
@@ -107,6 +163,8 @@
     </script>
     <!-- Path to Framework7 Library JS-->
     <script type="text/javascript" src="/js/framework7.min.js"></script>
+    <script type="text/javascript" src="/js/template7.min.js"></script>
+    <script type="text/javascript" src="/js/underscore-min.js"></script>
     <!-- Path to your app js-->
     <script type="text/javascript" src="/js/aggau.js"></script>
   </body>
