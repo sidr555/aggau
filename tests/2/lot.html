@@ -1,0 +1,1607 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js ie6 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js ie7 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js ie8 lt-ie9"> <![endif]-->
+<!--[if IE 9 ]>    
+<html class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html>
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Сбербанк-АСТ</title>
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="Электронная площадка ЗАО Сбербанк - АСТ  " />
+    <meta name="keywords" content="Электронная площадка, Сбербанк - АСТ  " />
+    <meta name="copyright" content="ЗАО «Сбербанк - АСТ»" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/new_main.css" rel="stylesheet" type="text/css" />
+	
+	<!-- Begin BKN styles -->
+	<link rel="stylesheet" type="text/css" href="/css/bkn/bkn.css">
+	<link rel="stylesheet" type="text/css" href="/css/bkn/bkn-ui.css">
+	<link rel="stylesheet" type="text/css" href="/css/bkn/pk-styles.css">
+	<!-- End BKN styles -->
+
+    <link rel="stylesheet" type="text/css" href="/Scripts/event-calendar/jquery.event-calendar.css"/>    
+    <link href="/css/ui/jquery-ui-1.8.16.custom.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/Content/GalleryView/jquery.galleryview-3.0-dev.css" />
+    <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="/js/jquery.flot.js" type="text/javascript"></script>
+    <script src="/js/jquery-ui-1.8.24.custom.min.js" type="text/javascript"></script>
+    <script src="/js/jquery-ui-timepicker-addon.js" type="text/javascript"></script>
+    <script src="/js/jquery.ui.datepicker-ru.js" type="text/javascript"></script>
+    <script src="/js/prefixfree.min.js" type="text/javascript"></script>
+    
+    <script src="/js/script.js" type="text/javascript"></script>
+	
+    <script src="/js/jquery.ITScs.js" type="text/javascript"></script>
+	
+	<!-- Begin formstyler -->
+	<script src="/js/formstyler/jquery.formstyler.min.js" type="text/javascript"></script>
+	<!-- End formstyler -->
+	
+	<script type="text/javascript" src="/js/equal-heights.js"></script>
+    <script type="text/javascript" src="/js/form-elements.js" ></script>
+
+    <!--[if lte IE 6]>
+        <link rel="stylesheet" href="/css/ie6.css" type="text/css" media="screen" />
+        <script src="/js/DD_belatedPNG_0.0.8a-min.js" type="text/javascript"></script>
+        <script src="/js/iereplacePNG.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            DD_belatedPNG.fix('#header img,.nav_main_hold,.nav_main,#slider .nav_btn, .search h1, .promo_wrap');
+        </script>
+    <![endif]-->
+    <!--[if IE 7]>
+        <link rel="stylesheet" href="/css/ie7.css" type="text/css" media="screen" />
+    <![endif]-->
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="/js/html5.js"></script>
+    <![endif]-->
+    <!--[if lte IE 8]><script type="text/javascript" src="/js/excanvas.min.js"></script><![endif]-->
+    <script type="text/javascript" src="/Scripts/aspxml20.js"></script>
+    <script type="text/javascript" src="/Scripts/dsigconst.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.simplemodal.1.4.1.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.md5.js"></script>
+    <script type="text/javascript" src="/Scripts/utils.js"></script>
+    <script type="text/javascript" src="/Scripts/formatting.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.timers-1.2.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.galleryview-3.0-dev.js"></script>
+    <script type="text/javascript" src="/Scripts/tinymce_4.0.2/tinymce.min.js"></script>
+    <script type="text/javascript" src="/Scripts/event-calendar/jquery.event-calendar.js"></script>
+    <style type="text/css" media="screen">
+        .cursored {
+            cursor: pointer;
+        }
+    </style>
+    <style type="text/css">
+        object.hiddenObject
+        {
+            visibility: hidden;
+            width: 0px;
+            height: 0px;
+            margin: 0px;
+            padding: 0px;
+            border-style: none;
+            border-width: 0px;
+            max-width: 0px;
+            max-height: 0px;
+        }
+    </style>
+</head>
+<body>
+	<script type="text/javascript">
+		var ie = false;
+//@cc_on ie = true;
+		if (ie && document.all && !document.querySelector) {
+			ie = false;
+		}
+		// detect IE11 as IE
+		var ie11 = !!navigator.userAgent.match(/Trident\/7.0.*rv:11.0/);
+		if (ie11) {
+			ie = true;
+		}
+	
+		// detect Google Chrome
+		var chrome =  !!navigator.userAgent.match(/Chrome/);
+		if (chrome) {
+			ie = true;
+		}
+		
+		if(!ie)
+		{
+				document.write('<style type="text/css">'+
+                            '  #static_header_holder { top:18px;}'+
+                            '  div#wrapper { padding-top:50px;}'+
+                            '  #static_warning_holder {position:fixed; top:0; left:0; width:100%; height:18px; z-index:1000; text-align:center;}'+
+                            '  #static_warning {width:1200px; height:100%; display: inline-block; background:#C82B32; color:#fff; margin:0 padding:0; line-height:17px; text-align:left; text-indent:20px; font-weight:bold;}'+
+                            '  #static_warning a {color: #fff; font-size:90%; font-style: italic; margin-left:20px; }'+
+                            '</style>'+
+							'<div id="static_warning_holder">'+
+							'  <div id="static_warning" title= "'+
+											'При работе с УТП, для просмотра страниц и подачи документов без использования ЭП, '+
+											'могут быть использованы все стандартные браузеры: Internet Explorer, Opera, Chrome, '+
+											'Firefox, Safari и прочие. В случае возникновения ошибок или некорректного отображения '+
+											'страниц необходимо перейти в рекомендуемые браузеры: Chrome или IE, версии не ниже 8 (см. требования '+
+											'к рабочему месту в регламенте работы УТП).'+
+										'">'+
+							'     ВНИМАНИЕ! Для корректной работы сайта рекомендуем использовать браузеры Google Chrome или Internet Explorer версии 8+.'+
+							'     <a href="/Main/NBT/Instructions/0/0/0/0">подробнее...</a>'+
+							'  </div>'
+							+'</div>');
+		}
+	</script>
+    <script type="text/javascript">
+    function changePageCtrl(page, ctrl) {
+        var url = document.location.href;
+        if (url.indexOf("?") > -1)
+            url = url.substring(0, url.indexOf("?"));
+        url = url + "?" + ctrl + "=" + page;
+        document.location = url;
+    }
+
+	function href(object, pType, buFace, docId, objid, parentObjId) {
+        if (objid == undefined || objid == null) objid = "0";
+        if (docId == undefined || docId == null) docId = "0";
+        if (pType == undefined || pType == null) pType = "0";
+        if (buFace == undefined || buFace == null) buFace = "0"
+
+        if (parentObjId != null) {
+            return "/Bankruptcy/NBT/" + object + "/" + pType + "/" + buFace + "/" + docId + "/" + objid + "/" + parentObjId;
+        }
+        else {
+            return "/Bankruptcy/NBT/" + object + "/" + pType + "/" + buFace + "/" + docId + "/" + objid;
+        }
+    }
+
+   function hrefExcel(object, pType, buFace, docId, objid, parentObjId) {
+        if (objid == undefined || objid == null) objid = "0";
+        if (docId == undefined || docId == null) docId = "0";
+        if (pType == undefined || pType == null) pType = "0";
+        if (buFace == undefined || buFace == null) buFace = "0"
+
+        if (parentObjId != null) {
+            return "/Bankruptcy/Excel/" + object + "/" + pType + "/" + buFace + "/" + docId + "/" + objid + "/" + parentObjId;
+        }
+        else {
+            return "/Bankruptcy/Excel/" + object + "/" + pType + "/" + buFace + "/" + docId + "/" + objid;
+        }
+    }
+
+        function hrefList(object, id) {
+            if (id == undefined) id = '';
+            return "/Bankruptcy/List/" + object + "/" + id;
+        }
+
+        function getInternalLinkParameters(link) {
+            var outputParams = []; // заполним значениями по умолчанию
+
+            // если первым в параметрах идет / отрезаем его, таким образом все будет работать и в случае, если его нет
+            var internalGetParams = link.attr('internalGetParams');
+            if (internalGetParams != undefined) {
+
+                internalGetParams = $.trim(internalGetParams);
+                if (internalGetParams.charAt(0) == '/') {
+                    internalGetParams = internalGetParams.substr(1);
+                }
+                // разбираем параметры по одному
+                var paramNamesOrValues = internalGetParams.split('/');
+                if (paramNamesOrValues != undefined && paramNamesOrValues != null && paramNamesOrValues != '') {
+
+                    // корневого узла со значениями параметров в HTML
+                    var node = link.parents('[content^="node"]:first');
+                    for (var i = 0; i < 4; i++) {
+                        if (isNaN(paramNamesOrValues[i])) // грузим, только если не число
+                        {
+                            // поиск значения параметра в HTML
+                            var textToFind = '[content="leaf:' + paramNamesOrValues[i] + '"]';
+                            var value = undefined;
+
+                            if (node.find(textToFind).is('span') || node.find(textToFind).is('textarea')) {
+                                value = node.find(textToFind).text();
+                            }
+                            else {
+                                value = node.find(textToFind).val();
+                            }
+
+                            if (value != undefined && value != '' && value != null) {
+                                // значение найдено в HTML
+                                outputParams[i] = {
+                                    isVariable: true,
+                                    isMissing: false,
+                                    value: value
+                                };
+                            }
+                            else {
+                                // значение не найдено
+                                outputParams[i] = {
+                                    isVariable: true,
+                                    isMissing: true,
+                                    value: 0
+                                };
+                            }
+                        }
+                        else {
+                            // числовое значение находится внутри параметров
+                            outputParams[i] = {
+                                isVariable: false,
+                                isMissing: false,
+                                value: paramNamesOrValues[i]
+                            };
+                        }
+                    }
+                }
+            }
+            else {
+                //проверяем, заполнены ли пути на форме к параметрам (второй способ задания параметров)
+                var purchaseTypeParamPath = link.attr('purchasetypeparampath');
+                var buTypeParamPath = link.attr('butypeparampath');
+                var idParamPath = link.attr('idparampath');
+                //если какого-то параметра нет, ничего не делаем
+                if (purchaseTypeParamPath == null || purchaseTypeParamPath == '' || buTypeParamPath == null || buTypeParamPath == '' || idParamPath == null || idParamPath == '')
+                    return outputParams;
+                var purchaseTypeParam = $.trim(purchaseTypeParamPath);
+                var buTypeParam = $.trim(buTypeParamPath);
+                var idParam = $.trim(idParamPath);
+                if (isNaN(purchaseTypeParam)) {
+                    var value = findValueByPath2(purchaseTypeParam, link);
+                    fillOutputParam(value, 0, outputParams);
+                }
+                else {
+                    // числовое значение находится внутри параметров
+                    outputParams[0] = {
+                        isVariable: false,
+                        isMissing: false,
+                        value: purchaseTypeParam
+                    };
+                }
+
+                if (isNaN(buTypeParam)) {
+                    var value = findValueByPath2(buTypeParam, link);
+                    fillOutputParam(value, 1, outputParams);
+                }
+                else {
+                    // числовое значение находится внутри параметров
+                    outputParams[1] = {
+                        isVariable: false,
+                        isMissing: false,
+                        value: buTypeParam
+                    };
+                }
+
+                outputParams[2] = {
+                    isVariable: false,
+                    isMissing: false,
+                    value: 0
+                };
+
+                if (isNaN(idParam)) {
+                    var value = findValueByPath2(idParam, link);
+                    fillOutputParam(value, 3, outputParams);
+                }
+                else {
+                    // числовое значение находится внутри параметров
+                    outputParams[3] = {
+                        isVariable: false,
+                        isMissing: false,
+                        value: idParam
+                    };
+                }
+
+            }
+
+            return outputParams;
+        }
+
+        function fillOutputParam(value, index, outputParams) {
+            if (value != undefined && value != '' && value != null) {
+                // значение найдено в HTML
+                outputParams[index] = {
+                    isVariable: true,
+                    isMissing: false,
+                    value: value
+                };
+            }
+            else {
+                // значение не найдено
+                outputParams[index] = {
+                    isVariable: true,
+                    isMissing: true,
+                    value: 0
+                };
+            }
+        }
+
+        function findValueByPath(path, link) {
+            //зрим в корень
+            var node = link.parents('[content^="node"]:last');
+            var parts = path.split('/');
+            for (var i = 0; i < parts.length; i++) {
+                if (i == (parts.length - 1)) {
+                    //вылавливаем конечный узел
+                    var textToFind = '[content="leaf:' + parts[i] + '"]';
+                    var value = undefined;
+                    if (node.find(textToFind).is('span') || node.find(textToFind).is('textarea')) {
+                        value = node.find(textToFind).text();
+                    }
+                    else {
+                        value = node.find(textToFind).val();
+                    }
+                    return value;
+                }
+                else {
+                    var textToFind = '[content="node:' + parts[i] + '"]:first';
+                    node = node.find(textToFind);
+                }
+            }
+        }
+
+        function findValueByPath2(path, link) {
+            var value = undefined;
+            //используем регулярные выражения
+            //начинается с одной / или одной ./ или одной или более ../ или одной //, за которыми следует набор латинских букв или цифр, независимо от их регистра
+            var regEx = /^((\/)|(\.\/)|(\.\.\/)*|(\/\/))([\w]+)/i
+            var findResult = null;
+            if ((findResult = regEx.exec(path)) != null) {
+                //Отрезаем от пути найденный в начале фрагмент
+                path = path.substr(findResult[0].length);
+                //достаём код элемента - он хранится под индексом 6
+                var code = findResult[6];
+                var filterValue = path.length > 0 ? '[content="node:' + code + '"]:first' : '[content="leaf:' + code + '"]:first';
+                //достаём операцию поиска пути - она хранится под индексом 1
+                var operation = findResult[1];
+                //выполняем требуемую операцию поиска пути
+                if (findResult[2] != undefined) {
+                    //Операция / Достаём корень дерева
+                    link = link.parents('[content^="node"]:last').find(filterValue);
+                }
+                else if (findResult[3] != undefined) {
+                    //Операция ./ Достаём ближайшего node-папашу
+                    link = link.parents('[content^="node"]:first').find(filterValue);
+                }
+                else if (findResult[4] != undefined) {
+                    //Операция ../ Переходим на node-уровень вверх
+                    link = $(link.parents('[content^="node"]')[1]);
+                    operation = operation.substr(findResult[4].length);
+                    while (operation.length > 0) {
+                        //продолжаем подниматься по node-уровням вверх
+                        link = link.parents('[content^="node"]:first');
+                        operation = operation.substr(findResult[4].length);
+                    }
+                    link = link.find(filterValue);
+                }
+                else {
+                    //Операция // Ищем от корня первое попавшееся совпадение где угодно внизу
+                    link = link.parents('[content^="node"]:last').find(filterValue);
+                }
+
+                //Обрабатываем вложенные пути, для них меняем регулярное выражение:
+                //начинается с одной / или одной //, за которыми следует набор латинских букв или цифр, независимо от их регистра
+                regEx = /^((\/)|(\/\/))([\w]+)/i
+                while ((findResult = regEx.exec(path)) != null) {
+                    path = path.substr(findResult[0].length);
+                    code = findResult[4];
+                    filterValue = path.length > 0 ? '[content="node:' + code + '"]:first' : '[content="leaf:' + code + '"]:first';
+                    //При такой прорисовке нет разницы между / и //
+                    if (findResult[2] != undefined) {
+                        //Операция /
+                        link = link.find(filterValue);
+                    }
+                    else {
+                        //Операция //
+                        link = link.find(filterValue);
+                    }
+                }
+                //Больше искать нечего - достаём значение 
+                if (link.is('span') || link.is('textarea')) {
+                    value = link.text();
+                }
+                else {
+                    value = link.val();
+                }
+            }
+            return value;
+        }    
+
+        function trimParamString(param) {
+            var param = $.trim(param);
+            if (param.charAt(0) == '.') {
+                param = param.substr(1);
+            }
+            if (param.charAt(0) == '/') {
+                param = param.substr(1);
+            }
+            return param;
+        }
+
+        //    $('.formElement-internalLink').live('click', function () {
+
+        //        var object = $(this).attr('actionCode');
+        //        var outputParams = [0, 0, 0, 0]; // заполним значениями по умолчанию
+
+        //        // получаем значения параметров
+        //        $.each(getInternalLinkParameters($(this)), function (index, item) {
+        //            outputParams[index] = item.value;
+        //        });
+
+        //        // формируем URL для перехода
+        //        var res_href = href(object, outputParams[0], outputParams[1], outputParams[2], outputParams[3]);
+
+        //        // выполняем самопальный переход по сформированному URL-у
+        //        // поддерживается только два вида таргетинга обычный (в то же окно) и в новое окно/вкладку 
+        //        dynamicAnchorRedirection(res_href, this.target);
+
+        //        // отключаем переход, следующий из логики работы ссылки (после тычка по ней)
+        //        // этот переход не сможет учесть найденные параметры URL
+        //        // и затрет href в this
+        //        return false;
+        //    }); 
+
+        // переход по создаваемому динамически анкору, удобен чтобы не изменять апарметры основного анкора
+        function dynamicAnchorRedirection(href, target) {
+            var a = document.createElement('a');
+            a.id = 'temporaryAnchor';
+            a.href = href;
+            a.target = target;
+            document.body.appendChild(a);
+
+            a.click();
+
+            document.body.removeChild(a);
+            a = null;
+        }
+
+        // "включение" maxlength для IE9 и ранее
+    $(document).ready(function () {
+
+        $('textarea[maxlength]').keyup(function () {
+            CheckIfTexAreaLengthCorrect(this);
+        }).change(function () {
+            CheckIfTexAreaLengthCorrect(this);
+        });
+
+    });
+    
+    function CheckIfTexAreaLengthCorrect(obj) {
+        var limit = parseInt($(obj).attr('maxlength'));
+        var text = $(obj).val();
+        var charCount = text.length;
+
+        if (charCount > limit) {
+            var corrected = text.substr(0, limit);
+            $(obj).val(corrected);
+        }
+    }
+    
+    </script>
+    <div id="static_header_holder">
+        <div id="static_header">
+                    <div id="datetime" class="time">
+					                        <span id="srvDateTime" style="display:none;">Время на сервере: 
+                        <label id="srvDate"></label>
+                        <label id="srvTime"></label>
+                        <label id="srvTimeError"></label>
+                    </span>
+                    <span id="pageCreateDate">Дата и время создания страницы: 08.02.2016 06:12:58</span>
+                    <script src="/js/clock.js" type="text/javascript"></script>
+                    <script type="text/javascript" language="javascript">
+                        $(document).ready(function () {
+                            StartUpdateTime("");
+                            $('#pageCreateDate').hide();
+                            $('#srvDateTime').show();
+                        });
+                    </script>
+
+                    </div>
+				    <div class="nav_site">
+					    <a href="#" class="trgr" data-nav-container='#sites_wrap' data-pos='50'><span>Торговые секции</span></a>
+				        <!-- SectionsList  -->
+
+
+    <div>
+        <h2>
+            
+        </h2>
+        <div >
+            <div>
+  <table>
+    <tr>
+      <td>
+        <div><div class="sites_wrap falling_nav" id="sites_wrap" style="display: none;"> <div class="sites_list"> <ul class="sites_holder"> <li> <h2><a href="/SB/">Закупки ПАО Сбербанк</a></h2> </li> <li> <h2><a href="/Bankruptcy/">Продажа имущества (предприятия) банкротов</a></h2> </li> <li> <h2><a href="/Trade/">Закупки по 223-ФЗ</a></h2> </li> <li> <h2><a href="/AP/">Приватизация, аренда и продажа прав</a></h2> </li> <li> <h2><a href="/Com/">Закупки и продажи</a></h2> </li> <li> <h2><a href="/AFK/">ОАО АФК «Система»</a></h2> </li> <li> <h2><a href="/RussianPost/">Закупки ФГУП "Почта России"</a></h2> </li> <li> <h2><a href="/BRD/">Витрина прямых поставок</a></h2> </li> <li> <h2><a href="/Rostelecom/">Закупки ПАО "Ростелеком"</a></h2> </li> <li> <h2><a href="/BKN/">База коммерческой недвижимости</a></h2> </li> <li> <h2><a href="/CBRF/">Закупки ЦБ РФ</a></h2> </li> <li> <h2><a href="/GosCorp/">Реализация залогов и непрофильных активов</a></h2> </li> <li> <h2><a href="http://utp.sberbank-ast.ru/VIP/Notice/766/Titan/">Закупки и продажи ассоциации Титан</a></h2> </li> <li> <h2><a href="/IDK/">Продажа зерна IDK.RU</a></h2> </li> <li> <h2><a href="/Com/List/BidList/173">Закупки АНО «ЕТД»</a></h2> </li> <li> <h2><a href="/AgroMarket/">Рыбный рынок</a></h2> </li> <li> <h2><a href="/VIP/">Закупки для VIP-Заказчиков</a></h2> </li> <li> <h2><a href="/Rezerv/">Реализация продукции с резервного хранения</a></h2> </li> </ul> </div> </div></div>
+      </td>
+    </tr>
+  </table>
+</div>
+  
+        </div>
+
+	</div>
+
+				        <!-- SectionsList -->
+				    </div>    
+                    <div class='enter_prnt'>
+                        
+
+    <div class="enter">
+		<span>
+			 <a href="/Bankruptcy/Util/Logon/aHR0cDovL3V0cC5zYmVyYmFuay1hc3QucnUvQmFua3J1cHRjeS9OQlQvQmlkVmlldy80LzAvMC8zNDE2ODc%3d">Войти</a>
+		</span>
+	</div>
+	<div class="login">
+		<a href="/Main/NBT/PasswordRecovery/0/0/0/0">Забыли пароль?</a>
+	</div>
+
+                    </div>
+                    <span style="display:none;" id="currentTsId">13</span>
+				    <span id="currentTime" style="display: none;">
+						    Monday, February 08, 2016 6:12:58 AM</span>
+        </div>
+    </div>
+
+    <div id="wrapper">
+        <header id="header" class='holder'>
+			<div class="group">
+                <a href="/" class='logo'>
+					<img src="/img/logo.png" alt="Сбербанк-АСТ" />
+                </a>
+				<p class="tel">
+					<a href="/Bankruptcy/">Продажа имущества (предприятия) банкротов</a>
+				</p>
+				<!-- main navigation -->
+
+
+<nav class='nav_main_hold'> 
+    <ul class="nav">
+
+            <li>
+                <a href="#" style="cursor: default">Информация</a>
+                <ul>
+        <li><a href="/Bankruptcy/Notice/1086/Instructions">Регламент ТС</a></li> 
+        <li><a href="/Bankruptcy/Notice/349/Notice">Полезная информация</a></li> 
+        <li><a href="/Bankruptcy/NBT/News/0/0">Новости и объявления</a></li> 
+        <li><a href="/Bankruptcy/Notice/355/FAQ">Вопросы и ответы</a></li> 
+        <li><a href="/Bankruptcy/Notice/345/Tariff">Тарифы</a></li> 
+        <li><a href="/Bankruptcy/Notice/698/Requisites">Банковские реквизиты</a></li> 
+        <li><a href="/Bankruptcy/Notice/339/Contacts">Контакты</a></li> 
+        <li><a href="/Bankruptcy/Notice/347/Partners">Партнеры</a></li> 
+        <li><a href="/Bankruptcy/NBT/Law/0/0">Законодательство</a></li> 
+        <li><a href="/Bankruptcy/Notice/343/FAS">Решения ФАС</a></li> 
+        <li><a href="/Bankruptcy/Util/TestDs">Получение и проверка ЭП</a></li> 
+        <li><a href="/Bankruptcy/Notice/341/Arc">Архив приостановленных торгов</a></li> 
+        <li><a href="/Bankruptcy/Notice/396/Adv_trades_promotion">Реклама ваших торгов</a></li> 
+        <li><a href="/Bankruptcy/Notice/627/assessment">Экспресс-оценка имущества</a></li> 
+
+                </ul>
+            </li>
+            <li>
+                <a href="#" style="cursor: default">Торги</a>
+                <ul>
+        <li><a href="/Bankruptcy/List/BidList">Реестр торгов</a></li> 
+
+                </ul>
+            </li>
+            <li>
+                <a href="#" style="cursor: default">Семинары</a>
+                <ul>
+        <li><a href="/Bankruptcy/Notice/351/SeminarTimetable">График семинаров</a></li> 
+        <li><a href="/Bankruptcy/Notice/356/SeminarPartners">Партнеры по обучению</a></li> 
+        <li><a href="/Bankruptcy/NBT/Univer/0/0">Электронный университет</a></li> 
+
+                </ul>
+            </li>
+            <li>
+                <a href="#" style="cursor: default">Форум</a>
+                <ul>
+        <li><a href="/Bankruptcy/NBT/Forum/0/0">Форум</a></li> 
+
+                </ul>
+            </li>
+            <li class="right">
+                <a href="/Main/List/UnitedPurchaseList" style="cursor: default">
+                    Все закупки и продажи
+                </a>
+            </li>
+    </ul>
+ </nav>
+
+
+				<!-- /main navigation -->
+
+			</div>
+        </header>
+        <div id="content" class="holder">
+            <div class="main_content">
+				<div class="eventCalendarContainer"></div>
+
+                    
+                    
+
+<script type="text/javascript" src="/Scripts/timer.js"></script>
+<script type="text/javascript" src="/Scripts/range.js"></script>
+<script type="text/javascript" src="/Scripts/slider.js"></script>
+
+<script type="text/javascript">
+    var sourceCtrl = "XMLContainer";
+    var XmlDataHasLoad = false;
+</script>
+
+
+<script type="text/javascript">
+    var UseSign = false;
+</script>
+
+<div id="successPanel" style="display: none;">
+    <div id="successMsg"></div>
+    <span style="display:none;" id="resultDocId" name="resultDocId"></span>
+    <span style="display:none;" id="mainObjId" name="mainObjId"></span>
+    <span style="display:none;" id="orgPanelId" name="orgId">0</span>
+    <input type="button" value="btnSuccess" id="btnSuccess" style="display:none;"/>
+    <br />
+</div>
+    <a id="BackToParent" href="http://utp.sberbank-ast.ru/Bankruptcy/NBT/PurchaseView/4/0/0/149004" style="display:none">Вернуться</a>
+    <a id="BackToParentFixed" style="display: none;">Вернуться</a>
+<div style="">
+    
+</div>
+<div id="errorPanel" style="display: none;">
+
+    <span id="errorMsg" class="warning"></span>
+    <br />
+    <input type="button" id="ErrBack" class="btnElastic" onclick="ErrBackCmd();" value="Вернуться к редактированию" />
+</div>
+<div id="warnPanel" style="display:none;">
+    <br />
+    <span style="font-weight: bold">Предупреждение:</span> <span id="warnMsg"></span>
+</div>
+
+
+<form id="dataForm" action="/">
+
+
+
+    <div id="dataPanel">
+        
+<div id="ServicePanel" style="display:none;">
+
+
+<div>
+  <ul style="display:none;">
+  </ul>
+        <div>Нет действующих тарифов</div>
+    </div>
+</div>
+
+
+
+        <table class="noborder" width="100%" style="margin-top: 0px">
+            <tr>
+                <td>
+                    <div id="XMLContainer" class="workarea">
+                        
+    
+ <script src="/Scripts/ProcessedEmptyHTable.js" type="text/javascript"></script>
+    <div><h2>Просмотр информации о лоте</h2><div content='node:BidView' id='BidView' name='BidView' class='' style=''><img src='/Content/image/minus.jpg' onclick='ShowHide("BidViewBody", this)' style='display: none' /><div content='other:BidViewBody' style='display: '><div class='block-div' id='DynamicControlPurchaseInfo_PurchaseMainInfoDiv'><table content='node:PurchaseMainInfo' id='DynamicControlPurchaseInfo_PurchaseMainInfo' name='DynamicControlPurchaseInfo_PurchaseMainInfo' class='block  ' style=''><thead><tr ><th colspan='2' class='block-head'><img src='/Content/image/minus.jpg' onclick='ShowHide("PurchaseMainInfobody", this)' style='display: none'>&nbsp;Сведения о торгах&nbsp;<br/><i></i></th></tr></thead><tbody content='other:PurchaseMainInfobody' style='display: '><tr style='display:none;'><td class='block-lable'> ID торгов  <br/><i></i></td><td class='block-data'><input type='hidden' content='leaf:PurchaseId' id='DynamicControlPurchaseInfo_PurchaseId' name='DynamicControlPurchaseInfo_PurchaseId' class=' ' style='' data-defaultValue='' value=''/></td></tr><tr ><td class='block-lable'> Форма торгов  <br/><i></i></td><td class='block-data'><div content='node:PurchaseTypeInfo' id='DynamicControlPurchaseInfo_PurchaseTypeInfo' name='DynamicControlPurchaseInfo_PurchaseTypeInfo' class='' style=''><img src='/Content/image/minus.jpg' onclick='ShowHide("PurchaseTypeInfoBody", this)' style='display: none' /><div content='other:PurchaseTypeInfoBody' style='display: '><span content='leaf:PurchaseTypeName' id='DynamicControlPurchaseInfo_PurchaseTypeName' name='DynamicControlPurchaseInfo_PurchaseTypeName' class='' data-defaultValue='' style=''></span></div></div></td></tr><tr ><td class='block-lable'> Код торгов  <br/><i></i></td><td class='block-data'><span content='leaf:PurchaseCode' id='DynamicControlPurchaseInfo_PurchaseCode' name='DynamicControlPurchaseInfo_PurchaseCode' class='' data-defaultValue='' style=''></span></td></tr><tr ><td class='block-lable'> Полное наименование торгов  <br/><i></i></td><td class='block-data'><span content='leaf:PurchaseName' id='DynamicControlPurchaseInfo_PurchaseName' name='DynamicControlPurchaseInfo_PurchaseName' class='' data-defaultValue='' style=''></span></td></tr></tbody></table></div><div content='node:Bids' id='DynamicControlBidInfo_Bids' name='DynamicControlBidInfo_Bids' class='' style=''><img src='/Content/image/minus.jpg' onclick='ShowHide("BidsBody", this)' style='display: none' /><div content='other:BidsBody' style='display: '><div class='block-div' id='DynamicControlBidInfo_BidInfoDiv'><table content='node:BidInfo' id='DynamicControlBidInfo_BidInfo' name='DynamicControlBidInfo_BidInfo' class='block  ' style=''><thead><tr ><th colspan='2' class='block-head'><img src='/Content/image/minus.jpg' onclick='ShowHide("BidInfobody", this)' style='display: none'>&nbsp;Информация по лоту&nbsp;<br/><i></i></th></tr></thead><tbody content='other:BidInfobody' style='display: '><tr style='display:none;'><td class='block-lable'> ИД лота  <br/><i></i></td><td class='block-data'><input type='hidden' content='leaf:BidId' id='DynamicControlBidInfo_BidId' name='DynamicControlBidInfo_BidId' class=' ' style='' data-defaultValue='' value=''/></td></tr><tr ><td class='block-lable'> Номер лота  <br/><i></i></td><td class='block-data'><span content='leaf:BidNo' id='DynamicControlBidInfo_BidNo' name='DynamicControlBidInfo_BidNo' class='' data-defaultValue='' style=''></span></td></tr><tr ><td class='block-lable'> Наименование  <br/><i></i></td><td class='block-data'><span content='leaf:BidName' id='DynamicControlBidInfo_BidName' name='DynamicControlBidInfo_BidName' class='' data-defaultValue='' style=''></span></td></tr></tbody></table></div><div class='block-div' id='DynamicControlBidInfo_BidDebtorInfoDiv'><table content='node:BidDebtorInfo' id='DynamicControlBidInfo_BidDebtorInfo' name='DynamicControlBidInfo_BidDebtorInfo' class='block  ' style=''><thead><tr ><th colspan='2' class='block-head'><img src='/Content/image/minus.jpg' onclick='ShowHide("BidDebtorInfobody", this)' style='display: none'>&nbsp;Сведения о должнике, его имуществе&nbsp;<br/><i></i></th></tr></thead><tbody content='other:BidDebtorInfobody' style='display: '><tr ><td class='block-lable'> Сведения об имуществе (предприятии) должника, выставляемом на торги, его составе, характеристиках, описание  <br/><i></i></td><td class='block-data'><span content='leaf:DebtorBidName' id='DynamicControlBidInfo_DebtorBidName' name='DynamicControlBidInfo_DebtorBidName' class='' data-defaultValue='' style=''></span></td></tr><tr ><td class='block-lable'> Регион выставляемого на торги имущества  <br/><i></i></td><td class='block-data'><span content='leaf:BidRegion' id='DynamicControlBidInfo_BidRegion' name='DynamicControlBidInfo_BidRegion' class='' data-defaultValue='' style=''></span></td></tr><tr ><td class='block-lable'> Категория выставляемого на торги имущества  <br/><i></i></td><td class='block-data'><div class='block-tbl-div' id='DynamicControlBidInfo_BidCategoryInfoDiv'><table content='node:BidCategoryInfo' table-type='htable' id='DynamicControlBidInfo_BidCategoryInfo' name='DynamicControlBidInfo_BidCategoryInfo' class='block-tbl  read-only' style=''><thead id='tblBidCategoryInfohead'><tr id='hTableDynamicControlBidInfo_BidCategoryInforow' class='' style=''><th class='block-tbl-th' id='DynamicControlBidInfo_thBidCategoryName' > Категория <br/><i></i></th></tr></thead><tbody id='tblBidCategoryInfobody' content='other:BidCategoryInfoBody' style='display: ' ><tr id='tBodyDynamicControlBidInfo_BidCategoryInforow_2141881'  content='node:BidCategorys'><td class='block-tbl-data'  id='DynamicControlBidInfo_tdBidCategoryName_2141883'><span content='leaf:BidCategoryName' id='DynamicControlBidInfo_BidCategoryName_2141883' name='DynamicControlBidInfo_BidCategoryName' class='' data-defaultValue='' style=''></span></td></tr></tbody></table></div></td></tr><tr ><td class='block-lable'> Классификация имущества  <br/><i></i></td><td class='block-data'><div class='block-tbl-div' id='DynamicControlBidInfo_PropertyTypeClassificationInfoDiv'><table content='node:PropertyTypeClassificationInfo' table-type='htable' id='DynamicControlBidInfo_PropertyTypeClassificationInfo' name='DynamicControlBidInfo_PropertyTypeClassificationInfo' class='block-tbl  read-only' style=''><thead id='tblPropertyTypeClassificationInfohead'><tr id='hTableDynamicControlBidInfo_PropertyTypeClassificationInforow' class='' style=''><th class='block-tbl-th' id='DynamicControlBidInfo_thPropertyTypeName' > Классификация <br/><i></i></th></tr></thead><tbody id='tblPropertyTypeClassificationInfobody' content='other:PropertyTypeClassificationInfoBody' style='display: ' ><tr id='tBodyDynamicControlBidInfo_PropertyTypeClassificationInforow_2213167'  content='node:PropertyTypes'><td class='block-tbl-data'  id='DynamicControlBidInfo_tdPropertyTypeName_2213169'><span content='leaf:PropertyTypeName' id='DynamicControlBidInfo_PropertyTypeName_2213169' name='DynamicControlBidInfo_PropertyTypeName' class='' data-defaultValue='' style=''></span></td></tr></tbody></table></div></td></tr><tr ><td class='block-lable'> Порядок ознакомления с имуществом (предприятием) должника  <br/><i></i></td><td class='block-data'><span content='leaf:BidInventoryResearchType' id='DynamicControlBidInfo_BidInventoryResearchType' name='DynamicControlBidInfo_BidInventoryResearchType' class='' data-defaultValue='' style=''></span></td></tr><tr ><td class='block-lable'> Дополнительная информация о должнике и его имуществе  <br/><i></i></td><td class='block-data'><div ><div content='node:BidAdditionalDocEDS'><table id='DynamicControlBidInfo_BidAdditionalDocEDStblDoc' class='dt' style='margin:0'><tr content='node:file'><td><input type='text' style='display:none;' onchange='$(this).valid();' id='DynamicControlBidInfo_spFileBidAdditionalDocEDSID' name='DynamicControlBidInfo_spFileBidAdditionalDocEDSName' content='leaf:FileID'  /><a onclick="javascript:OpenFile('Bankruptcy',findXMLNodeByName(this.parentNode.parentNode, 'FileID').value)" href="javascript:empty();" id='DynamicControlBidInfo_txbFileBidAdditionalDocEDSName' style='cursor: pointer'><span content='leaf:FileName' id='DynamicControlBidInfo_flBidAdditionalDocEDSFileName'></span></a><br /><span content='leaf:signInfo' id='DynamicControlBidInfo_flBidAdditionalDocEDSsignInfo'></span><input type='hidden' content='leaf:hash' id='DynamicControlBidInfo_flBidAdditionalDocEDSHash'/><input type='text' style='display:none;'  class='signRequired' id='DynamicControlBidInfo_flBidAdditionalDocEDSsign' content='leaf:sign' onchange="javascript:ClearRN(this);"/></td><td style='white-space: nowrap;width: 130px;display:'><input style='display:inline' type='button' value='Просмотр подписей' class='btnElastic' onclick="javascript:OpenDictExt('/Bankruptcy/File/ShowFileSign?fid='+findXMLNodeByName(this.parentNode.parentNode, 'FileID').value, this, new Array(), 200, 'Просмотр подписей')" /></td><td style='white-space: nowrap;display:none'><input style='display:inline' type='button' value='Прикрепить' class='btnElastic' onclick="OpenDictExt('/Bankruptcy/File/Upload', this, new Array('FileID', 'FileName','hash','sign','signInfo'), 200, 'Загрузка файла')" />&nbsp;&nbsp;<input style='display:inline' type='button' value='Очистить' class='btnElastic' onclick="DeletePressed(this);" /></td></tr></table></div></div></td></tr><tr ><td class='block-lable'> Мини-изображение объекта торгов  <br/><i></i></td><td class='block-data'><div ><div content='node:BidPicture'><div id='DynamicControlBidInfo_BidPicturetblDoc'><ul class='galleryView' style='display:none;' galleryWidth='300' galleryHeight='200' frameWidth='60' frameHeight='30'><li content='node:file'> <div style='display:none;'><input type='hidden' onchange='if($(this).val()!="") $(this).parent().next().attr("src", " /Bankruptcy/File/GetImage/"+ $(this).val()); else $(this).parent().next().attr("src","");' content='leaf:FileID' /><input type='hidden' content='leaf:FileName' /><input type='hidden' content='leaf:signInfo' /><input type='hidden' content='leaf:hash' /><input type='hidden' content='leaf:sign' /></div><img class='galleryViewImg' /></li></ul></div></div></div></td></tr></tbody></table></div><div class='block-div' id='DynamicControlBidInfo_BidDepositInfoDiv'><table content='node:BidDepositInfo' id='DynamicControlBidInfo_BidDepositInfo' name='DynamicControlBidInfo_BidDepositInfo' class='block  ' style=''><thead><tr ><th colspan='2' class='block-head'><img src='/Content/image/minus.jpg' onclick='ShowHide("BidDepositInfobody", this)' style='display: none'>&nbsp;Сведения о задатке&nbsp;<br/><i></i></th></tr></thead><tbody content='other:BidDepositInfobody' style='display: '><tr ><td class='block-lable'> Размер задатка вводится в процентах <label style='color: Red; cursor: help;' title='Обязательно для заполнения'>*</label> <br/><i></i></td><td class='block-data'><select content='leaf:IsDepositInPercent' id='DynamicControlBidInfo_IsDepositInPercent' name='DynamicControlBidInfo_IsDepositInPercent' class='' style='' disabled='disabled'><option value=""></option><option value="Yes">Да</option><option value="No">Нет</option></select></td></tr><tr ><td class='block-lable'> Размер задатка  <br/><i>До 20% от начальной цены.</i></td><td class='block-data'><span content='leaf:BidDeposit' id='DynamicControlBidInfo_BidDeposit' name='DynamicControlBidInfo_BidDeposit' class='' data-defaultValue='' style=''></span></td></tr><tr ><td class='block-lable'> Сроки и порядок внесения и возврата задатка  <br/><i></i></td><td class='block-data'><span content='leaf:BidDepositRefund' id='DynamicControlBidInfo_BidDepositRefund' name='DynamicControlBidInfo_BidDepositRefund' class='' data-defaultValue='' style=''></span></td></tr></tbody></table></div><div class='block-div' id='DynamicControlBidInfo_BidTenderInfoDiv'><table content='node:BidTenderInfo' id='DynamicControlBidInfo_BidTenderInfo' name='DynamicControlBidInfo_BidTenderInfo' class='block  ' style=''><thead><tr ><th colspan='2' class='block-head'><img src='/Content/image/minus.jpg' onclick='ShowHide("BidTenderInfobody", this)' style='display: none'>&nbsp;Порядок проведения торгов&nbsp;<br/><i></i></th></tr></thead><tbody content='other:BidTenderInfobody' style='display: '><tr ><td class='block-lable'> Начальная цена продажи имущества (предприятия) должника, руб.  <br/><i></i></td><td class='block-data'><span content='leaf:BidPrice' id='DynamicControlBidInfo_BidPrice' name='DynamicControlBidInfo_BidPrice' class='' data-defaultValue='' style=''></span></td></tr><tr ><td class='block-lable'> Шаг торгов  <br/><i>От 5% до 10% от начальной цены</i></td><td class='block-data'><span content='leaf:BidAuctionStepPercent' id='DynamicControlBidInfo_BidAuctionStepPercent' name='DynamicControlBidInfo_BidAuctionStepPercent' class='' data-defaultValue='' style=''></span></td></tr></tbody></table></div></div></div><div class='block-tbl-div' id='DynamicControlBidChangeLog_BidChangeLogDiv'><table content='node:BidChangeLog' table-type='htable' id='DynamicControlBidChangeLog_BidChangeLog' name='DynamicControlBidChangeLog_BidChangeLog' class='block-tbl  read-only' style=''><thead id='tblBidChangeLoghead'><tr id='hTableDynamicControlBidChangeLog_BidChangeLogrow' class='' style=''><th class='block-tbl-th' id='DynamicControlBidChangeLog_thBidChangeLogDocId' style='display:none;'> ИД документа <br/><i></i></th><th class='block-tbl-th' id='DynamicControlBidChangeLog_thLink' > Просмотреть <br/><i></i></th><th class='block-tbl-th' id='DynamicControlBidChangeLog_thBidChangeLogCreateDt' > Дата события <br/><i></i></th><th class='block-tbl-th' id='DynamicControlBidChangeLog_thBidChangeLogComment' > Описание события <br/><i></i></th></tr></thead><tbody id='tblBidChangeLogbody' content='other:BidChangeLogBody' style='display: ' ><tr id='tBodyDynamicControlBidChangeLog_BidChangeLogrow_2141895'  content='node:BidChangeLogString'><td class='block-tbl-data' style='display:none;' id='DynamicControlBidChangeLog_tdBidChangeLogDocId_2141897'><input type='hidden' content='leaf:BidChangeLogDocId' id='DynamicControlBidChangeLog_BidChangeLogDocId_2141897' name='DynamicControlBidChangeLog_BidChangeLogDocId' class=' ' style='' data-defaultValue='' value=''/></td><td class='block-tbl-data'  id='DynamicControlBidChangeLog_tdLink_2141898'><a class='' style='' href='/Bankruptcy/Util/DocumentView/{BidChangeLogDocId}' target='_self' externalGetParams='' >Просмотреть</a></td><td class='block-tbl-data'  id='DynamicControlBidChangeLog_tdBidChangeLogCreateDt_2141899'><span content='leaf:BidChangeLogCreateDt' id='DynamicControlBidChangeLog_BidChangeLogCreateDt_2141899' name='DynamicControlBidChangeLog_BidChangeLogCreateDt' class='' data-defaultValue='' style=''></span></td><td class='block-tbl-data'  id='DynamicControlBidChangeLog_tdBidChangeLogComment_2141900'><span content='leaf:BidChangeLogComment' id='DynamicControlBidChangeLog_BidChangeLogComment_2141900' name='DynamicControlBidChangeLog_BidChangeLogComment' class='' data-defaultValue='' style=''></span></td></tr><tr class='tbl-noContentMessage'><td class='block-tbl-data' colspan='4'>Нет данных</td></tr></tbody></table></div><div class='block-tbl-div' id='DynamicControlProtocolInfo_ProtocolInfoDiv'><table content='node:ProtocolInfo' table-type='htable' id='DynamicControlProtocolInfo_ProtocolInfo' name='DynamicControlProtocolInfo_ProtocolInfo' class='block-tbl  read-only' style=''><thead id='tblProtocolInfohead'><tr id='hTableDynamicControlProtocolInfo_ProtocolInforow' class='' style=''><th class='block-tbl-th' id='DynamicControlProtocolInfo_thProtocolDocId' style='display:none;'> Ид <br/><i></i></th><th class='block-tbl-th' id='DynamicControlProtocolInfo_thBankruptDocId' style='display:none;'> Ид <br/><i></i></th><th class='block-tbl-th' id='DynamicControlProtocolInfo_thProtocolDate' > Дата создания <br/><i></i></th><th class='block-tbl-th' id='DynamicControlProtocolInfo_thProtocolName' > Протоколы <br/><i></i></th></tr></thead><tbody id='tblProtocolInfobody' content='other:ProtocolInfoBody' style='display: ' ><tr id='tBodyDynamicControlProtocolInfo_ProtocolInforow_2141902'  content='node:Protocol'><td class='block-tbl-data' style='display:none;' id='DynamicControlProtocolInfo_tdProtocolDocId_2141904'><input type='hidden' content='leaf:ProtocolDocId' id='DynamicControlProtocolInfo_ProtocolDocId_2141904' name='DynamicControlProtocolInfo_ProtocolDocId' class=' ' style='' data-defaultValue='' value=''/></td><td class='block-tbl-data' style='display:none;' id='DynamicControlProtocolInfo_tdBankruptDocId_2141905'><input type='hidden' content='leaf:BankruptDocId' id='DynamicControlProtocolInfo_BankruptDocId_2141905' name='DynamicControlProtocolInfo_BankruptDocId' class=' ' style='' data-defaultValue='' value=''/></td><td class='block-tbl-data'  id='DynamicControlProtocolInfo_tdProtocolDate_2141906'><span content='leaf:ProtocolDate' id='DynamicControlProtocolInfo_ProtocolDate_2141906' name='DynamicControlProtocolInfo_ProtocolDate' class='' data-defaultValue='' style=''></span></td><td class='block-tbl-data'  id='DynamicControlProtocolInfo_tdProtocolName_2141907'><span content='leaf:ProtocolName' id='DynamicControlProtocolInfo_ProtocolName_2141907' name='DynamicControlProtocolInfo_ProtocolName' class='' data-defaultValue='' style=''></span></td></tr></tbody></table></div></div></div></div>
+
+                    </div>
+                    <div class="bkn-captcha">
+                    </div>
+                    <div class="bkn-bottom-block">
+                        <input type="button" class="btnElastic" onclick="return ValidateSaveAndSign(false);"
+                               id="btnSave" value="Подписать и сохранить" style="display:none" />
+                        <input type="button" class="btnElastic" onclick="return ValidateSaveAndSign(true);"
+                               id="btnSaveDraft" value="Сохранить как черновик" style="display:none" />
+                        <input type="button" id="btnXML" class="btnElastic" value="Просмотр документа" onclick="javascript:ViewXML();"
+                               onclickold="btnXML_Click" style="display:none;" />
+                        <input type="button" class="btnElastic" onclick="window.open('/Bankruptcy/GetAllByFolder/BidView/4/0/0/341687','_target');"
+                               id="btnDownloadAll" value="Скачать все файлы" style="display:none" />
+                        <input type="button" id="btnCopyXML" value="Копировать документ" onclick="javascript:CopyXML();"
+                               style="float:right; text-indent:-9999px; width:32px; height:32px; margin-top:3px; padding:0; border:0; background-color:#FFF; background-image:url(/img/btn_copyXML.png); display: none;"
+                               title="Скопировать XML-документ данной страницы в буфер обмена (для обращения в службу поддержки)" />
+                        <!-- On-Line call  -->
+                        <div style="float: right;">
+</div>
+                        <!-- On-Line call -->
+
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</form>
+<div id="SignProcessDlg" style="display:none;height:250px;width:250px;">
+    <table class="dt">
+        <tr>
+            <td>Этап</td>
+            <td>
+                <span id="stage"></span>
+            </td>
+        </tr>
+    </table>
+    <table id="tblFileList" class="dt">
+    <thead>
+        <tr>
+            <td class="th">Название файла</td>
+            <td class="th">Статус подписания</td>
+            <td style="display:none;"></td>
+            <td style="display:none;"></td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Документ
+            </td>
+            <td>Не подписан
+            </td>
+            <td style="display:none;">signValue</td>
+            <td style="display:none;">xmlData</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<form action="/Bankruptcy/NBT/BidView/4/0/0/341687?Length=3" data-ajax="true" data-ajax-failure="handleError" data-ajax-method="post" data-ajax-success="OnSucceeded" id="docForm" method="post">    <input type="hidden" id="xmlData" name="xmlData" value="&lt;BidView&gt;&lt;Bids&gt;&lt;BidDebtorInfo&gt;&lt;BidAdditionalDocEDS&gt;&lt;file&gt;&lt;fileid&gt;cf829d56-cb2d-4ddc-8a66-587d8a707b13&lt;/fileid&gt;&lt;filename&gt;дополнительная информация лот 2.doc&lt;/filename&gt;&lt;signinfo /&gt;&lt;hash&gt;798216340B16158AFC068B14A267D3A9957CA79C1E8E5C1A5A4F710779C627C2&lt;/hash&gt;&lt;sign&gt;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0LDQstGB0LrQsNGPINC+0LHQu9Cw0YHRgtGMMRswGQYDVQQHDBLQr9GA0L7RgdC70LDQstC70YwxLTArBgNVBAoMJNCe0J7QniDQmtC+0LzQv9Cw0L3QuNGPINCi0LXQvdC30L7RgDEwMC4GA1UECwwn0KPQtNC+0YHRgtC+0LLQtdGA0Y/RjtGJ0LjQuSDRhtC10L3RgtGAMRIwEAYDVQQDEwlURU5TT1JDQTOCEHTj0BRRkwunR0xaSSzF6PYwggEpBgNVHR8EggEgMIIBHDA5oDegNYYzaHR0cDovL3RheDQudGVuc29yLnJ1L2NlcnRlbnJvbGwvdGVuc29yY2EzLTIwMTQuY3JsMCygKqAohiZodHRwOi8vdGVuc29yLnJ1L2NhL3RlbnNvcmNhMy0yMDE0LmNybDA5oDegNYYzaHR0cDovL2NybC50ZW5zb3IucnUvdGF4NC9jYS9jcmwvdGVuc29yY2EzLTIwMTQuY3JsMDqgOKA2hjRodHRwOi8vY3JsMi50ZW5zb3IucnUvdGF4NC9jYS9jcmwvdGVuc29yY2EzLTIwMTQuY3JsMDqgOKA2hjRodHRwOi8vY3JsMy50ZW5zb3IucnUvdGF4NC9jYS9jcmwvdGVuc29yY2EzLTIwMTQuY3JsMIIBpQYIKwYBBQUHAQEEggGXMIIBkzAvBggrBgEFBQcwAYYjaHR0cDovL3RheDQudGVuc29yLnJ1L29jc3Avb2NzcC5zcmYwLQYIKwYBBQUHMAKGIWh0dHA6Ly90YXg0LnRlbnNvci5ydS90c3AvdHNwLnNyZjBABggrBgEFBQcwAoY0aHR0cDovL3RheDQudGVuc29yLnJ1L2NlcnRlbnJvbGwvdGVuc29yY2EzKDIwMTQpLmNydDAzBggrBgEFBQcwAoYnaHR0cDovL3RlbnNvci5ydS9jYS90ZW5zb3JjYTMoMjAxNCkuY3J0MDwGCCsGAQUFBzAChjBodHRwOi8vY3JsLnRlbnNvci5ydS90YXg0L2NhL3RlbnNvcmNhMygyMDE0KS5jcnQwPQYIKwYBBQUHMAKGMWh0dHA6Ly9jcmwyLnRlbnNvci5ydS90YXg0L2NhL3RlbnNvcmNhMygyMDE0KS5jcnQwPQYIKwYBBQUHMAKGMWh0dHA6Ly9jcmwzLnRlbnNvci5ydS90YXg0L2NhL3Rl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&lt;/sign&gt;&lt;/file&gt;&lt;/BidAdditionalDocEDS&gt;&lt;BidCategoryInfo&gt;&lt;bidcategorys&gt;&lt;isdeleted /&gt;&lt;bidcategory&gt;67322&lt;/bidcategory&gt;&lt;bidcategoryname&gt;Машины и механизмы, механические приспособления&lt;/bidcategoryname&gt;&lt;/bidcategorys&gt;&lt;/BidCategoryInfo&gt;&lt;BidInventoryResearchType&gt;Ознакомиться с документацией, с описанием и составом имущества можно по адресу: г. Калуга, ул. Московская, д. 247, к. №69, оф. 19, согласовав дату и время ознакомления с организатором торгов: (4842)55-39-83.&lt;/BidInventoryResearchType&gt;&lt;BidPicture&gt;&lt;file&gt;&lt;fileid /&gt;&lt;filename /&gt;&lt;signinfo /&gt;&lt;hash /&gt;&lt;sign /&gt;&lt;/file&gt;&lt;/BidPicture&gt;&lt;BidRegion&gt;Калужская область&lt;/BidRegion&gt;&lt;BidRegionName&gt;926&lt;/BidRegionName&gt;&lt;DebtorBidName&gt;Предмет торгов является имуществом СПК &quot;Заря&quot;.трактор Беларус 82.1, 2007 года выпуска, государственный регистрационный знак 40 КА 6280, миксер кормораздатчик АКМ-9, 2007 года выпуска, танк охладитель Alfa Lava (6000 л), 2005 года выпуска&lt;/DebtorBidName&gt;&lt;PropertyTypeClassificationInfo&gt;&lt;propertytypes&gt;&lt;isdeleted /&gt;&lt;propertytype&gt;150125&lt;/propertytype&gt;&lt;propertytypename&gt;Оборудование, машины, инструмент и комплектующие&lt;/propertytypename&gt;&lt;/propertytypes&gt;&lt;/PropertyTypeClassificationInfo&gt;&lt;/BidDebtorInfo&gt;&lt;BidDepositInfo&gt;&lt;BidDeposit&gt;5.00&lt;/BidDeposit&gt;&lt;BidDepositRefund&gt;Сроки и порядок внесения и возврата задатка определены в соответствии с Приказом Минэкономразвития РФ от 15.02.2010 № 54. Задатки считаются перечисленными своевременно, если они будут зачислены на указанный счет не позднее периода подачи заявки. После завершения торгов участникам, не ставшим победителями, задаток возвращается в течение 5 дней с момента подписания протокола об итогах торгов. Задаток, внесенный покупателем на счет продавца, засчитывается в счет стоимости приобретаемого имущества.&lt;/BidDepositRefund&gt;&lt;IsDepositInPercent&gt;Yes&lt;/IsDepositInPercent&gt;&lt;/BidDepositInfo&gt;&lt;BidInfo&gt;&lt;BidId&gt;341687&lt;/BidId&gt;&lt;BidName&gt;трактор Беларус 82.1, 2007 года выпуска, государственный регистрационный знак 40 КА 6280, миксер кормораздатчик АКМ-9, 2007 года выпуска, танк охладитель Alfa Lava (6000 л), 2005 года выпуска&lt;/BidName&gt;&lt;BidNo&gt;2&lt;/BidNo&gt;&lt;/BidInfo&gt;&lt;BidTenderInfo&gt;&lt;BidAuctionStepPercent&gt;5.00&lt;/BidAuctionStepPercent&gt;&lt;BidPrice&gt;699300.00&lt;/BidPrice&gt;&lt;/BidTenderInfo&gt;&lt;/Bids&gt;&lt;BidChangeLog&gt;&lt;BidChangeLogString&gt;&lt;BidChangeLogComment&gt;Публикация заявки на проведение торгов&lt;/BidChangeLogComment&gt;&lt;BidChangeLogCreateDt&gt;06.02.2016 16:20&lt;/BidChangeLogCreateDt&gt;&lt;BidChangeLogDocId&gt;18239280&lt;/BidChangeLogDocId&gt;&lt;/BidChangeLogString&gt;&lt;BidChangeLogString&gt;&lt;BidChangeLogComment&gt;Создание заявки на проведение торгов&lt;/BidChangeLogComment&gt;&lt;BidChangeLogCreateDt&gt;06.02.2016 16:19&lt;/BidChangeLogCreateDt&gt;&lt;BidChangeLogDocId&gt;18224285&lt;/BidChangeLogDocId&gt;&lt;/BidChangeLogString&gt;&lt;/BidChangeLog&gt;&lt;PurchaseMainInfo&gt;&lt;PurchaseCode&gt;SBR013-1602060006&lt;/PurchaseCode&gt;&lt;PurchaseId&gt;149004&lt;/PurchaseId&gt;&lt;PurchaseName&gt;Продажа имущества СПК &quot;Заря&quot; (Калужская область, Юхновский район, деревня Озеро)&lt;/PurchaseName&gt;&lt;PurchaseTypeInfo&gt;&lt;PurchaseTypeName&gt;Открытый аукцион с открытой формой представления предложений о цене&lt;/PurchaseTypeName&gt;&lt;/PurchaseTypeInfo&gt;&lt;/PurchaseMainInfo&gt;&lt;/BidView&gt;" />
+    <input type="hidden" id="xmlEncoded" name="xmlEncoded" value="" />
+    <input type="hidden" id="signValue" name="signValue" />
+    <input type="hidden" id="seriveSetPrice" name="seriveSetPrice" />
+    <input type="hidden" id="isSignedDoc" name="isSignedDoc" />
+    <input type="hidden" id="IgnoreWarning" name="IgnoreWarning" />
+
+    <input type="hidden" id="xmlMissionData" name="xmlMissionData" value="" />
+    <input type="hidden" id="signMissionValue" name="signMissionValue" />
+
+    <input type="hidden" id="xmlAcceptData" name="xmlAcceptData" />
+    <input type="hidden" id="signAccept" name="signAccept" />
+
+    <input type="hidden" id="af_mode" name="af_mode" value="" />
+    <input type="hidden" id="actionGuid" name="actionGuid" />
+
+    <input type="submit" value="Нажми меня" style="display:none;" id="btnSend" /></form>
+<span id="globErr_l" style="display: none;"></span>
+<script type="text/javascript">
+    function ViewXML() {
+        genXML(document.getElementById("XMLContainer"), document.getElementById("xmlData"));
+        document.getElementById("xmlData").value = document.getElementById("xmlData").value.replace(/<br>/gi, "\n");
+        return true;
+    }
+    
+    function showUrl(ctrl, type) {
+        var td = $(ctrl).parent().parent();
+        var fileId = td.find('input[content="leaf:FileID"]').val();
+        if (type == undefined || type == "" || type == null)
+            type = "GetImage";
+		if (type == "GetImage")
+			td.find('span[content="other:fileUrl"]').html("/Bankruptcy/File/"+type+"/" + fileId);
+		else
+			td.find('span[content="other:fileUrl"]').html("/Bankruptcy/File/"+type+"?fid=" + fileId);
+    }
+
+    function CopyXML() {
+        var generateDocumentForForm  = true;
+        if (!jQuery.browser.msie) {
+            alert("Данная функция доступна только в Internet Explorer.");
+            return false;
+        }
+        if (generateDocumentForForm){
+            genXML(document.getElementById("XMLContainer"), document.getElementById("xmlData"));    
+        }
+        window.clipboardData.setData("Text", document.getElementById("xmlData").value);
+        window.alert("Документ скопирован в буфер обмена.");
+        return true;
+    }
+    
+    function ShowDocumentCopyButton() {
+        if (jQuery.browser.msie) {
+            $("#btnCopyXML").show();
+        }
+    }
+
+    function fillAction(fileGuid) {
+        $("#actionGuid").val(fileGuid);
+        ValidateSaveAndSign(true);
+    }
+
+    ShowDocumentCopyButton();
+    
+</script>
+<script type="text/javascript">
+    $(function () {
+        $("form").validate({ onsubmit: true });
+        var f = document.getElementById("xmlData");
+        var c = document.getElementById("XMLContainer");
+        LoadXML(f, c);
+
+        var af = document.getElementById("advertXmlData");
+        var ac = document.getElementById("advertContainer");
+        if (af != null && ac != null)
+            LoadXML(af, ac);
+
+        var cf = document.getElementById("xmlMissionData");
+        var cc = document.getElementById("XMLMissionContainer");
+        if (cf != null && cc != null)
+            LoadXML(cf, cc);
+
+        XmlDataHasLoad = true;
+        $('input[content="leaf:isDeleted"]').each(function(){
+            var ctrl = $(this);
+            if (ctrl.attr("checked") == "checked")
+            {
+                ctrl.parent().parent().hide();
+            }
+        });
+		
+        $('input[content="leaf:isDeleted"]').each(function(){
+            var ctrl = $(this);
+            if (ctrl.attr("checked") == "checked")
+            {
+                ctrl.parent().parent().hide();
+            }
+        });
+		
+        $('.tbl-noContentMessage').each(function () {
+            var table = $(this).parents('[table-type="htable"]:first');
+
+            table.children('tbody').children('tr').each(function () {
+                if ($(this).is('.tbl-noContentMessage')) {
+                    $(this).hide();
+                }
+            });
+        });
+        LoadGallery();
+
+        $("div.HTMLEditorReadOnly").each(function () {
+            var elem = $(this);
+            var text = $(this).text();
+            elem.get(0).innerHTML = text;
+        });
+
+        tinymce.init({
+            selector: "div.HTMLEditor",
+            entity_encoding: "raw",
+            language: "ru",
+            convert_urls: false,
+            plugins: [
+                     "advlist autolink link lists charmap print preview hr anchor pagebreak ",
+                     "searchreplace visualblocks visualchars code fullscreen insertdatetime nonbreaking",
+                     "save table contextmenu directionality paste textcolor image"
+            ],
+            content_css: "css/content.css",
+            toolbar: "insertfile undo redo | styleselect | image | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link | print preview fullpage | forecolor backcolor",
+            setup: function (editor) {
+                editor.on('change', function (e) {
+                    if (editor.needSaveContent) {
+                        editor.needSaveContent = false;
+                        editor.changeWasRised = true;
+                        tinymce.activeEditor.setContent(e.content, { format: 'raw' });
+                        editor.changeWasRised = false;
+                    }
+                    editor.save();
+                });
+                editor.on('BeforeSetContent', function (e) {
+                    if ((editor.changeWasRised == undefined || editor.changeWasRised == false) && (editor.Inserting == undefined || editor.Inserting == false)) {
+                        editor.needSaveContent = true;
+                        editor.fire("change", e, true);
+                    }
+                });
+                editor.on('BeforeExecCommand', function (e) {
+                    if (e.command == 'mceInsertContent') {
+                        editor.Inserting = true;
+                    }
+                });
+                editor.on('ExecCommand', function (e) {
+                    if (e.command == 'mceInsertContent') {
+                        editor.Inserting = false;
+                    }
+                });
+                editor.on('BeforeSetImage', function (e) {
+                    if ((editor.changeWasRised == undefined || editor.changeWasRised == false) && (editor.Inserting == undefined || editor.Inserting == false)) {
+                        editor.needSaveContent = true;
+                        editor.fire("change", e, true);
+                    }
+                });
+                editor.on('init', function (e) {
+                    var elem = editor.getElement();
+                    //Спецфича - можно рулить размером. Главное, чтобы он был задан в самих элементах.
+                    var width = $(elem).attr('editorWidth');
+                    var height = $(elem).attr('editorHeight');
+                    if (width != undefined && height != undefined) {
+                        editor.theme.resizeTo(width, height);
+                    }
+                });
+            }
+        });
+
+        $('.formElement-internalLink').each(function () {
+            var link = $(this);
+            var linkParameters = getInternalLinkParameters(link);
+
+            if (linkParameters.length < 4) {
+                link.hide();
+                return;
+            }
+
+            // скрываем переход, если какой-либо из параметров отсутствует.
+            $(linkParameters).each(function () {
+                if (this.isMissing) {
+                    link.hide();
+                    return;
+                }
+            });
+
+            var object = $(this).attr('actionCode');
+
+            var res_href = href(object, linkParameters[0].value, linkParameters[1].value, linkParameters[2].value, linkParameters[3].value);
+            if (res_href != null)
+                link.attr("href", res_href);
+        });
+
+        $("a[externalGetParams]").each(function () {
+            var url = $(this).attr('href');
+            var hasGetParams = url.indexOf('?');
+            // ищем узел с параметрами
+            var node = $(this).parents('[content^="node"]:first');
+
+            var processFindParam = 1;
+            var indexOfOpen = url.indexOf('{');
+            var indexOfClose = -1;
+            var paramInUrl = "";
+            var paramInUrlValue = "";
+            var nodeToFind = "";
+            while (indexOfOpen > 0) {
+                indexOfClose = url.indexOf('}', indexOfOpen);
+                if (indexOfClose < 0) {
+                    // такого параметра нет
+                    return false;
+                }
+                paramInUrl = $.trim(url.substring(indexOfOpen + 1, indexOfClose));
+
+                nodeToFind = '[content="leaf:' + paramInUrl + '"]';
+                if (node.find(nodeToFind).is('span') || node.find(nodeToFind).is('textarea')) {
+                    paramInUrlValue = node.find(nodeToFind).text();
+                }
+                else {
+                    paramInUrlValue = node.find(nodeToFind).val();
+                }
+
+                if (paramInUrlValue == undefined || paramInUrlValue == null || paramInUrlValue == '') {
+                    // такого параметра нет
+                    $(this).hide();
+                }
+                else {
+                }
+                url = url.substring(0, indexOfOpen) + $.trim(paramInUrlValue) + url.substring(indexOfClose + 1, url.length);
+                indexOfOpen = url.indexOf('{');
+            }
+
+            // если найти удалось, то дополняем URL парметрами
+            var extGetParams = this.getAttribute('externalGetParams');
+
+            if (node != undefined && extGetParams != '' && extGetParams != undefined) {
+
+
+                var paramNames = extGetParams.split(';');
+
+                for (var i = 0; i < paramNames.length; i++) {
+                    var currParamName = paramNames[i];
+                    var textToFind = '[content="leaf:' + currParamName + '"]';
+
+                    var currParamValue = '';
+
+                    if (node.find(textToFind).is('span') || node.find(textToFind).is('textarea')) {
+                        currParamValue = node.find(textToFind).text();
+                    }
+                    else {
+                        currParamValue = node.find(textToFind).val();
+                    }
+
+                    if (currParamValue == undefined) continue; // такого параметра нет
+                    if (hasGetParams < 0) {
+
+                        url = url + '?' + currParamName + '=' + currParamValue;
+                        hasGetParams = 1;
+                    }
+                    else {
+                        url = url + '&' + currParamName + '=' + currParamValue;
+                    }
+                }
+            }
+            $(this).attr('href', url);
+        });
+    });
+
+    function LoadGallery() {
+        $('.galleryView').each(function () {
+            //получаем параметры отображения. Таким же способом можно здесь настроить все параметры.
+            var galleryWidth = parseInt($(this).attr('galleryWidth'));
+            var galleryHeight = parseInt($(this).attr('galleryHeight'));
+            var frameWidth = parseInt($(this).attr('frameWidth'));
+            var frameHeight = parseInt($(this).attr('frameHeight'));
+            var currentNode = $(this).parent();
+            //переносим части, необходимые для сбора xml при сохранении документа (т.к. содержимое списка изображений будет затёрто галереей)
+			
+			var pictureCnt = 0;
+
+            $(this).find('li[content="node:file"]').each(function () {
+                $(this).find('div').attr('content', 'node:file').appendTo(currentNode);
+                var img = $(this).find('img');
+                if($(img).attr('src') == undefined || $(img).attr('src') == null || $.trim($(img).attr('src')) == ''){
+                    $(img).attr('src', '/Content/noImage.png');
+                }
+				else
+				{
+					pictureCnt = pictureCnt + 1;
+				}
+            });
+
+
+$(this).galleryView({
+    transition_speed: 1000, 		//INT - duration of panel/frame transition (in milliseconds)
+    transition_interval: 4000, 		//INT - delay between panel/frame transitions (in milliseconds)
+    easing: 'swing', 				//STRING - easing method to use for animations (jQuery provides 'swing' or 'linear', more available with jQuery UI or Easing plugin)
+    show_panels: true, 				//BOOLEAN - flag to show or hide panel portion of gallery
+    show_panel_nav: true, 			//BOOLEAN - flag to show or hide panel navigation buttons
+    enable_overlays: false, 			//BOOLEAN - flag to show or hide panel overlays
+
+    panel_width: galleryWidth, 				//INT - width of gallery panel (in pixels)
+    panel_height: galleryHeight, 				//INT - height of gallery panel (in pixels)
+    panel_animation: 'fade', 		//STRING - animation method for panel transitions (crossfade,fade,slide,none)
+    panel_scale: 'fit', 			//STRING - cropping option for panel images (crop = scale image and fit to aspect ratio determined by panel_width and panel_height, fit = scale image and preserve original aspect ratio)
+    overlay_position: 'top', 	//STRING - position of panel overlay (bottom, top)
+    pan_images: false, 			//BOOLEAN - flag to allow user to grab/drag oversized images within gallery
+    pan_style: 'drag', 			//STRING - panning method (drag = user clicks and drags image to pan, track = image automatically pans based on mouse position
+    pan_smoothness: 15, 			//INT - determines smoothness of tracking pan animation (higher number = smoother)
+    start_frame: 1, 				//INT - index of panel/frame to show first when gallery loads
+    show_filmstrip: true, 			//BOOLEAN - flag to show or hide filmstrip portion of gallery
+    show_filmstrip_nav: true, 		//BOOLEAN - flag indicating whether to display navigation buttons
+    enable_slideshow: true, 		//BOOLEAN - flag indicating whether to display slideshow play/pause button
+    autoplay: false, 			//BOOLEAN - flag to start slideshow on gallery load
+    show_captions: true, 			//BOOLEAN - flag to show or hide frame captions	
+    filmstrip_size: 3, 				//INT - number of frames to show in filmstrip-only gallery
+    filmstrip_style: 'scroll', 		//STRING - type of filmstrip to use (scroll = display one line of frames, scroll filmstrip if necessary, showall = display multiple rows of frames if necessary)
+    filmstrip_position: 'bottom', 	//STRING - position of filmstrip within gallery (bottom, top, left, right)
+    frame_width: frameWidth, 				//INT - width of filmstrip frames (in pixels)
+    frame_height: frameHeight, 				//INT - width of filmstrip frames (in pixels)
+    frame_opacity: 0.6, 			//FLOAT - transparency of non-active frames (1.0 = opaque, 0.0 = transparent)
+    frame_scale: 'crop', 			//STRING - cropping option for filmstrip images (same as above)
+    frame_gap: 9, 					//INT - spacing between frames within filmstrip (in pixels)
+    show_infobar: false, 			//BOOLEAN - flag to show or hide infobar
+    infobar_opacity: 1				//FLOAT - transparency for info bar
+});
+
+//привязываем событие щелчка по главному изображению в галерее к показу увеличенного изображения        
+            $('div.gv_panel img').live('click', function () {
+                var src = $(this).attr('src');
+                ShowFullImage(src);
+            });
+
+            $('.gv_galleryWrap').css({ 'padding': '0' });
+
+//            if (pictureCnt == 0)
+//                $('.gv_galleryWrap').hide();
+
+
+        });
+    };
+</script>
+
+<script type="text/javascript">
+    function ValidateSaveAndSign(isDraft) {
+        var dlgWnd = $('#SignProcessDlg');
+        var Height = 250;
+        $('#stage').html('Сбор информации...');
+        $.modal(document.getElementById('SignProcessDlg'), {
+            overlayCss: {
+                backgroundColor: '#000',
+                cursor: 'wait'
+            },
+            containerCss: {
+                backgroundColor: '#fff',
+                border: '3px solid #ccc'
+            }
+        });
+
+        setTimeout(function () {
+            $('#stage').html('Проверка данных...');
+            var TheForm = document.forms["dataForm"];
+            var result = true;
+            if (TheForm == null) TheForm = document.dataForm;
+
+            if (!isDraft) {
+                if (!$(TheForm).valid()) {
+                    $('#' + $('label.error:visible').attr('for')).focus();
+                    result = false;
+                }
+
+                $("input[content='leaf:FileID']").each(function (i) {
+                    var file = $(this);
+
+                    if (!file.valid()) {
+                        file.closest('table').find('input[type=button]:eq(0)').focus();
+                        result = false;
+                    }
+                });
+
+                $("input[type='hidden']").each(function (i) {
+                    var list = $(this);
+                    if (!list.valid()) {
+                        result = false;
+                    }
+                });
+
+
+                var emptyFile = ClearEmptyFiles();
+                if (emptyFile < 0)
+                    result = false;
+
+            }
+
+            if (!result) {
+                closeDlg();
+                return false;
+            }
+
+            if (isDraft)
+                $("#isSignedDoc").val("0");
+            else
+                $("#isSignedDoc").val("1");
+
+            $("#seriveSetPrice").val($("#ServiceSetCtrl").val());
+            SaveAndSign(TheForm, isDraft);
+            return true;
+        }, 0);
+    }
+</script>
+
+<script type="text/javascript">
+    function SaveAndSign(Form, isDraft) {
+        var dlgWnd = $('#SignProcessDlg');
+        var Height = 250;
+
+        var FileList = null;
+        var FileCnt = 0;
+        if (!isDraft && UseSign) {
+            tblFile = $('#tblFileList>tbody');
+            trFileInfo = tblFile.find('>tr').eq(0);
+
+            var cf = document.getElementById("xmlMissionData");
+            var cc = document.getElementById("XMLMissionContainer");
+            if (cf != null && cc != null) {
+                var newfiletr = trFileInfo.clone();
+                newfiletr.find('td').eq(0).html('Поручение на обработку данных');
+                newfiletr.find('td').eq(3).html("xmlMissionData");
+                newfiletr.find('td').eq(2).html("signMissionValue");
+                newfiletr.prependTo(tblFile);
+            }
+
+            FileList = $(Form).find('tr[content="node:file"]');
+            FileList.each(function (i) {
+                var file = $(this);
+                var newfiletr = trFileInfo.clone();
+                var hashCtrl = file.find('input[content="leaf:hash"]');
+                if (hashCtrl.val() != '') {
+                    newfiletr.find('td').eq(0).html(file.find('span[content="leaf:FileName"]').html());
+                    newfiletr.find('td').eq(2).html(file.find('input[content="leaf:sign"]').attr('id'));
+                    newfiletr.find('td').eq(3).html(hashCtrl.attr('id'));
+                    newfiletr.prependTo(tblFile);
+                    Height = Height + newfiletr.height();
+                    FileCnt++;
+                }
+            });
+
+            dlgWnd.css('height', Height + 'px');
+
+            $('#stage').html('Сбор и подписание данных...');
+            tblFile.find('>tr').each(function (i) {
+                var tr = $(this);
+                var tdList = tr.find('>td');
+                tdList.eq(1).html('Идет сбор данных...');
+                var xmlData = tdList.eq(3).html();
+                var signValue = tdList.eq(2).html();
+                if (i >= FileCnt) {
+                    var src = sourceCtrl;
+                    if (xmlData != "xmlData")
+                        src = "XMLMissionContainer";
+                    else
+                        src = "XMLContainer";
+                    Save(src, xmlData);
+                }
+                try {
+                    sign(xmlData, "lstCertList", signValue);
+                    tdList.eq(1).html('Подписан');
+                }
+                catch (e) {
+                    tdList.eq(1).html('Ошибка подписания');
+                }
+            });
+        }
+        else { Save(sourceCtrl); }
+        $('#stage').html('Отправка данных...');
+        AsyncPostBack();
+    }
+</script>
+
+<script type="text/javascript">
+    function closeDlg() {
+        $("#spravIframe")[0].src = "";
+        $.modal.close();
+    }
+</script>
+
+<script type="text/javascript">
+    function AsyncPostBack() {
+        $("#btnSend").click();
+    }
+</script>
+
+<script type="text/javascript">
+    function handleError(x, e) {
+        if (x.status == "12002" || x.status == "12152")
+            $("#errorMsg").html("Ваш документ принят в обработку. Проверьте результат обработки в <a href='/Bankruptcy/List/DocumentList'>Реестре документов</a> через несколько секунд. В случае отсутствия документа, повторно направьте документ на обработку системе");
+        else
+            $("#errorMsg").html("Произошла ошибка при отправке запроса на сервер. Статус: " + x.status + ". Описание: " + x.statusText + ".");
+        $('#dataPanel').hide();
+        $('#warnPanel').hide();
+        $('#errorPanel').show();
+        $('#successPanel').hide();
+        closeDlg();
+    }
+</script>
+
+<script type="text/javascript">
+    function ErrBackCmd() {
+        $('#dataPanel').show();
+        $('#warnPanel').hide();
+        $('#errorPanel').hide();
+        $('#successPanel').hide();
+    }
+</script>
+    
+<script type="text/javascript">
+    function OnSucceeded(result) {
+        closeDlg();
+        var errMessage = result.ErrorMessage;
+        errMessage = errMessage.replace("No answer", "Ваш документ принят в обработку. Проверьте результат обработки в <a href='/Bankruptcy/List/DocumentList' target='_blanc'>Реестре документов</a> через несколько секунд. В случае отсутствия документа, повторно направьте документ на обработку системе.");
+        $("#errorMsg").html(errMessage);
+        $("#warnMsg").html(result.WarnMessage);
+        $("#successMsg").html(result.SuccessMsg);
+        $("#resultDocId").html(result.ResultDocId);
+        $("#mainObjId").html(result.ObjectId);
+
+        if ($("#actionGuid").val() != "")
+        {
+            var str ='/Bankruptcy/Utility/ActionWord/'+$("#resultDocId").html()+'/'+$("#actionGuid").val();
+            $("#actionGuid").val("");
+            document.location =  str;
+            return;
+        }
+
+        /*если произошла ошибка обработки*/
+        var res = result.CheckResult;
+        if (res == "0") {
+            $('#dataPanel').hide();
+            $('#warnPanel').hide();
+            $('#errorPanel').hide();
+            $('#successPanel').show();
+			$('#btnSuccess').click();
+        }
+            /*есть предупреждение*/
+        else if (res == "1") {
+            $('#dataPanel').show();
+            $('#warnPanel').show();
+            $('#errorPanel').hide();
+            $('#successPanel').hide();
+        }
+            /*есть ошибка*/
+        else {
+            $('#dataPanel').hide();
+            $('#warnPanel').hide();
+            $('#errorPanel').show();
+            $('#successPanel').hide();
+        }
+        blockSignedData = false;
+    }
+</script>
+<script type="text/javascript">
+    function Save(sourceCtrl, dataCtrlId) {
+        //$("*").removeClass('required');
+        if (dataCtrlId == null || dataCtrlId == "")
+            dataCtrlId = "xmlData";
+        var dataCtrl = document.getElementById(dataCtrlId);
+        genXML(document.getElementById(sourceCtrl), dataCtrl);
+        //genXML(document.getElement ById("XMLContainer"), dataCtrl);
+        dataCtrl.value = dataCtrl.value.replace(/<br>/gi, "\n");
+        $("#captcha_text").val($("#captcha_topost").val());
+        return true;
+    }
+</script>
+
+<script language='javascript' type='text/javascript'>$(function () {
+        var ctrl = $("#DynamicControlProtocolInfo_ProtocolInfo");
+        var thctrl = ctrl.find(">thead > tr >th").eq(0);
+        thctrl.css('width', '25px').html('');
+        ctrl.find(">tbody > tr").each(function () {
+            var tr = $(this);
+            var td = tr.find("> td").eq(0);
+            var docId = td.find('input').eq(0).val();
+             var bdocId = tr.find("> td").eq(1).find('input').eq(0).val();
+
+            if (docId != "") {
+                if (docId != "383501") {
+                    td.html("<a href='/Bankruptcy/Util/DocumentView/" + docId +
+                    "'><img alt='Просмотр протокола' title='Просмотр протокола' src='/Content/image/view.png'></a><a href='/Bankruptcy/Util/DocumentWord/" + docId +
+                    "'><img alt='Сохранить в Word' title='Сохранить в Word' src='/Content/image/word.gif'></a>").show();
+                    thctrl.show();
+                }
+                else {
+                    td.html("<a href='http://old-bankruptcy.sberbank-ast.ru/tradezone/Documents/ViewDocument.aspx?docId=" + bdocId +
+                "'><img alt='Просмотр протокола' title='Просмотр протокола' src='/Content/image/view.png'></a>").show();
+                    thctrl.show();
+                }
+            }
+        });
+    });</script>
+<script language='javascript' type='text/javascript'>
+</script>
+
+            </div>
+        </div>
+        <footer id="footer" class='holder'>
+            <div class="contents">
+                <p>
+                    &copy; 2011 СБЕРБАНК-АСТ Все права защищены
+                    <br/>101000, г. Москва, Милютинский пер., дом 10, стр. 4.
+                    <br/>тел: (495) 787-29-97, (495) 787-29-99
+                    <br/>company@sberbank-ast.ru
+                </p>
+            </div>
+        </footer>
+    </div>
+    <div id="DictDialog" visible="false" style="height: 0">
+        <iframe id="spravIframe" name="spravIframe" width="100%" height="500" frameborder="0" src="" scrolling="auto"></iframe>
+    </div>
+    <div id="ImageViewDialog" visible="false" style="height: 0">
+            <img id="viewFullImg" src="" alt="Изображение" onclick="window.open($(this).attr('src'));"/>
+    </div>
+	<style type="text/css">.nbtDialog { position: fixed; }</style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#DictDialog").dialog({ autoOpen: false, width: 640, height: 'auto', modal: true, draggable: false, resizable: false, closeOnEscape: true, title: " ", dialogClass: "nbtDialog" });
+            $("#ImageViewDialog").dialog({ autoOpen: false, width: 'auto', height: 'auto', modal: true, closeOnEscape: true, title: " " });
+            var showEventCalendar = false;
+            
+			//alert(showEventCalendar);
+			var showtotals = true;
+            if(showEventCalendar == true)
+            {
+                ///TODO: параметризировать опции календаря
+                //выводим календарь
+                $(".eventCalendarContainer").eventCalendar({
+                    tradeSectionId: 13,
+                    getDataUrl: "/EventCalendar/GetData",
+                    dateMarginLeft: -9, //левая граница дат (от текущей)
+                    dateMarginRight: 30, //правая граница дат (от текущей)
+                    step: 7,
+                    showTotals: showtotals,
+                    currentYear : 2016, //текущий год (число, 1982)
+                    currentMonth : 1, //текущий месяц (число от 0 до 11, 0 - январь)
+                    currentDate : 8 //текущая дата (число, от 1 до 31)
+                });
+            }
+
+            nForms = document.getElementsByTagName('form');
+            for (n = 0; n < nForms.length; n++) {
+                nFields = document.forms[n].getElementsByTagName('input');
+                for (i = 0; i < nFields.length; i++) {
+                    if (nFields[i].className.toUpperCase().indexOf("READONLY") > -1) nFields[i].readOnly = true;
+                }
+            }
+        });
+
+        var currentHelpText;
+
+        $('.formElement-showHelpText').live('click', function () {
+
+
+
+
+            var form = $(this).parents('.formElement-HelpContainer:first');
+
+            var helpText = form.find('.HelpText:first');
+            currentHelpText = helpText;
+
+            var showHelpButton = $(this);
+            var buttonShowHelpPosition = showHelpButton.position();
+            helpText.css({ "top": (buttonShowHelpPosition.top - 80) + "px", "right": "0px" });
+            helpText.show();
+            /*
+            var screenWidth = $(document).width();
+            var leftSpace = buttonShowHelpPosition.left;
+            var buttonWidthSpace = showHelpButton.width();
+            var helpTextSpace = helpText.width();
+            */
+            var helpFormRightSpace = 10;
+            helpText.animate({
+                marginRight: helpFormRightSpace
+            }, 600);
+
+            //var onlipeHelpCloseButton = "<img src='/Content/Image/onlinehelp.png' class='closeHelpTextButton' title='Закрыть окно Онлайн помощи'>"
+
+            //showHelpButton.replaceWith(onlipeHelpCloseButton);
+
+            $('body').one('click', function () {
+                closeHelpForm();
+            });
+        });
+
+        function closeHelpForm() {
+            var screenWidth = $(document).width();
+			
+			if(currentHelpText) {
+				var helpTextPosition = currentHelpText.position();
+				var rightSpace = 10; //screenWidth - (helpTextPosition.left + currentHelpText.width());
+				currentHelpText.animate({
+					marginRight: "-=" + rightSpace,
+					opacity: "hide"
+				}, 600);
+
+				var closeButton = currentHelpText.parents('.formElement-HelpContainer:first').find('.closeHelpTextButton:first');
+				var showHelpButton = "<img src='/Content/image/help.png' class='formElement-showHelpText' title='Нажмите для получения более подробной информации'/>";
+				closeButton.replaceWith(showHelpButton);
+				currentHelpText = null;
+			}
+        }
+
+        $('.close').on('click', function (event) {
+            closeHelpForm();
+        })
+
+        $('.clickNotClosed').on('click', function (event) {
+            event.stopPropagation();
+        })
+
+        function checkOS() {
+            var OperationSystem;
+            if (navigator.userAgent.indexOf('UNIX') != -1) OperationSystem = "UNIX";
+            if (navigator.userAgent.indexOf('IRIX') != -1) OperationSystem = "Irix";
+
+            if (navigator.userAgent.indexOf('Win') != -1) OperationSystem = "Windows3.1 или NT";
+            if ((navigator.userAgent.indexOf('Win') != -1) && (navigator.userAgent.indexOf('95') != -1)) OperationSystem = "Windows 95";
+            if ((navigator.userAgent.indexOf('Win') != -1) && (navigator.userAgent.indexOf('98') != -1)) OperationSystem = "Windows 98";
+            if ((navigator.userAgent.indexOf('Win') != -1) && (navigator.userAgent.indexOf('2000') != -1)) OperationSystem = "Windows 2000";
+            if (navigator.userAgent.indexOf('Windows') != -1) OperationSystem = "Windows XP";
+            if (navigator.userAgent.indexOf("Windows NT 6.0") != -1) OperationSystem = "Windows Vista";
+            if (navigator.userAgent.indexOf("Windows NT 6.1") != -1) OperationSystem = "Windows 7";
+            if (navigator.userAgent.indexOf("Windows NT 6.2") != -1) OperationSystem = "Windows 8";
+            // Windows Phone, планшет, и Surface 
+            if (navigator.platform.toLowerCase().indexOf("win") != -1 && navigator.userAgent.toLowerCase().indexOf("touch") != -1) OperationSystem = "Windows 8 multitouch";
+            //---------------  
+            if (navigator.userAgent.indexOf('Linux') != -1) OperationSystem = "Linux";
+            if (navigator.userAgent.indexOf('Mac') != -1) OperationSystem = "Mac OS";
+            if (navigator.userAgent.indexOf('SunOS') != -1) OperationSystem = "Sun Solaris";
+            if (navigator.userAgent.indexOf('FreeBSD') != -1) OperationSystem = "FreeBSD";
+            return OperationSystem;
+        }
+
+        function checkBroswer(chrAfterPoint) {
+            var UA = window.navigator.userAgent,
+			OperaB = /Opera[ \/]+\w+\.\w+/i,
+			OperaV = /Version[ \/]+\w+\.\w+/i,
+			FirefoxB = /Firefox\/\w+\.\w+/i,
+			ChromeB = /Chrome\/\w+\.\w+/i,
+			SafariB = /Version\/\w+\.\w+/i,
+			IEB = /MSIE *\d+\.\w+/i,
+			SafariV = /Safari\/\w+\.\w+/i,
+			browser = new Array(),
+			browserSplit = /[ \/\.]/i,
+			OperaV = UA.match(OperaV),
+			Firefox = UA.match(FirefoxB),
+			Chrome = UA.match(ChromeB),
+			Safari = UA.match(SafariB),
+			SafariV = UA.match(SafariV),
+			IE = UA.match(IEB),
+			Opera = UA.match(OperaB);
+            //----- Opera ----
+            if ((!Opera == "") & (!OperaV == "")) browser[0] = OperaV[0].replace(/Version/, "Opera")
+            else
+                if (!Opera == "") browser[0] = Opera[0]
+                else
+                //----- IE -----
+                    if (!IE == "") browser[0] = IE[0]
+                    else
+                    //----- Firefox ----
+                        if (!Firefox == "") browser[0] = Firefox[0]
+                        else
+                        //----- Chrom ----
+                            if (!Chrome == "") browser[0] = Chrome[0]
+                            else
+                            //----- Safari ----
+                                if ((!Safari == "") && (!SafariV == "")) browser[0] = Safari[0].replace("Version", "Safari");
+            //------------ Разбивка версии -----------
+            var outputData;
+            if (browser[0] != null) outputData = browser[0].split(browserSplit);
+            if ((chrAfterPoint == null) && (outputData != null)) {
+                chrAfterPoint = outputData[2].length;
+                outputData[2] = outputData[2].substring(0, chrAfterPoint); // берем нужное ко-во знаков
+                return (outputData);
+            }
+            else return (false);
+        }
+
+        function SendTechMail(href) {
+            var subject = "Вопрос от пользователя УТП";
+            var body = "Сформулируйте свой вопрос\r\n\r\n";
+            body += "Технические сведения о пользователе:\n";
+            body += "Операционная система: " + checkOS() + '\n';
+            body += "Ip адрес: 172.30.230.20 \n";
+            body += "Браузер: " + checkBroswer() + '\n';
+            body += "Часовой пояс: utc+" + checkTimeZone() + '\n';
+            body += window.location.href;
+            var uri = "mailto:company@sberbank-ast.ru?subject=";
+            uri += encodeURIComponent(subject);
+            uri += "&body=";
+            uri += encodeURIComponent(body);
+            window.open(uri);
+        }
+
+        //определение часового пояса
+        function checkTimeZone() {
+            var rightNow = new Date();
+            var date1 = new Date(rightNow.getFullYear(), 0, 1, 0, 0, 0, 0);
+            var temp = date1.toGMTString();
+            var date3 = new Date(temp.substring(0, temp.lastIndexOf(" ") - 1));
+            var hoursDiffStdTime = (date1 - date3) / (1000 * 60 * 60);
+            return hoursDiffStdTime;
+        }
+
+        $('input').attr('data-yandex-suggest', 'false');
+
+    </script>
+    <script type="text/javascript" src="/Scripts/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.extender.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.unobtrusive-ajax.js"></script>
+    
+
+<script src="/js/its_script.js" type="text/javascript"></script>
+
+<!-- Yandex.Metrika counter -->
+<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
+<script type="text/javascript">
+try { var yaCounter13379443 = new Ya.Metrika({id:13379443,
+			  clickmap:true,
+			  trackLinks:true});
+} catch(e) { }
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/13379443" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- Google.Analytics counter -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10409666-6', 'sberbank-ast.ru');
+  ga('send', 'pageview');
+
+</script>
+<!-- /Google.Analytics counter -->
+
+    
+
+
+    
+
+
+</body>
+</html>

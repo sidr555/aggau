@@ -1,0 +1,574 @@
+<List>
+    <data>
+        <row>
+            <Id>341691</Id>
+            <BidId>341691</BidId>
+            <PurchaseId>149008</PurchaseId>
+            <PurchaseCode>SBR013-1602070002</PurchaseCode>
+            <PurchaseName>Векселя в количестве 27-ми штук (общей номинальной стоимостью 243 095 000,00 руб.,
+                векселедатель: ООО «Акита строй»; срок платежа: по предъявлении, но не ранее 01.10.2015; место платежа -
+                г.Москва).
+            </PurchaseName>
+            <BidName>Векселя в количестве 27-ми штук (общей номинальной стоимостью 243 095 000,00 руб., векселедатель:
+                ООО «Акита строй»; срок платежа: по предъявлении, но не ранее 01.10.2015; место платежа - г.Москва).
+            </BidName>
+            <BidNo>1</BidNo>
+            <hasPicture>0</hasPicture>
+            <Amount>36540000.00</Amount>
+            <Amount2>36540000.00</Amount2>
+            <CurrentAmount>36540000.00</CurrentAmount>
+            <PublicDate>07.02.2016 17:27</PublicDate>
+            <RequestStartDate>11.02.2016 09:00</RequestStartDate>
+            <RequestStopDate>22.03.2016 18:00</RequestStopDate>
+            <AuctionStartDate>23.03.2016 12:00</AuctionStartDate>
+            <PurchaseState>Опубликован(-а)</PurchaseState>
+            <CurrentStatusId>1</CurrentStatusId>
+            <TypeId>4</TypeId>
+            <OrgBuId>42892</OrgBuId>
+            <LastActionDt>07.02.2016 17:28</LastActionDt>
+            <OrgName>Пискарев Николай Семенович</OrgName>
+            <PurchaseTypeName>Открытый аукцион / Открытая</PurchaseTypeName>
+            <RequestCnt>0</RequestCnt>
+            <RequestCntState>Нет</RequestCntState>
+        </row>
+        <row>
+            <Id>341690</Id>
+            <BidId>341690</BidId>
+            <PurchaseId>149007</PurchaseId>
+            <PurchaseCode>SBR013-1602070001</PurchaseCode>
+            <PurchaseName>«Права требования ООО «ВертикальИнвестСтрой» (г.Москва) на краткосрочные долговые
+                обязательства иных лиц (дебиторская задолженность)»
+            </PurchaseName>
+            <BidName>Права требования ООО «ВертикальИнвестСтрой» (г.Москва) на краткосрочные долговые обязательства иных
+                лиц (дебиторская задолженность).
+            </BidName>
+            <BidNo>1</BidNo>
+            <hasPicture>0</hasPicture>
+            <Amount>10436187.92</Amount>
+            <Amount2>10436187.92</Amount2>
+            <CurrentAmount>10436187.92</CurrentAmount>
+            <PublicDate>07.02.2016 16:39</PublicDate>
+            <RequestStartDate>12.02.2016 00:00</RequestStartDate>
+            <RequestStopDate>29.02.2016 23:59</RequestStopDate>
+            <PurchaseState>Опубликован(-а)</PurchaseState>
+            <CurrentStatusId>1</CurrentStatusId>
+            <TypeId>53</TypeId>
+            <OrgBuId>42358</OrgBuId>
+            <LastActionDt>07.02.2016 16:40</LastActionDt>
+            <OrgName>Рунов Юрий Викторович</OrgName>
+            <PurchaseTypeName>Открытое публичное предложение / Открытая (432-ФЗ)</PurchaseTypeName>
+            <RequestCnt>0</RequestCnt>
+            <RequestCntState>Нет</RequestCntState>
+        </row>
+        <row>
+            <Id>341686</Id>
+            <BidId>341686</BidId>
+            <PurchaseId>149004</PurchaseId>
+            <PurchaseCode>SBR013-1602060006</PurchaseCode>
+            <PurchaseName>Продажа имущества СПК "Заря" (Калужская область, Юхновский район, деревня Озеро)
+            </PurchaseName>
+            <BidName>Телятник (д.Озеро) пл. 1100 кв. м; Коровник (д. Озеро) - 2 шт. пл. 3644,5 кв. м; Телятник (д.
+                Озеро) пл. 1366,8 кв. м; Земельный участок в д. Озеро, пл. 32187 кв. м (без НДС); Телятник (д. Сулихово)
+                пл. 1360,2 кв. м; Земельный участок в д. Сулихово пл. 14333 кв. м (без НДС); Комплекс Е-303; Комбайн
+                КЗС-3; Сеялка СПТУ-4Д; Пресподборщик ПТМА; Контователь рулонов; Упаковочная машина; Сортировка ОВС-25;
+                Плуг - 2 шт.; ДКУ; ШНЕК ТНП; Сеноворошилка; Доильное оборудование - 2 шт.; Стойловое оборудование
+                ОСК-200 -2 шт.; Молоковоз; Прицеп 2ПТС-4
+            </BidName>
+            <BidNo>1</BidNo>
+            <hasPicture>0</hasPicture>
+            <Amount>5769000.00</Amount>
+            <Amount2>5769000.00</Amount2>
+            <CurrentAmount>5769000.00</CurrentAmount>
+            <PublicDate>06.02.2016 16:19</PublicDate>
+            <RequestStartDate>08.02.2016 09:00</RequestStartDate>
+            <RequestStopDate>23.03.2016 12:00</RequestStopDate>
+            <AuctionStartDate>28.03.2016 10:00</AuctionStartDate>
+            <PurchaseState>Опубликован(-а)</PurchaseState>
+            <CurrentStatusId>1</CurrentStatusId>
+            <TypeId>4</TypeId>
+            <OrgBuId>43262</OrgBuId>
+            <LastActionDt>06.02.2016 16:20</LastActionDt>
+            <OrgName>Общество с ограниченной ответственностью "Региональное долговое агентство"</OrgName>
+            <PurchaseTypeName>Открытый аукцион / Открытая</PurchaseTypeName>
+            <RequestCnt>0</RequestCnt>
+            <RequestCntState>Нет</RequestCntState>
+        </row>
+        <row>
+            <Id>341687</Id>
+            <BidId>341687</BidId>
+            <PurchaseId>149004</PurchaseId>
+            <PurchaseCode>SBR013-1602060006</PurchaseCode>
+            <PurchaseName>Продажа имущества СПК "Заря" (Калужская область, Юхновский район, деревня Озеро)
+            </PurchaseName>
+            <BidName>трактор Беларус 82.1, 2007 года выпуска, государственный регистрационный знак 40 КА 6280, миксер
+                кормораздатчик АКМ-9, 2007 года выпуска, танк охладитель Alfa Lava (6000 л), 2005 года выпуска
+            </BidName>
+            <BidNo>2</BidNo>
+            <hasPicture>0</hasPicture>
+            <Amount>699300.00</Amount>
+            <Amount2>699300.00</Amount2>
+            <CurrentAmount>699300.00</CurrentAmount>
+            <PublicDate>06.02.2016 16:19</PublicDate>
+            <RequestStartDate>08.02.2016 09:00</RequestStartDate>
+            <RequestStopDate>23.03.2016 12:00</RequestStopDate>
+            <AuctionStartDate>28.03.2016 10:00</AuctionStartDate>
+            <PurchaseState>Опубликован(-а)</PurchaseState>
+            <CurrentStatusId>1</CurrentStatusId>
+            <TypeId>4</TypeId>
+            <OrgBuId>43262</OrgBuId>
+            <LastActionDt>06.02.2016 16:20</LastActionDt>
+            <OrgName>Общество с ограниченной ответственностью "Региональное долговое агентство"</OrgName>
+            <PurchaseTypeName>Открытый аукцион / Открытая</PurchaseTypeName>
+            <RequestCnt>0</RequestCnt>
+            <RequestCntState>Нет</RequestCntState>
+        </row>
+        <row>
+            <Id>341684</Id>
+            <BidId>341684</BidId>
+            <PurchaseId>149003</PurchaseId>
+            <PurchaseCode>SBR013-1602060005</PurchaseCode>
+            <PurchaseName>ООО "Галактика" (публичка)</PurchaseName>
+            <BidName>АЗС</BidName>
+            <BidNo>1</BidNo>
+            <hasPicture>0</hasPicture>
+            <Amount>6311014.20</Amount>
+            <Amount2>6311014.20</Amount2>
+            <CurrentAmount>6311014.20</CurrentAmount>
+            <PublicDate>06.02.2016 14:25</PublicDate>
+            <RequestStartDate>10.03.2016 10:00</RequestStartDate>
+            <RequestStopDate>18.05.2016 16:00</RequestStopDate>
+            <PurchaseState>Опубликован(-а)</PurchaseState>
+            <CurrentStatusId>1</CurrentStatusId>
+            <TypeId>53</TypeId>
+            <OrgBuId>42816</OrgBuId>
+            <LastActionDt>06.02.2016 14:26</LastActionDt>
+            <OrgName>Ершов Николай Анатольевич</OrgName>
+            <PurchaseTypeName>Открытое публичное предложение / Открытая (432-ФЗ)</PurchaseTypeName>
+            <RequestCnt>0</RequestCnt>
+            <RequestCntState>Нет</RequestCntState>
+        </row>
+        <row>
+            <Id>341685</Id>
+            <BidId>341685</BidId>
+            <PurchaseId>149003</PurchaseId>
+            <PurchaseCode>SBR013-1602060005</PurchaseCode>
+            <PurchaseName>ООО "Галактика" (публичка)</PurchaseName>
+            <BidName>Склад</BidName>
+            <BidNo>2</BidNo>
+            <hasPicture>0</hasPicture>
+            <Amount>3580200.00</Amount>
+            <Amount2>3580200.00</Amount2>
+            <CurrentAmount>3580200.00</CurrentAmount>
+            <PublicDate>06.02.2016 14:25</PublicDate>
+            <RequestStartDate>10.03.2016 10:00</RequestStartDate>
+            <RequestStopDate>18.05.2016 16:00</RequestStopDate>
+            <PurchaseState>Опубликован(-а)</PurchaseState>
+            <CurrentStatusId>1</CurrentStatusId>
+            <TypeId>53</TypeId>
+            <OrgBuId>42816</OrgBuId>
+            <LastActionDt>06.02.2016 14:26</LastActionDt>
+            <OrgName>Ершов Николай Анатольевич</OrgName>
+            <PurchaseTypeName>Открытое публичное предложение / Открытая (432-ФЗ)</PurchaseTypeName>
+            <RequestCnt>0</RequestCnt>
+            <RequestCntState>Нет</RequestCntState>
+        </row>
+        <row>
+            <Id>341678</Id>
+            <BidId>341678</BidId>
+            <PurchaseId>149002</PurchaseId>
+            <PurchaseCode>SBR013-1602060004</PurchaseCode>
+            <PurchaseName>имущество ООО «СальскИнвест»</PurchaseName>
+            <BidName>Зерносклад, назначение: складское. Площадь 2449,60 кв.м. Инвентарный номер: 205, Литер ББ1,
+                Этажность: 1, адрес объекта: Ростовская область, Сальский район, 2 км северо-западнее х. Маяк;
+                -Производственное здание, назначение: нежилое. Площадь: общая 126,80 кв.м. Инвентарный номер: 205.
+                Литер: А. Этажность: 1, адрес объекта: Ростовская область, Сальский район, 2 км северо-западнее х. Маяк;
+                -Земельный участок. Категория земель: земли сельскохозяйственного назначения - для эксплуатации
+                производственного здания, зерносклада. Площадь 70021,00 кв.м., адрес объекта: Ростовская область,
+                Сальский район, установлено относительно ориентира 2 км северо-западнее х. Маяк, расположенного в
+                границах участка.Кадастровый номер 61:34:0600014:965
+            </BidName>
+            <BidNo>1</BidNo>
+            <hasPicture>0</hasPicture>
+            <Amount>8559000.00</Amount>
+            <Amount2>8559000.00</Amount2>
+            <CurrentAmount>8559000.00</CurrentAmount>
+            <PublicDate>06.02.2016 13:46</PublicDate>
+            <RequestStartDate>10.02.2016 10:00</RequestStartDate>
+            <RequestStopDate>09.03.2016 17:00</RequestStopDate>
+            <PurchaseState>Опубликован(-а)</PurchaseState>
+            <CurrentStatusId>1</CurrentStatusId>
+            <TypeId>53</TypeId>
+            <OrgBuId>43075</OrgBuId>
+            <LastActionDt>06.02.2016 13:47</LastActionDt>
+            <OrgName>Общество с ограниченной ответственностью "ЛюксСервис"</OrgName>
+            <PurchaseTypeName>Открытое публичное предложение / Открытая (432-ФЗ)</PurchaseTypeName>
+            <RequestCnt>0</RequestCnt>
+            <RequestCntState>Нет</RequestCntState>
+        </row>
+        <row>
+            <Id>341679</Id>
+            <BidId>341679</BidId>
+            <PurchaseId>149002</PurchaseId>
+            <PurchaseCode>SBR013-1602060004</PurchaseCode>
+            <PurchaseName>имущество ООО «СальскИнвест»</PurchaseName>
+            <BidName>Земельный участок. Категория земель: земли сельскохозяйственного назначения - для
+                сельскохозяйственного производства. Площадь: 164000 кв.м., адрес объекта: Ростовская область, Сальский
+                район, установлено относительно ориентира в кадастровом квартале 61:34:600014 с условным центром в х.
+                Маяк, отделение №1, поле III, участок 4, расположенного в границах участка начальной стоимостью- 540
+                000,00 рублей;кадастровый номер 61:34:0600014:171
+            </BidName>
+            <BidNo>2</BidNo>
+            <hasPicture>0</hasPicture>
+            <Amount>540000.00</Amount>
+            <Amount2>540000.00</Amount2>
+            <CurrentAmount>540000.00</CurrentAmount>
+            <PublicDate>06.02.2016 13:46</PublicDate>
+            <RequestStartDate>10.02.2016 10:00</RequestStartDate>
+            <RequestStopDate>09.03.2016 17:00</RequestStopDate>
+            <PurchaseState>Опубликован(-а)</PurchaseState>
+            <CurrentStatusId>1</CurrentStatusId>
+            <TypeId>53</TypeId>
+            <OrgBuId>43075</OrgBuId>
+            <LastActionDt>06.02.2016 13:47</LastActionDt>
+            <OrgName>Общество с ограниченной ответственностью "ЛюксСервис"</OrgName>
+            <PurchaseTypeName>Открытое публичное предложение / Открытая (432-ФЗ)</PurchaseTypeName>
+            <RequestCnt>0</RequestCnt>
+            <RequestCntState>Нет</RequestCntState>
+        </row>
+        <row>
+            <Id>341680</Id>
+            <BidId>341680</BidId>
+            <PurchaseId>149002</PurchaseId>
+            <PurchaseCode>SBR013-1602060004</PurchaseCode>
+            <PurchaseName>имущество ООО «СальскИнвест»</PurchaseName>
+            <BidName>Единое землепользование, состоящее из: обособленного участка 61:34:600014:0943, обособленного
+                участка 61:34:600014:0944, обособленного участка 61:34:600014:0945. Категория земель: земли
+                сельскохозяйственного назначения - для сельскохозяйственного производства. Площадь 164000 кв.м., адрес
+                объекта: Ростовская область, Сальский район, установлено относительно ориентира в кадастровом квартале
+                61:34:600014 с условным центром в х. Маяк, отделение №2, поле IX, участок 4,2 отделение №2, поле IX,
+                участок 3,2, отделение №2, поле VI, поле 3, расположенного в границах участка начальной стоимостью- 540
+                000,00 рублей,кадастровый номер 61:34:0600014:946
+            </BidName>
+            <BidNo>3</BidNo>
+            <hasPicture>0</hasPicture>
+            <Amount>540000.00</Amount>
+            <Amount2>540000.00</Amount2>
+            <CurrentAmount>540000.00</CurrentAmount>
+            <PublicDate>06.02.2016 13:46</PublicDate>
+            <RequestStartDate>10.02.2016 10:00</RequestStartDate>
+            <RequestStopDate>09.03.2016 17:00</RequestStopDate>
+            <PurchaseState>Опубликован(-а)</PurchaseState>
+            <CurrentStatusId>1</CurrentStatusId>
+            <TypeId>53</TypeId>
+            <OrgBuId>43075</OrgBuId>
+            <LastActionDt>06.02.2016 13:47</LastActionDt>
+            <OrgName>Общество с ограниченной ответственностью "ЛюксСервис"</OrgName>
+            <PurchaseTypeName>Открытое публичное предложение / Открытая (432-ФЗ)</PurchaseTypeName>
+            <RequestCnt>0</RequestCnt>
+            <RequestCntState>Нет</RequestCntState>
+        </row>
+        <row>
+            <Id>341681</Id>
+            <BidId>341681</BidId>
+            <PurchaseId>149002</PurchaseId>
+            <PurchaseCode>SBR013-1602060004</PurchaseCode>
+            <PurchaseName>имущество ООО «СальскИнвест»</PurchaseName>
+            <BidName>Земельный участок. Категория земель: земли сельскохозяйственного назначения - для
+                сельскохозяйственного производства. Площадь: 164000 кв.м., адрес объекта: Ростовская область, Сальский
+                район, установлено относительно ориентира в кадастровом квартале 61:34:600014 с условным центром в х.
+                Маяк, отделение №1, поле III, участок 4, расположенного в границах участка начальной стоимостью- 540
+                000,00 рублей; кадастровый номер 61:34:0600014:275
+            </BidName>
+            <BidNo>4</BidNo>
+            <hasPicture>0</hasPicture>
+            <Amount>540000.00</Amount>
+            <Amount2>540000.00</Amount2>
+            <CurrentAmount>540000.00</CurrentAmount>
+            <PublicDate>06.02.2016 13:46</PublicDate>
+            <RequestStartDate>10.02.2016 10:00</RequestStartDate>
+            <RequestStopDate>09.03.2016 17:00</RequestStopDate>
+            <PurchaseState>Опубликован(-а)</PurchaseState>
+            <CurrentStatusId>1</CurrentStatusId>
+            <TypeId>53</TypeId>
+            <OrgBuId>43075</OrgBuId>
+            <LastActionDt>06.02.2016 13:47</LastActionDt>
+            <OrgName>Общество с ограниченной ответственностью "ЛюксСервис"</OrgName>
+            <PurchaseTypeName>Открытое публичное предложение / Открытая (432-ФЗ)</PurchaseTypeName>
+            <RequestCnt>0</RequestCnt>
+            <RequestCntState>Нет</RequestCntState>
+        </row>
+        <row>
+            <Id>341682</Id>
+            <BidId>341682</BidId>
+            <PurchaseId>149002</PurchaseId>
+            <PurchaseCode>SBR013-1602060004</PurchaseCode>
+            <PurchaseName>имущество ООО «СальскИнвест»</PurchaseName>
+            <BidName>Земельный участок. Категория земель: земли сельскохозяйственного назначения - для
+                сельскохозяйственного производства. Площадь: 96700 кв.м., адрес объекта: Ростовская область, Сальский
+                район, установлено относительно ориентира в кадастровом квартале 61:34:600014 с условным центром в х.
+                Маяк, отделение №2, поле IV, участок 3, расположенного в границах участка начальной стоимостью- 324
+                000,00 рублей;кадастровый номер 61:34:0600014:978
+            </BidName>
+            <BidNo>5</BidNo>
+            <hasPicture>0</hasPicture>
+            <Amount>324000.00</Amount>
+            <Amount2>324000.00</Amount2>
+            <CurrentAmount>324000.00</CurrentAmount>
+            <PublicDate>06.02.2016 13:46</PublicDate>
+            <RequestStartDate>10.02.2016 10:00</RequestStartDate>
+            <RequestStopDate>09.03.2016 17:00</RequestStopDate>
+            <PurchaseState>Опубликован(-а)</PurchaseState>
+            <CurrentStatusId>1</CurrentStatusId>
+            <TypeId>53</TypeId>
+            <OrgBuId>43075</OrgBuId>
+            <LastActionDt>06.02.2016 13:47</LastActionDt>
+            <OrgName>Общество с ограниченной ответственностью "ЛюксСервис"</OrgName>
+            <PurchaseTypeName>Открытое публичное предложение / Открытая (432-ФЗ)</PurchaseTypeName>
+            <RequestCnt>0</RequestCnt>
+            <RequestCntState>Нет</RequestCntState>
+        </row>
+        <row>
+            <Id>341683</Id>
+            <BidId>341683</BidId>
+            <PurchaseId>149002</PurchaseId>
+            <PurchaseCode>SBR013-1602060004</PurchaseCode>
+            <PurchaseName>имущество ООО «СальскИнвест»</PurchaseName>
+            <BidName>Земельный участок. Категория земель: земли сельскохозяйственного назначения - для
+                сельскохозяйственного производства. Площадь: 164000 кв.м., адрес объекта: Ростовская область, Сальский
+                район, установлено относительно ориентира в кадастровом квартале 61:34:600014 с условным центром в х.
+                Маяк, отделение №2, поле IX, участок 4, расположенного в границах участка начальной стоимостью- 540
+                000,00 рублей, кадастровый номер 61:34:0600014:966
+            </BidName>
+            <BidNo>6</BidNo>
+            <hasPicture>0</hasPicture>
+            <Amount>540000.00</Amount>
+            <Amount2>540000.00</Amount2>
+            <CurrentAmount>540000.00</CurrentAmount>
+            <PublicDate>06.02.2016 13:46</PublicDate>
+            <RequestStartDate>10.02.2016 10:00</RequestStartDate>
+            <RequestStopDate>09.03.2016 17:00</RequestStopDate>
+            <PurchaseState>Опубликован(-а)</PurchaseState>
+            <CurrentStatusId>1</CurrentStatusId>
+            <TypeId>53</TypeId>
+            <OrgBuId>43075</OrgBuId>
+            <LastActionDt>06.02.2016 13:47</LastActionDt>
+            <OrgName>Общество с ограниченной ответственностью "ЛюксСервис"</OrgName>
+            <PurchaseTypeName>Открытое публичное предложение / Открытая (432-ФЗ)</PurchaseTypeName>
+            <RequestCnt>0</RequestCnt>
+            <RequestCntState>Нет</RequestCntState>
+        </row>
+        <row>
+            <Id>341674</Id>
+            <BidId>341674</BidId>
+            <PurchaseId>149001</PurchaseId>
+            <PurchaseCode>SBR013-1602060003</PurchaseCode>
+            <PurchaseName>ООО "Ремстройсервис 1" - дебиторская задолженность</PurchaseName>
+            <BidName>Дебиторская задолженность ООО "Сахбытсервис-1"</BidName>
+            <BidNo>1</BidNo>
+            <hasPicture>0</hasPicture>
+            <Amount>253000.00</Amount>
+            <Amount2>253000.00</Amount2>
+            <CurrentAmount>253000.00</CurrentAmount>
+            <PublicDate>06.02.2016 10:06</PublicDate>
+            <RequestStartDate>08.02.2016 04:00</RequestStartDate>
+            <RequestStopDate>16.03.2016 04:00</RequestStopDate>
+            <AuctionStartDate>18.03.2016 04:00</AuctionStartDate>
+            <PurchaseState>Прием заявок</PurchaseState>
+            <CurrentStatusId>2</CurrentStatusId>
+            <TypeId>4</TypeId>
+            <OrgBuId>613369</OrgBuId>
+            <LastActionDt>08.02.2016 04:00</LastActionDt>
+            <OrgName>Евсеев Денис Васильевич</OrgName>
+            <PurchaseTypeName>Открытый аукцион / Открытая</PurchaseTypeName>
+            <RequestCnt>0</RequestCnt>
+            <RequestCntState>Нет</RequestCntState>
+        </row>
+        <row>
+            <Id>341675</Id>
+            <BidId>341675</BidId>
+            <PurchaseId>149001</PurchaseId>
+            <PurchaseCode>SBR013-1602060003</PurchaseCode>
+            <PurchaseName>ООО "Ремстройсервис 1" - дебиторская задолженность</PurchaseName>
+            <BidName>Дебиторская задолженность ООО "Благоустройство"</BidName>
+            <BidNo>2</BidNo>
+            <hasPicture>0</hasPicture>
+            <Amount>482000.00</Amount>
+            <Amount2>482000.00</Amount2>
+            <CurrentAmount>482000.00</CurrentAmount>
+            <PublicDate>06.02.2016 10:06</PublicDate>
+            <RequestStartDate>08.02.2016 04:00</RequestStartDate>
+            <RequestStopDate>16.03.2016 04:00</RequestStopDate>
+            <AuctionStartDate>18.03.2016 04:00</AuctionStartDate>
+            <PurchaseState>Прием заявок</PurchaseState>
+            <CurrentStatusId>2</CurrentStatusId>
+            <TypeId>4</TypeId>
+            <OrgBuId>613369</OrgBuId>
+            <LastActionDt>08.02.2016 04:00</LastActionDt>
+            <OrgName>Евсеев Денис Васильевич</OrgName>
+            <PurchaseTypeName>Открытый аукцион / Открытая</PurchaseTypeName>
+            <RequestCnt>0</RequestCnt>
+            <RequestCntState>Нет</RequestCntState>
+        </row>
+        <row>
+            <Id>341676</Id>
+            <BidId>341676</BidId>
+            <PurchaseId>149001</PurchaseId>
+            <PurchaseCode>SBR013-1602060003</PurchaseCode>
+            <PurchaseName>ООО "Ремстройсервис 1" - дебиторская задолженность</PurchaseName>
+            <BidName>Дебиторская задолженность ООО "Сахбытхим"</BidName>
+            <BidNo>3</BidNo>
+            <hasPicture>0</hasPicture>
+            <Amount>60000.00</Amount>
+            <Amount2>60000.00</Amount2>
+            <CurrentAmount>60000.00</CurrentAmount>
+            <PublicDate>06.02.2016 10:06</PublicDate>
+            <RequestStartDate>08.02.2016 04:00</RequestStartDate>
+            <RequestStopDate>16.03.2016 04:00</RequestStopDate>
+            <AuctionStartDate>18.03.2016 04:00</AuctionStartDate>
+            <PurchaseState>Прием заявок</PurchaseState>
+            <CurrentStatusId>2</CurrentStatusId>
+            <TypeId>4</TypeId>
+            <OrgBuId>613369</OrgBuId>
+            <LastActionDt>08.02.2016 04:00</LastActionDt>
+            <OrgName>Евсеев Денис Васильевич</OrgName>
+            <PurchaseTypeName>Открытый аукцион / Открытая</PurchaseTypeName>
+            <RequestCnt>0</RequestCnt>
+            <RequestCntState>Нет</RequestCntState>
+        </row>
+        <row>
+            <Id>341677</Id>
+            <BidId>341677</BidId>
+            <PurchaseId>149001</PurchaseId>
+            <PurchaseCode>SBR013-1602060003</PurchaseCode>
+            <PurchaseName>ООО "Ремстройсервис 1" - дебиторская задолженность</PurchaseName>
+            <BidName>Дебиторская задолженность физических лиц</BidName>
+            <BidNo>4</BidNo>
+            <hasPicture>0</hasPicture>
+            <Amount>314000.00</Amount>
+            <Amount2>314000.00</Amount2>
+            <CurrentAmount>314000.00</CurrentAmount>
+            <PublicDate>06.02.2016 10:06</PublicDate>
+            <RequestStartDate>08.02.2016 04:00</RequestStartDate>
+            <RequestStopDate>16.03.2016 04:00</RequestStopDate>
+            <AuctionStartDate>18.03.2016 04:00</AuctionStartDate>
+            <PurchaseState>Прием заявок</PurchaseState>
+            <CurrentStatusId>2</CurrentStatusId>
+            <TypeId>4</TypeId>
+            <OrgBuId>613369</OrgBuId>
+            <LastActionDt>08.02.2016 04:00</LastActionDt>
+            <OrgName>Евсеев Денис Васильевич</OrgName>
+            <PurchaseTypeName>Открытый аукцион / Открытая</PurchaseTypeName>
+            <RequestCnt>0</RequestCnt>
+            <RequestCntState>Нет</RequestCntState>
+        </row>
+        <row>
+            <Id>341672</Id>
+            <BidId>341672</BidId>
+            <PurchaseId>149000</PurchaseId>
+            <PurchaseCode>SBR013-1602060002</PurchaseCode>
+            <PurchaseName>Торги по продаже имущества ООО «Деревоперерабатывающее предприятие «Интер-Древ»: оборудование
+                и права требования
+            </PurchaseName>
+            <BidName>Автоматическая линия склеивания деталей в поперечном сечении turbo s.</BidName>
+            <BidNo>1</BidNo>
+            <hasPicture>0</hasPicture>
+            <Amount>2250000.00</Amount>
+            <Amount2>2250000.00</Amount2>
+            <CurrentAmount>2250000.00</CurrentAmount>
+            <PublicDate>06.02.2016 09:03</PublicDate>
+            <RequestStartDate>29.02.2016 00:00</RequestStartDate>
+            <RequestStopDate>10.04.2016 23:59</RequestStopDate>
+            <PurchaseState>Опубликован(-а)</PurchaseState>
+            <CurrentStatusId>1</CurrentStatusId>
+            <TypeId>53</TypeId>
+            <OrgBuId>43626</OrgBuId>
+            <LastActionDt>06.02.2016 09:04</LastActionDt>
+            <OrgName>Дронов Олег Владимирович</OrgName>
+            <PurchaseTypeName>Открытое публичное предложение / Открытая (432-ФЗ)</PurchaseTypeName>
+            <RequestCnt>0</RequestCnt>
+            <RequestCntState>Нет</RequestCntState>
+        </row>
+        <row>
+            <Id>341673</Id>
+            <BidId>341673</BidId>
+            <PurchaseId>149000</PurchaseId>
+            <PurchaseCode>SBR013-1602060002</PurchaseCode>
+            <PurchaseName>Торги по продаже имущества ООО «Деревоперерабатывающее предприятие «Интер-Древ»: оборудование
+                и права требования
+            </PurchaseName>
+            <BidName>Право требования ООО «ДПП «Интер-Древ» к ООО «Корса», ООО «Трида», ООО «Пластидтрейд ЛТД», ООО
+                «ТоргЛес», ООО «Престиж», ООО «БашХольц», ООО «Евролюкс», ООО «Октавия», ООО «Синтез», Галиулину О.Р.,
+                ООО «Дубрава», ООО «Велта» в общем размере 3.608.637,20 руб.
+            </BidName>
+            <BidNo>2</BidNo>
+            <hasPicture>0</hasPicture>
+            <Amount>45450.00</Amount>
+            <Amount2>45450.00</Amount2>
+            <CurrentAmount>45450.00</CurrentAmount>
+            <PublicDate>06.02.2016 09:03</PublicDate>
+            <RequestStartDate>29.02.2016 00:00</RequestStartDate>
+            <RequestStopDate>10.04.2016 23:59</RequestStopDate>
+            <PurchaseState>Опубликован(-а)</PurchaseState>
+            <CurrentStatusId>1</CurrentStatusId>
+            <TypeId>53</TypeId>
+            <OrgBuId>43626</OrgBuId>
+            <LastActionDt>06.02.2016 09:04</LastActionDt>
+            <OrgName>Дронов Олег Владимирович</OrgName>
+            <PurchaseTypeName>Открытое публичное предложение / Открытая (432-ФЗ)</PurchaseTypeName>
+            <RequestCnt>0</RequestCnt>
+            <RequestCntState>Нет</RequestCntState>
+        </row>
+        <row>
+            <Id>341665</Id>
+            <BidId>341665</BidId>
+            <PurchaseId>148998</PurchaseId>
+            <PurchaseCode>SBR013-1602060001</PurchaseCode>
+            <PurchaseName>Продажа имущества (предприятия) банкротов</PurchaseName>
+            <BidName>Автопогрузчик фронтальный XCMG ZL 50G 6848</BidName>
+            <BidNo>1</BidNo>
+            <hasPicture>0</hasPicture>
+            <Amount>1129496.22</Amount>
+            <Amount2>1129496.22</Amount2>
+            <CurrentAmount>1129496.22</CurrentAmount>
+            <PublicDate>06.02.2016 06:00</PublicDate>
+            <RequestStartDate>06.02.2016 09:00</RequestStartDate>
+            <RequestStopDate>16.03.2016 09:00</RequestStopDate>
+            <AuctionStartDate>17.03.2016 09:00</AuctionStartDate>
+            <PurchaseState>Прием заявок</PurchaseState>
+            <CurrentStatusId>2</CurrentStatusId>
+            <TypeId>4</TypeId>
+            <OrgBuId>675530</OrgBuId>
+            <LastActionDt>06.02.2016 09:00</LastActionDt>
+            <OrgName>Сайгушев Денис Сергеевич</OrgName>
+            <PurchaseTypeName>Открытый аукцион / Открытая</PurchaseTypeName>
+            <RequestCnt>0</RequestCnt>
+            <RequestCntState>Нет</RequestCntState>
+        </row>
+        <row>
+            <Id>341666</Id>
+            <BidId>341666</BidId>
+            <PurchaseId>148998</PurchaseId>
+            <PurchaseCode>SBR013-1602060001</PurchaseCode>
+            <PurchaseName>Продажа имущества (предприятия) банкротов</PurchaseName>
+            <BidName>Грузовой тягач седельный SHANXI SZ 4254</BidName>
+            <BidNo>2</BidNo>
+            <hasPicture>0</hasPicture>
+            <Amount>1830900.58</Amount>
+            <Amount2>1830900.58</Amount2>
+            <CurrentAmount>1830900.58</CurrentAmount>
+            <PublicDate>06.02.2016 06:00</PublicDate>
+            <RequestStartDate>06.02.2016 09:00</RequestStartDate>
+            <RequestStopDate>16.03.2016 09:00</RequestStopDate>
+            <AuctionStartDate>17.03.2016 09:00</AuctionStartDate>
+            <PurchaseState>Прием заявок</PurchaseState>
+            <CurrentStatusId>2</CurrentStatusId>
+            <TypeId>4</TypeId>
+            <OrgBuId>675530</OrgBuId>
+            <LastActionDt>06.02.2016 09:00</LastActionDt>
+            <OrgName>Сайгушев Денис Сергеевич</OrgName>
+            <PurchaseTypeName>Открытый аукцион / Открытая</PurchaseTypeName>
+            <RequestCnt>0</RequestCnt>
+            <RequestCntState>Нет</RequestCntState>
+        </row>
+    </data>
+</List>

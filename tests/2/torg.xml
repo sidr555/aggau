@@ -1,0 +1,191 @@
+<Purchase>
+    <BankAccountInfo>
+        <contractaccountoperator>No</contractaccountoperator>
+        <depositaccount>40702810700010000897</depositaccount>
+        <depositfaceaccount/>
+        <depositcorraccount>30101810000000000770</depositcorraccount>
+        <depositbic>042908770</depositbic>
+        <depositbankname>Филиал АКБ "Фора-Банк" АО в г. Калуга</depositbankname>
+        <depositbankaddress/>
+        <depositinn>4028039069</depositinn>
+        <depositrecipientname>ООО «Региональное долговое агентство»</depositrecipientname>
+    </BankAccountInfo>
+    <BusinesInfo>
+        <businessname>Арбитражный суд Калужской области</businessname>
+        <businessno>А23-5017/2012</businessno>
+        <businessreason>15.06.2015</businessreason>
+    </BusinesInfo>
+    <ContractInfo>
+        <contractorder>Договор купли-продажи подписывается в течение 10 календарных дней с даты подписания протокола об
+            итогах торгов.
+        </contractorder>
+        <contractperiod>Оплата имущества должна быть осуществлена покупателем в течение 30 дней со дня подписания
+            договора купли-продажи, на реквизиты, указанные в договоре купли-продажи.
+        </contractperiod>
+        <contractaccountinfo>
+            <contractaccount>40702810300010005098</contractaccount>
+            <contractfaceaccount/>
+            <contractcorraccount>30101810000000000770</contractcorraccount>
+            <contractbic>042908770</contractbic>
+            <contractbankname>Филиал ФКБ "ФОРА-БАНК" АО в г. Калуга</contractbankname>
+            <contractbankaddress/>
+            <contractinn>4022000611</contractinn>
+            <recipientname>Сельскохозяйственный производственный кооператив " Заря"</recipientname>
+        </contractaccountinfo>
+        <contractdoc>
+            <file>
+                <fileid>f08ca03d-9cf0-4d29-afc6-d7b55edd3f8b</fileid>
+                <filename>проект+дог.купли-продаж+основной+[1].zip</filename>
+                <signinfo/>
+                <hash>CC4C4CBDF3EED7895D961361F9E18250090105A491273BC5A74EC4C60F3A370D</hash>
+                <sign>
+                    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0LDQstGB0LrQsNGPINC+0LHQu9Cw0YHRgtGMMRswGQYDVQQHDBLQr9GA0L7RgdC70LDQstC70YwxLTArBgNVBAoMJNCe0J7QniDQmtC+0LzQv9Cw0L3QuNGPINCi0LXQvdC30L7RgDEwMC4GA1UECwwn0KPQtNC+0YHRgtC+0LLQtdGA0Y/RjtGJ0LjQuSDRhtC10L3RgtGAMRIwEAYDVQQDEwlURU5TT1JDQTOCEHTj0BRRkwunR0xaSSzF6PYwggEpBgNVHR8EggEgMIIBHDA5oDegNYYzaHR0cDovL3RheDQudGVuc29yLnJ1L2NlcnRlbnJvbGwvdGVuc29yY2EzLTIwMTQuY3JsMCygKqAohiZodHRwOi8vdGVuc29yLnJ1L2NhL3RlbnNvcmNhMy0yMDE0LmNybDA5oDegNYYzaHR0cDovL2NybC50ZW5zb3IucnUvdGF4NC9jYS9jcmwvdGVuc29yY2EzLTIwMTQuY3JsMDqgOKA2hjRodHRwOi8vY3JsMi50ZW5zb3IucnUvdGF4NC9jYS9jcmwvdGVuc29yY2EzLTIwMTQuY3JsMDqgOKA2hjRodHRwOi8vY3JsMy50ZW5zb3IucnUvdGF4NC9jYS9jcmwvdGVuc29yY2EzLTIwMTQuY3JsMIIBpQYIKwYBBQUHAQEEggGXMIIBkzAvBggrBgEFBQcwAYYjaHR0cDovL3RheDQudGVuc29yLnJ1L29jc3Avb2NzcC5zcmYwLQYIKwYBBQUHMAKGIWh0dHA6Ly90YXg0LnRlbnNvci5ydS90c3AvdHNwLnNyZjBABggrBgEFBQcwAoY0aHR0cDovL3RheDQudGVuc29yLnJ1L2NlcnRlbnJvbGwvdGVuc29yY2EzKDIwMTQpLmNydDAzBggrBgEFBQcwAoYnaHR0cDovL3RlbnNvci5ydS9jYS90ZW5zb3JjYTMoMjAxNCkuY3J0MDwGCCsGAQUFBzAChjBodHRwOi8vY3JsLnRlbnNvci5ydS90YXg0L2NhL3RlbnNvcmNhMygyMDE0KS5jcnQwPQYIKwYBBQUHMAKGMWh0dHA6Ly9jcmwyLnRlbnNvci5ydS90YXg0L2NhL3RlbnNvcmNhMygyMDE0KS5jcnQwPQYIKwYBBQUHMAKGMWh0dHA6Ly9jcmwzLnRlbnNvci5ydS90YXg0L2NhL3Rl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
+                </sign>
+            </file>
+        </contractdoc>
+    </ContractInfo>
+    <CrisicManagerInfo>
+        <crisicmanagerfullname>Ульянов Борис Николаевич</crisicmanagerfullname>
+        <registrationnumberpanel>
+            <crisismanagerregistrationnumber>5122</crisismanagerregistrationnumber>
+        </registrationnumberpanel>
+        <crisismanagerinn>402900432706</crisismanagerinn>
+        <arbitrageorganizationpanel>
+            <arbitrageorganization>67263</arbitrageorganization>
+            <arbitrageorganizationname>НП СОАУ "Меркурий" - Некоммерческое партнерство "Саморегулируемая организация
+                арбитражных управляющих "Меркурий"
+            </arbitrageorganizationname>
+        </arbitrageorganizationpanel>
+    </CrisicManagerInfo>
+    <DebtorInfo>
+        <DebtorINN>4022000611</DebtorINN>
+        <DebtorName>Сельскохозяйственный производственный кооператив " Заря"</DebtorName>
+        <DebtorOGRN>1024000719830</DebtorOGRN>
+        <PersonPhis>No</PersonPhis>
+    </DebtorInfo>
+    <DepositInfo>
+        <DepositContractDoc>
+            <file>
+                <fileid>e35d5d96-da15-4f1e-9b78-d1e0bb512d7e</fileid>
+                <filename>Договор+о+задатке+лот 1 2016 год.zip</filename>
+                <signinfo/>
+                <hash>4F0A2BC72286EDE3476D72DC06077EEA5A0AA5307BC983A817119CD34A7A4EE2</hash>
+                <sign>
+                    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0LDQstGB0LrQsNGPINC+0LHQu9Cw0YHRgtGMMRswGQYDVQQHDBLQr9GA0L7RgdC70LDQstC70YwxLTArBgNVBAoMJNCe0J7QniDQmtC+0LzQv9Cw0L3QuNGPINCi0LXQvdC30L7RgDEwMC4GA1UECwwn0KPQtNC+0YHRgtC+0LLQtdGA0Y/RjtGJ0LjQuSDRhtC10L3RgtGAMRIwEAYDVQQDEwlURU5TT1JDQTOCEHTj0BRRkwunR0xaSSzF6PYwggEpBgNVHR8EggEgMIIBHDA5oDegNYYzaHR0cDovL3RheDQudGVuc29yLnJ1L2NlcnRlbnJvbGwvdGVuc29yY2EzLTIwMTQuY3JsMCygKqAohiZodHRwOi8vdGVuc29yLnJ1L2NhL3RlbnNvcmNhMy0yMDE0LmNybDA5oDegNYYzaHR0cDovL2NybC50ZW5zb3IucnUvdGF4NC9jYS9jcmwvdGVuc29yY2EzLTIwMTQuY3JsMDqgOKA2hjRodHRwOi8vY3JsMi50ZW5zb3IucnUvdGF4NC9jYS9jcmwvdGVuc29yY2EzLTIwMTQuY3JsMDqgOKA2hjRodHRwOi8vY3JsMy50ZW5zb3IucnUvdGF4NC9jYS9jcmwvdGVuc29yY2EzLTIwMTQuY3JsMIIBpQYIKwYBBQUHAQEEggGXMIIBkzAvBggrBgEFBQcwAYYjaHR0cDovL3RheDQudGVuc29yLnJ1L29jc3Avb2NzcC5zcmYwLQYIKwYBBQUHMAKGIWh0dHA6Ly90YXg0LnRlbnNvci5ydS90c3AvdHNwLnNyZjBABggrBgEFBQcwAoY0aHR0cDovL3RheDQudGVuc29yLnJ1L2NlcnRlbnJvbGwvdGVuc29yY2EzKDIwMTQpLmNydDAzBggrBgEFBQcwAoYnaHR0cDovL3RlbnNvci5ydS9jYS90ZW5zb3JjYTMoMjAxNCkuY3J0MDwGCCsGAQUFBzAChjBodHRwOi8vY3JsLnRlbnNvci5ydS90YXg0L2NhL3RlbnNvcmNhMygyMDE0KS5jcnQwPQYIKwYBBQUHMAKGMWh0dHA6Ly9jcmwyLnRlbnNvci5ydS90YXg0L2NhL3RlbnNvcmNhMygyMDE0KS5jcnQwPQYIKwYBBQUHMAKGMWh0dHA6Ly9jcmwzLnRlbnNvci5ydS90YXg0L2NhL3Rl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
+                </sign>
+            </file>
+            <file>
+                <fileid>86fad945-75b6-4388-9772-679e4177ad11</fileid>
+                <filename>Договор+о+задатке лот №2 2016год.zip</filename>
+                <signinfo/>
+                <hash>21BD63272913D2ED6DD3FDC36BD7A1CC092019F8C0C962CB14D3AE33BA9CE28F</hash>
+                <sign>
+                    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0LDQstGB0LrQsNGPINC+0LHQu9Cw0YHRgtGMMRswGQYDVQQHDBLQr9GA0L7RgdC70LDQstC70YwxLTArBgNVBAoMJNCe0J7QniDQmtC+0LzQv9Cw0L3QuNGPINCi0LXQvdC30L7RgDEwMC4GA1UECwwn0KPQtNC+0YHRgtC+0LLQtdGA0Y/RjtGJ0LjQuSDRhtC10L3RgtGAMRIwEAYDVQQDEwlURU5TT1JDQTOCEHTj0BRRkwunR0xaSSzF6PYwggEpBgNVHR8EggEgMIIBHDA5oDegNYYzaHR0cDovL3RheDQudGVuc29yLnJ1L2NlcnRlbnJvbGwvdGVuc29yY2EzLTIwMTQuY3JsMCygKqAohiZodHRwOi8vdGVuc29yLnJ1L2NhL3RlbnNvcmNhMy0yMDE0LmNybDA5oDegNYYzaHR0cDovL2NybC50ZW5zb3IucnUvdGF4NC9jYS9jcmwvdGVuc29yY2EzLTIwMTQuY3JsMDqgOKA2hjRodHRwOi8vY3JsMi50ZW5zb3IucnUvdGF4NC9jYS9jcmwvdGVuc29yY2EzLTIwMTQuY3JsMDqgOKA2hjRodHRwOi8vY3JsMy50ZW5zb3IucnUvdGF4NC9jYS9jcmwvdGVuc29yY2EzLTIwMTQuY3JsMIIBpQYIKwYBBQUHAQEEggGXMIIBkzAvBggrBgEFBQcwAYYjaHR0cDovL3RheDQudGVuc29yLnJ1L29jc3Avb2NzcC5zcmYwLQYIKwYBBQUHMAKGIWh0dHA6Ly90YXg0LnRlbnNvci5ydS90c3AvdHNwLnNyZjBABggrBgEFBQcwAoY0aHR0cDovL3RheDQudGVuc29yLnJ1L2NlcnRlbnJvbGwvdGVuc29yY2EzKDIwMTQpLmNydDAzBggrBgEFBQcwAoYnaHR0cDovL3RlbnNvci5ydS9jYS90ZW5zb3JjYTMoMjAxNCkuY3J0MDwGCCsGAQUFBzAChjBodHRwOi8vY3JsLnRlbnNvci5ydS90YXg0L2NhL3RlbnNvcmNhMygyMDE0KS5jcnQwPQYIKwYBBQUHMAKGMWh0dHA6Ly9jcmwyLnRlbnNvci5ydS90YXg0L2NhL3RlbnNvcmNhMygyMDE0KS5jcnQwPQYIKwYBBQUHMAKGMWh0dHA6Ly9jcmwzLnRlbnNvci5ydS90YXg0L2NhL3Rl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
+                </sign>
+            </file>
+        </DepositContractDoc>
+    </DepositInfo>
+    <DepositWinnerInfo>
+        <depositaccount/>
+        <depositfaceaccount/>
+        <depositcorraccount/>
+        <depositbic/>
+        <depositbankname/>
+        <depositbankaddress/>
+        <depositinn/>
+        <depositrecipientname/>
+    </DepositWinnerInfo>
+    <OrganizatorInfo>
+        <orgbuid>43262</orgbuid>
+        <orgid>19315</orgid>
+        <orgname>Общество с ограниченной ответственностью "Региональное долговое агентство"</orgname>
+        <orgaddressfact>248021, Российская Федерация, Калужская область, Калуга, Московская, д. 247/69, оф. 19
+        </orgaddressfact>
+        <orginn>4028039069</orginn>
+        <orgemail>soautpp_kaluga@mail.ru;</orgemail>
+        <orgphone>8 (484 2) 55-39-83</orgphone>
+    </OrganizatorInfo>
+    <PurchaseInfo>
+        <Creditor>Елоев Артур Юрьевич</Creditor>
+        <EfrPublicDate>05.02.2016</EfrPublicDate>
+        <IsPledge>Yes</IsPledge>
+        <PaperPublicDate>09.02.2016</PaperPublicDate>
+        <PurchaseCode>SBR013-1602060006</PurchaseCode>
+        <PurchaseName>Продажа имущества СПК "Заря" (Калужская область, Юхновский район, деревня Озеро)</PurchaseName>
+        <RePurchase>Yes</RePurchase>
+        <SitePublicDate>06.02.2016</SitePublicDate>
+    </PurchaseInfo>
+    <RequestInfo>
+        <RegistrationDocuments>Заявки подаются лицами, зарегистрированными на ЭТП в соответствии с порядком регистрации
+            согласно Приказу Минэкономразвития РФ №54 от 15.02.2010 г. оператору электронной площадки ЗАО «Сбербанк-АСТ»
+            по адресу: http://utp.sberbank-ast.ru/Bankruptcy. Заявка оформляется в соответствии с п. 11 ст. 110 ФЗ «О
+            несостоятельности (банкротстве)» от 26.10.2002 г. №127-ФЗ, к заявке должны прилагаться следующие документы:
+            действительная на день представления заявки на участие в торгах выписка из ЕГРЮЛ или засвидетельствованная в
+            нотариальном порядке копия такой выписки (для юр. лица), действительная на день представления заявки на
+            участия в торгах выписка из ЕГРИП или засвидетельствованная в нотариальном порядке копия такой виски (для
+            ИП); копия документов, удостоверяющих личность (для физ. лица), надлежащим образом заверенный перевод на
+            русский язык документов о гос. регистрации юр. лица или гос. регистрации физ.лица в качестве ИП в
+            соответствии с законодательством соответствующего государства (для иностранного лица); решение об одобрении
+            или о совершении крупной сделки, если требование о необходимости наличия такого решения для совершения
+            крупной сделки установлено законодательством РФ и (или) учредительными документами юр. лица и если для
+            участника открытых торгов приобретение имущества или внесение денежных средств в качестве задатка являются
+            крупной сделкой; копия документа, подтверждающего полномочия руководителя (для юр. лица) документ,
+            подтверждающий полномочия лица на осуществление действий от имени заявителя. Документы, прилагаемые к
+            заявке, представляются в форме электронных документов, подписанных электронной цифровой подписью заявителя.
+        </RegistrationDocuments>
+        <RegistrationOrder>В соответствии с регламентом работы электронной площадки</RegistrationOrder>
+        <RequestOrder>В соответствии с регламентом работы электронной площадки</RequestOrder>
+        <RequestStartDate>08.02.2016 09:00</RequestStartDate>
+        <RequestStopDate>23.03.2016 12:00</RequestStopDate>
+    </RequestInfo>
+    <ResultInfo>
+        <AuctionResultDate>28.03.2016 12:00</AuctionResultDate>
+        <ResultCriteria>Победитель- лицо,предложившее наибольшую цену</ResultCriteria>
+        <ResultPlace>http://utp.sberbank-ast.ru/Bankruptcy/</ResultPlace>
+    </ResultInfo>
+    <Terms>
+        <PurchaseAuctionStartDate>28.03.2016 10:00</PurchaseAuctionStartDate>
+    </Terms>
+    <Bids>
+        <Bid>
+            <BidAuctionStepPercent>5.00</BidAuctionStepPercent>
+            <BidDeposit>5.00</BidDeposit>
+            <BidId>341686</BidId>
+            <BidName>Телятник (д.Озеро) пл. 1100 кв. м; Коровник (д. Озеро) - 2 шт. пл. 3644,5 кв. м; Телятник (д.
+                Озеро) пл. 1366,8 кв. м; Земельный участок в д. Озеро, пл. 32187 кв. м (без НДС); Телятник (д. Сулихово)
+                пл. 1360,2 кв. м; Земельный участок в д. Сулихово пл. 14333 кв. м (без НДС); Комплекс Е-303; Комбайн
+                КЗС-3; Сеялка СПТУ-4Д; Пресподборщик ПТМА; Контователь рулонов; Упаковочная машина; Сортировка ОВС-25;
+                Плуг - 2 шт.; ДКУ; ШНЕК ТНП; Сеноворошилка; Доильное оборудование - 2 шт.; Стойловое оборудование
+                ОСК-200 -2 шт.; Молоковоз; Прицеп 2ПТС-4
+            </BidName>
+            <BidNo>1</BidNo>
+            <BidPrice>5769000.00</BidPrice>
+        </Bid>
+        <Bid>
+            <BidAuctionStepPercent>5.00</BidAuctionStepPercent>
+            <BidDeposit>34965.00</BidDeposit>
+            <BidId>341687</BidId>
+            <BidName>трактор Беларус 82.1, 2007 года выпуска, государственный регистрационный знак 40 КА 6280, миксер
+                кормораздатчик АКМ-9, 2007 года выпуска, танк охладитель Alfa Lava (6000 л), 2005 года выпуска
+            </BidName>
+            <BidNo>2</BidNo>
+            <BidPrice>699300.00</BidPrice>
+        </Bid>
+    </Bids>
+    <PurchaseChangeLog>
+        <PurchaseChangeLogString>
+            <PurchaseChangeLogComment>Публикация заявки на проведение торгов</PurchaseChangeLogComment>
+            <PurchaseChangeLogCreateDt>06.02.2016 16:20</PurchaseChangeLogCreateDt>
+            <PurchaseChangeLogDocId>18239280</PurchaseChangeLogDocId>
+        </PurchaseChangeLogString>
+        <PurchaseChangeLogString>
+            <PurchaseChangeLogComment>Создание заявки на проведение торгов</PurchaseChangeLogComment>
+            <PurchaseChangeLogCreateDt>06.02.2016 16:19</PurchaseChangeLogCreateDt>
+            <PurchaseChangeLogDocId>18224285</PurchaseChangeLogDocId>
+        </PurchaseChangeLogString>
+    </PurchaseChangeLog>
+    <PurchaseTypeInfo>
+        <PurchaseTypeId>4</PurchaseTypeId>
+        <PurchaseTypeName>Открытый аукцион с открытой формой представления предложений о цене</PurchaseTypeName>
+    </PurchaseTypeInfo>
+</Purchase>

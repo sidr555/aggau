@@ -1,13 +1,30 @@
 [{
-    "id": 3,
-    "name" : "Сбербанк-АСТ",
-    "info": "Закрытое акционерное общество «Сбербанк - Автоматизированная система торгов» (ЗАО «Сбербанк - АСТ»)",
-    "url:site": "http://www.sberbank-ast.ru/"
-},{
     "id": 1,
     "name" : "ЕФРСБ",
     "info": "Единый федеральный реестр сведений о банкротстве",
-    "url:site": "http://bankrot.fedresurs.ru/"
+    "url:site": "http://bankrot.fedresurs.ru/",
+    "parser:test" : {
+        "list": {
+            "url": "http://utp.sberbank-ast.ru/Bankruptcy/List/BidList",
+            "item": {
+                "row-sel": "#tbl tr[content='node:row']"
+            }
+        }
+    },
+    "dictionary": {
+        "Сведения об организаторе торгов": "manager:block:begin",
+        "Наименование/ФИО": "+:name",
+        "ИНН": "+:inn",
+        "Место жительства": "+:address",
+        "Контактный телефон": "+:phone"
+    }
+},{
+    "id": 2,
+    "name" : "Сбербанк-АСТ",
+    "info": "Закрытое акционерное общество «Сбербанк - Автоматизированная система торгов» (ЗАО «Сбербанк - АСТ»)",
+    "url:site": "http://utp.sberbank-ast.ru/",
+    "url:list": "http://utp.sberbank-ast.ru/Bankruptcy/List/BidList"
+
 },{
     "id": 12,
     "name" : "uTender",

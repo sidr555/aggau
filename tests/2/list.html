@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js ie6 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js ie7 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js ie8 lt-ie9"> <![endif]-->
+<!--[if IE 9 ]>    
+<html class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html>
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Сбербанк-АСТ</title>
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="Электронная площадка ЗАО Сбербанк - АСТ  " />
+    <meta name="keywords" content="Электронная площадка, Сбербанк - АСТ  " />
+    <meta name="copyright" content="ЗАО «Сбербанк - АСТ»" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/new_main.css" rel="stylesheet" type="text/css" />
+	
+	<!-- Begin BKN styles -->
+	<link rel="stylesheet" type="text/css" href="/css/bkn/bkn.css">
+	<link rel="stylesheet" type="text/css" href="/css/bkn/bkn-ui.css">
+	<link rel="stylesheet" type="text/css" href="/css/bkn/pk-styles.css">
+	<!-- End BKN styles -->
+
+    <link rel="stylesheet" type="text/css" href="/Scripts/event-calendar/jquery.event-calendar.css"/>    
+    <link href="/css/ui/jquery-ui-1.8.16.custom.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/Content/GalleryView/jquery.galleryview-3.0-dev.css" />
+    <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="/js/jquery.flot.js" type="text/javascript"></script>
+    <script src="/js/jquery-ui-1.8.24.custom.min.js" type="text/javascript"></script>
+    <script src="/js/jquery-ui-timepicker-addon.js" type="text/javascript"></script>
+    <script src="/js/jquery.ui.datepicker-ru.js" type="text/javascript"></script>
+    <script src="/js/prefixfree.min.js" type="text/javascript"></script>
+    
+    <script src="/js/script.js" type="text/javascript"></script>
+	
+    <script src="/js/jquery.ITScs.js" type="text/javascript"></script>
+	
+	<!-- Begin formstyler -->
+	<script src="/js/formstyler/jquery.formstyler.min.js" type="text/javascript"></script>
+	<!-- End formstyler -->
+	
+	<script type="text/javascript" src="/js/equal-heights.js"></script>
+    <script type="text/javascript" src="/js/form-elements.js" ></script>
+
+    <!--[if lte IE 6]>
+        <link rel="stylesheet" href="/css/ie6.css" type="text/css" media="screen" />
+        <script src="/js/DD_belatedPNG_0.0.8a-min.js" type="text/javascript"></script>
+        <script src="/js/iereplacePNG.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            DD_belatedPNG.fix('#header img,.nav_main_hold,.nav_main,#slider .nav_btn, .search h1, .promo_wrap');
+        </script>
+    <![endif]-->
+    <!--[if IE 7]>
+        <link rel="stylesheet" href="/css/ie7.css" type="text/css" media="screen" />
+    <![endif]-->
+    <!--[if lt IE 9]>
+        <script type="text/javascript" src="/js/html5.js"></script>
+    <![endif]-->
+    <!--[if lte IE 8]><script type="text/javascript" src="/js/excanvas.min.js"></script><![endif]-->
+    <script type="text/javascript" src="/Scripts/aspxml20.js"></script>
+    <script type="text/javascript" src="/Scripts/dsigconst.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.simplemodal.1.4.1.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.md5.js"></script>
+    <script type="text/javascript" src="/Scripts/utils.js"></script>
+    <script type="text/javascript" src="/Scripts/formatting.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.timers-1.2.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.galleryview-3.0-dev.js"></script>
+    <script type="text/javascript" src="/Scripts/tinymce_4.0.2/tinymce.min.js"></script>
+    <script type="text/javascript" src="/Scripts/event-calendar/jquery.event-calendar.js"></script>
+    <style type="text/css" media="screen">
+        .cursored {
+            cursor: pointer;
+        }
+    </style>
+    <style type="text/css">
+        object.hiddenObject
+        {
+            visibility: hidden;
+            width: 0px;
+            height: 0px;
+            margin: 0px;
+            padding: 0px;
+            border-style: none;
+            border-width: 0px;
+            max-width: 0px;
+            max-height: 0px;
+        }
+    </style>
+</head>
+<body>
+	<script type="text/javascript">
+		var ie = false;
+//@cc_on ie = true;
+		if (ie && document.all && !document.querySelector) {
+			ie = false;
+		}
+		// detect IE11 as IE
+		var ie11 = !!navigator.userAgent.match(/Trident\/7.0.*rv:11.0/);
+		if (ie11) {
+			ie = true;
+		}
+	
+		// detect Google Chrome
+		var chrome =  !!navigator.userAgent.match(/Chrome/);
+		if (chrome) {
+			ie = true;
+		}
+		
+		if(!ie)
+		{
+				document.write('<style type="text/css">'+
+                            '  #static_header_holder { top:18px;}'+
+                            '  div#wrapper { padding-top:50px;}'+
+                            '  #static_warning_holder {position:fixed; top:0; left:0; width:100%; height:18px; z-index:1000; text-align:center;}'+
+                            '  #static_warning {width:1200px; height:100%; display: inline-block; background:#C82B32; color:#fff; margin:0 padding:0; line-height:17px; text-align:left; text-indent:20px; font-weight:bold;}'+
+                            '  #static_warning a {color: #fff; font-size:90%; font-style: italic; margin-left:20px; }'+
+                            '</style>'+
+							'<div id="static_warning_holder">'+
+							'  <div id="static_warning" title= "'+
+											'При работе с УТП, для просмотра страниц и подачи документов без использования ЭП, '+
+											'могут быть использованы все стандартные браузеры: Internet Explorer, Opera, Chrome, '+
+											'Firefox, Safari и прочие. В случае возникновения ошибок или некорректного отображения '+
+											'страниц необходимо перейти в рекомендуемые браузеры: Chrome или IE, версии не ниже 8 (см. требования '+
+											'к рабочему месту в регламенте работы УТП).'+
+										'">'+
+							'     ВНИМАНИЕ! Для корректной работы сайта рекомендуем использовать браузеры Google Chrome или Internet Explorer версии 8+.'+
+							'     <a href="/Main/NBT/Instructions/0/0/0/0">подробнее...</a>'+
+							'  </div>'
+							+'</div>');
+		}
+	</script>
+    <script type="text/javascript">
+    function changePageCtrl(page, ctrl) {
+        var url = document.location.href;
+        if (url.indexOf("?") > -1)
+            url = url.substring(0, url.indexOf("?"));
+        url = url + "?" + ctrl + "=" + page;
+        document.location = url;
+    }
+
+	function href(object, pType, buFace, docId, objid, parentObjId) {
+        if (objid == undefined || objid == null) objid = "0";
+        if (docId == undefined || docId == null) docId = "0";
+        if (pType == undefined || pType == null) pType = "0";
+        if (buFace == undefined || buFace == null) buFace = "0"
+
+        if (parentObjId != null) {
+            return "/Bankruptcy/NBT/" + object + "/" + pType + "/" + buFace + "/" + docId + "/" + objid + "/" + parentObjId;
+        }
+        else {
+            return "/Bankruptcy/NBT/" + object + "/" + pType + "/" + buFace + "/" + docId + "/" + objid;
+        }
+    }
+
+   function hrefExcel(object, pType, buFace, docId, objid, parentObjId) {
+        if (objid == undefined || objid == null) objid = "0";
+        if (docId == undefined || docId == null) docId = "0";
+        if (pType == undefined || pType == null) pType = "0";
+        if (buFace == undefined || buFace == null) buFace = "0"
+
+        if (parentObjId != null) {
+            return "/Bankruptcy/Excel/" + object + "/" + pType + "/" + buFace + "/" + docId + "/" + objid + "/" + parentObjId;
+        }
+        else {
+            return "/Bankruptcy/Excel/" + object + "/" + pType + "/" + buFace + "/" + docId + "/" + objid;
+        }
+    }
+
+        function hrefList(object, id) {
+            if (id == undefined) id = '';
+            return "/Bankruptcy/List/" + object + "/" + id;
+        }
+
+        function getInternalLinkParameters(link) {
+            var outputParams = []; // заполним значениями по умолчанию
+
+            // если первым в параметрах идет / отрезаем его, таким образом все будет работать и в случае, если его нет
+            var internalGetParams = link.attr('internalGetParams');
+            if (internalGetParams != undefined) {
+
+                internalGetParams = $.trim(internalGetParams);
+                if (internalGetParams.charAt(0) == '/') {
+                    internalGetParams = internalGetParams.substr(1);
+                }
+                // разбираем параметры по одному
+                var paramNamesOrValues = internalGetParams.split('/');
+                if (paramNamesOrValues != undefined && paramNamesOrValues != null && paramNamesOrValues != '') {
+
+                    // корневого узла со значениями параметров в HTML
+                    var node = link.parents('[content^="node"]:first');
+                    for (var i = 0; i < 4; i++) {
+                        if (isNaN(paramNamesOrValues[i])) // грузим, только если не число
+                        {
+                            // поиск значения параметра в HTML
+                            var textToFind = '[content="leaf:' + paramNamesOrValues[i] + '"]';
+                            var value = undefined;
+
+                            if (node.find(textToFind).is('span') || node.find(textToFind).is('textarea')) {
+                                value = node.find(textToFind).text();
+                            }
+                            else {
+                                value = node.find(textToFind).val();
+                            }
+
+                            if (value != undefined && value != '' && value != null) {
+                                // значение найдено в HTML
+                                outputParams[i] = {
+                                    isVariable: true,
+                                    isMissing: false,
+                                    value: value
+                                };
+                            }
+                            else {
+                                // значение не найдено
+                                outputParams[i] = {
+                                    isVariable: true,
+                                    isMissing: true,
+                                    value: 0
+                                };
+                            }
+                        }
+                        else {
+                            // числовое значение находится внутри параметров
+                            outputParams[i] = {
+                                isVariable: false,
+                                isMissing: false,
+                                value: paramNamesOrValues[i]
+                            };
+                        }
+                    }
+                }
+            }
+            else {
+                //проверяем, заполнены ли пути на форме к параметрам (второй способ задания параметров)
+                var purchaseTypeParamPath = link.attr('purchasetypeparampath');
+                var buTypeParamPath = link.attr('butypeparampath');
+                var idParamPath = link.attr('idparampath');
+                //если какого-то параметра нет, ничего не делаем
+                if (purchaseTypeParamPath == null || purchaseTypeParamPath == '' || buTypeParamPath == null || buTypeParamPath == '' || idParamPath == null || idParamPath == '')
+                    return outputParams;
+                var purchaseTypeParam = $.trim(purchaseTypeParamPath);
+                var buTypeParam = $.trim(buTypeParamPath);
+                var idParam = $.trim(idParamPath);
+                if (isNaN(purchaseTypeParam)) {
+                    var value = findValueByPath2(purchaseTypeParam, link);
+                    fillOutputParam(value, 0, outputParams);
+                }
+                else {
+                    // числовое значение находится внутри параметров
+                    outputParams[0] = {
+                        isVariable: false,
+                        isMissing: false,
+                        value: purchaseTypeParam
+                    };
+                }
+
+                if (isNaN(buTypeParam)) {
+                    var value = findValueByPath2(buTypeParam, link);
+                    fillOutputParam(value, 1, outputParams);
+                }
+                else {
+                    // числовое значение находится внутри параметров
+                    outputParams[1] = {
+                        isVariable: false,
+                        isMissing: false,
+                        value: buTypeParam
+                    };
+                }
+
+                outputParams[2] = {
+                    isVariable: false,
+                    isMissing: false,
+                    value: 0
+                };
+
+                if (isNaN(idParam)) {
+                    var value = findValueByPath2(idParam, link);
+                    fillOutputParam(value, 3, outputParams);
+                }
+                else {
+                    // числовое значение находится внутри параметров
+                    outputParams[3] = {
+                        isVariable: false,
+                        isMissing: false,
+                        value: idParam
+                    };
+                }
+
+            }
+
+            return outputParams;
+        }
+
+        function fillOutputParam(value, index, outputParams) {
+            if (value != undefined && value != '' && value != null) {
+                // значение найдено в HTML
+                outputParams[index] = {
+                    isVariable: true,
+                    isMissing: false,
+                    value: value
+                };
+            }
+            else {
+                // значение не найдено
+                outputParams[index] = {
+                    isVariable: true,
+                    isMissing: true,
+                    value: 0
+                };
+            }
+        }
+
+        function findValueByPath(path, link) {
+            //зрим в корень
+            var node = link.parents('[content^="node"]:last');
+            var parts = path.split('/');
+            for (var i = 0; i < parts.length; i++) {
+                if (i == (parts.length - 1)) {
+                    //вылавливаем конечный узел
+                    var textToFind = '[content="leaf:' + parts[i] + '"]';
+                    var value = undefined;
+                    if (node.find(textToFind).is('span') || node.find(textToFind).is('textarea')) {
+                        value = node.find(textToFind).text();
+                    }
+                    else {
+                        value = node.find(textToFind).val();
+                    }
+                    return value;
+                }
+                else {
+                    var textToFind = '[content="node:' + parts[i] + '"]:first';
+                    node = node.find(textToFind);
+                }
+            }
+        }
+
+        function findValueByPath2(path, link) {
+            var value = undefined;
+            //используем регулярные выражения
+            //начинается с одной / или одной ./ или одной или более ../ или одной //, за которыми следует набор латинских букв или цифр, независимо от их регистра
+            var regEx = /^((\/)|(\.\/)|(\.\.\/)*|(\/\/))([\w]+)/i
+            var findResult = null;
+            if ((findResult = regEx.exec(path)) != null) {
+                //Отрезаем от пути найденный в начале фрагмент
+                path = path.substr(findResult[0].length);
+                //достаём код элемента - он хранится под индексом 6
+                var code = findResult[6];
+                var filterValue = path.length > 0 ? '[content="node:' + code + '"]:first' : '[content="leaf:' + code + '"]:first';
+                //достаём операцию поиска пути - она хранится под индексом 1
+                var operation = findResult[1];
+                //выполняем требуемую операцию поиска пути
+                if (findResult[2] != undefined) {
+                    //Операция / Достаём корень дерева
+                    link = link.parents('[content^="node"]:last').find(filterValue);
+                }
+                else if (findResult[3] != undefined) {
+                    //Операция ./ Достаём ближайшего node-папашу
+                    link = link.parents('[content^="node"]:first').find(filterValue);
+                }
+                else if (findResult[4] != undefined) {
+                    //Операция ../ Переходим на node-уровень вверх
+                    link = $(link.parents('[content^="node"]')[1]);
+                    operation = operation.substr(findResult[4].length);
+                    while (operation.length > 0) {
+                        //продолжаем подниматься по node-уровням вверх
+                        link = link.parents('[content^="node"]:first');
+                        operation = operation.substr(findResult[4].length);
+                    }
+                    link = link.find(filterValue);
+                }
+                else {
+                    //Операция // Ищем от корня первое попавшееся совпадение где угодно внизу
+                    link = link.parents('[content^="node"]:last').find(filterValue);
+                }
+
+                //Обрабатываем вложенные пути, для них меняем регулярное выражение:
+                //начинается с одной / или одной //, за которыми следует набор латинских букв или цифр, независимо от их регистра
+                regEx = /^((\/)|(\/\/))([\w]+)/i
+                while ((findResult = regEx.exec(path)) != null) {
+                    path = path.substr(findResult[0].length);
+                    code = findResult[4];
+                    filterValue = path.length > 0 ? '[content="node:' + code + '"]:first' : '[content="leaf:' + code + '"]:first';
+                    //При такой прорисовке нет разницы между / и //
+                    if (findResult[2] != undefined) {
+                        //Операция /
+                        link = link.find(filterValue);
+                    }
+                    else {
+                        //Операция //
+                        link = link.find(filterValue);
+                    }
+                }
+                //Больше искать нечего - достаём значение 
+                if (link.is('span') || link.is('textarea')) {
+                    value = link.text();
+                }
+                else {
+                    value = link.val();
+                }
+            }
+            return value;
+        }    
+
+        function trimParamString(param) {
+            var param = $.trim(param);
+            if (param.charAt(0) == '.') {
+                param = param.substr(1);
+            }
+            if (param.charAt(0) == '/') {
+                param = param.substr(1);
+            }
+            return param;
+        }
+
+        //    $('.formElement-internalLink').live('click', function () {
+
+        //        var object = $(this).attr('actionCode');
+        //        var outputParams = [0, 0, 0, 0]; // заполним значениями по умолчанию
+
+        //        // получаем значения параметров
+        //        $.each(getInternalLinkParameters($(this)), function (index, item) {
+        //            outputParams[index] = item.value;
+        //        });
+
+        //        // формируем URL для перехода
+        //        var res_href = href(object, outputParams[0], outputParams[1], outputParams[2], outputParams[3]);
+
+        //        // выполняем самопальный переход по сформированному URL-у
+        //        // поддерживается только два вида таргетинга обычный (в то же окно) и в новое окно/вкладку 
+        //        dynamicAnchorRedirection(res_href, this.target);
+
+        //        // отключаем переход, следующий из логики работы ссылки (после тычка по ней)
+        //        // этот переход не сможет учесть найденные параметры URL
+        //        // и затрет href в this
+        //        return false;
+        //    }); 
+
+        // переход по создаваемому динамически анкору, удобен чтобы не изменять апарметры основного анкора
+        function dynamicAnchorRedirection(href, target) {
+            var a = document.createElement('a');
+            a.id = 'temporaryAnchor';
+            a.href = href;
+            a.target = target;
+            document.body.appendChild(a);
+
+            a.click();
+
+            document.body.removeChild(a);
+            a = null;
+        }
+
+        // "включение" maxlength для IE9 и ранее
+    $(document).ready(function () {
+
+        $('textarea[maxlength]').keyup(function () {
+            CheckIfTexAreaLengthCorrect(this);
+        }).change(function () {
+            CheckIfTexAreaLengthCorrect(this);
+        });
+
+    });
+    
+    function CheckIfTexAreaLengthCorrect(obj) {
+        var limit = parseInt($(obj).attr('maxlength'));
+        var text = $(obj).val();
+        var charCount = text.length;
+
+        if (charCount > limit) {
+            var corrected = text.substr(0, limit);
+            $(obj).val(corrected);
+        }
+    }
+    
+    </script>
+    <div id="static_header_holder">
+        <div id="static_header">
+                    <div id="datetime" class="time">
+					                        <span id="srvDateTime" style="display:none;">Время на сервере: 
+                        <label id="srvDate"></label>
+                        <label id="srvTime"></label>
+                        <label id="srvTimeError"></label>
+                    </span>
+                    <span id="pageCreateDate">Дата и время создания страницы: 08.02.2016 05:56:35</span>
+                    <script src="/js/clock.js" type="text/javascript"></script>
+                    <script type="text/javascript" language="javascript">
+                        $(document).ready(function () {
+                            StartUpdateTime("");
+                            $('#pageCreateDate').hide();
+                            $('#srvDateTime').show();
+                        });
+                    </script>
+
+                    </div>
+				    <div class="nav_site">
+					    <a href="#" class="trgr" data-nav-container='#sites_wrap' data-pos='50'><span>Торговые секции</span></a>
+				        <!-- SectionsList  -->
+
+
+    <div>
+        <h2>
+            
+        </h2>
+        <div >
+            <div>
+  <table>
+    <tr>
+      <td>
+        <div><div class="sites_wrap falling_nav" id="sites_wrap" style="display: none;"> <div class="sites_list"> <ul class="sites_holder"> <li> <h2><a href="/SB/">Закупки ПАО Сбербанк</a></h2> </li> <li> <h2><a href="/Bankruptcy/">Продажа имущества (предприятия) банкротов</a></h2> </li> <li> <h2><a href="/Trade/">Закупки по 223-ФЗ</a></h2> </li> <li> <h2><a href="/AP/">Приватизация, аренда и продажа прав</a></h2> </li> <li> <h2><a href="/Com/">Закупки и продажи</a></h2> </li> <li> <h2><a href="/AFK/">ОАО АФК «Система»</a></h2> </li> <li> <h2><a href="/RussianPost/">Закупки ФГУП "Почта России"</a></h2> </li> <li> <h2><a href="/BRD/">Витрина прямых поставок</a></h2> </li> <li> <h2><a href="/Rostelecom/">Закупки ПАО "Ростелеком"</a></h2> </li> <li> <h2><a href="/BKN/">База коммерческой недвижимости</a></h2> </li> <li> <h2><a href="/CBRF/">Закупки ЦБ РФ</a></h2> </li> <li> <h2><a href="/GosCorp/">Реализация залогов и непрофильных активов</a></h2> </li> <li> <h2><a href="http://utp.sberbank-ast.ru/VIP/Notice/766/Titan/">Закупки и продажи ассоциации Титан</a></h2> </li> <li> <h2><a href="/IDK/">Продажа зерна IDK.RU</a></h2> </li> <li> <h2><a href="/Com/List/BidList/173">Закупки АНО «ЕТД»</a></h2> </li> <li> <h2><a href="/AgroMarket/">Рыбный рынок</a></h2> </li> <li> <h2><a href="/VIP/">Закупки для VIP-Заказчиков</a></h2> </li> <li> <h2><a href="/Rezerv/">Реализация продукции с резервного хранения</a></h2> </li> </ul> </div> </div></div>
+      </td>
+    </tr>
+  </table>
+</div>
+  
+        </div>
+
+	</div>
+
+				        <!-- SectionsList -->
+				    </div>    
+                    <div class='enter_prnt'>
+                        
+
+    <div class="enter">
+		<span>
+			 <a href="/Bankruptcy/Util/Logon/aHR0cDovL3V0cC5zYmVyYmFuay1hc3QucnUvQmFua3J1cHRjeS9MaXN0L0JpZExpc3Q%3d">Войти</a>
+		</span>
+	</div>
+	<div class="login">
+		<a href="/Main/NBT/PasswordRecovery/0/0/0/0">Забыли пароль?</a>
+	</div>
+
+                    </div>
+                    <span style="display:none;" id="currentTsId">13</span>
+				    <span id="currentTime" style="display: none;">
+						    Monday, February 08, 2016 5:56:35 AM</span>
+        </div>
+    </div>
+
+    <div id="wrapper">
+        <header id="header" class='holder'>
+			<div class="group">
+                <a href="/" class='logo'>
+					<img src="/img/logo.png" alt="Сбербанк-АСТ" />
+                </a>
+				<p class="tel">
+					<a href="/Bankruptcy/">Продажа имущества (предприятия) банкротов</a>
+				</p>
+				<!-- main navigation -->
+
+
+<nav class='nav_main_hold'> 
+    <ul class="nav">
+
+            <li>
+                <a href="#" style="cursor: default">Информация</a>
+                <ul>
+        <li><a href="/Bankruptcy/Notice/1086/Instructions">Регламент ТС</a></li> 
+        <li><a href="/Bankruptcy/Notice/349/Notice">Полезная информация</a></li> 
+        <li><a href="/Bankruptcy/NBT/News/0/0">Новости и объявления</a></li> 
+        <li><a href="/Bankruptcy/Notice/355/FAQ">Вопросы и ответы</a></li> 
+        <li><a href="/Bankruptcy/Notice/345/Tariff">Тарифы</a></li> 
+        <li><a href="/Bankruptcy/Notice/698/Requisites">Банковские реквизиты</a></li> 
+        <li><a href="/Bankruptcy/Notice/339/Contacts">Контакты</a></li> 
+        <li><a href="/Bankruptcy/Notice/347/Partners">Партнеры</a></li> 
+        <li><a href="/Bankruptcy/NBT/Law/0/0">Законодательство</a></li> 
+        <li><a href="/Bankruptcy/Notice/343/FAS">Решения ФАС</a></li> 
+        <li><a href="/Bankruptcy/Util/TestDs">Получение и проверка ЭП</a></li> 
+        <li><a href="/Bankruptcy/Notice/341/Arc">Архив приостановленных торгов</a></li> 
+        <li><a href="/Bankruptcy/Notice/396/Adv_trades_promotion">Реклама ваших торгов</a></li> 
+        <li><a href="/Bankruptcy/Notice/627/assessment">Экспресс-оценка имущества</a></li> 
+
+                </ul>
+            </li>
+            <li>
+                <a href="#" style="cursor: default">Торги</a>
+                <ul>
+        <li><a href="/Bankruptcy/List/BidList">Реестр торгов</a></li> 
+
+                </ul>
+            </li>
+            <li>
+                <a href="#" style="cursor: default">Семинары</a>
+                <ul>
+        <li><a href="/Bankruptcy/Notice/351/SeminarTimetable">График семинаров</a></li> 
+        <li><a href="/Bankruptcy/Notice/356/SeminarPartners">Партнеры по обучению</a></li> 
+        <li><a href="/Bankruptcy/NBT/Univer/0/0">Электронный университет</a></li> 
+
+                </ul>
+            </li>
+            <li>
+                <a href="#" style="cursor: default">Форум</a>
+                <ul>
+        <li><a href="/Bankruptcy/NBT/Forum/0/0">Форум</a></li> 
+
+                </ul>
+            </li>
+            <li class="right">
+                <a href="/Main/List/UnitedPurchaseList" style="cursor: default">
+                    Все закупки и продажи
+                </a>
+            </li>
+    </ul>
+ </nav>
+
+
+				<!-- /main navigation -->
+
+			</div>
+        </header>
+        <div id="content" class="holder">
+            <div class="main_content">
+				<div class="eventCalendarContainer"></div>
+
+                    
+                    <div style="">
+    
+	
+
+
+	
+
+
+</div>
+<div id="errorPanel" style="display: none;">
+    <span id='errorMsg' class="warning"></span>
+    <br />
+    <input type="button" id="ErrBack" onclick="ErrBackCmd" value="Вернуться к поиску" />
+</div>
+<form action="" id="filterForm" method="post" onkeypress="if (event.keyCode == 13) searсh();">    
+    <div id="filterPanel" defaultbutton="btnSearch" style="display:inline">
+        <input type="hidden" id="xmlFilter" name="xmlFilter" value="" />
+        <div id="FilterContainer" style="margin: 0">
+            
+
+<h2>Реестр торгов</h2>
+
+<div id="panSearch_test" content="node:query">
+<!-- AKondratiev: Реконструкция фильтра. -->
+<div class="its-filter">
+	<div class="tabs">
+		<div class="tabs-menu">
+			<span class="tab active">Краткий фильтр</span>
+			<span class="tab">Полный фильтр</span>
+			<!--span class="tab">Расширенный фильтр</span-->
+		</div><!--/.tabs-menu-->
+		<div class="tab-content">
+			<div class="tab-elem active">
+				<table class="reestr-fltr" cellpadding="0" cellspacing="0">
+					<tr>
+						<td class="Reestr_fltr_lable">Код торгов:</td>
+						<td class="Reestr_fltr_data">
+							<span class="inp-box">
+								<span class="inp-text"><input id="tbxPurchaseCode" type="text" value="" content="leaf:purchcode"/></span>
+							</span><!--/.inp-box-->
+						</td>
+					</tr>
+					<tr>
+						<td class="Reestr_fltr_lable">Наименование торгов (лота):</td>
+						<td class="Reestr_fltr_data">
+							<span class="inp-box">
+								<span class="inp-text"><input id="tbSearch" type="text" value="" content="leaf:purchname"/></span>
+							</span><!--/.inp-box-->
+						</td>
+					</tr>
+				</table>
+			</div><!--/.tab-elem-->
+			<div class="tab-elem">
+				<table class="reestr-fltr">
+					<tr>
+						<td class="Reestr_fltr_lable">Форма проведения торгов:</td>
+						<td class="Reestr_fltr_data">
+							<b>
+								<span content="leaf:typeId" style="display: none"></span>
+								<span content="leaf:typeName"></span>
+							</b>
+							<a href="#" class="link-button orange" onclick="OpenDictExt('/Bankruptcy/List/DictionaryPurchaseType', this, Array('typeId', 'typeName'))">Выбрать...</a> 
+							<a href="#" class="link-button gray" onclick="clearValues(this, Array('typeId', 'typeName'))">Очистить</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="Reestr_fltr_lable">Состояние торгов по лоту:</td>
+						<td class="Reestr_fltr_data hasSelect">
+							<select content="leaf:BidStatusId">
+								<option value=""></option>
+								<option value="0">Новая</option>
+								<option value="1">Опубликована</option>
+								<option value="2">Прием заявок</option>
+								<option value="3">Рассмотрение заявок</option>
+								<option value="4">Идут торги</option>
+								<option value="6">Торги завершены</option>
+								<option value="7">Подведение итогов</option>
+								<option value="8">Завершен(-а)</option>
+								<option value="50">Период завершен</option>
+								<option value="9">Не состоялся(-ась)</option>
+								<option value="10">Приостановлен(-а)</option>
+								<option value="11">Прием заявок приостановлен</option>
+								<option value="15">Отменен(-а)</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td class="Reestr_fltr_lable">Изображения объекта торгов:</td>
+						<td class="Reestr_fltr_data">
+							<span class="inp-checkbox">
+								<input type="checkbox" name="hasPicture" content="leaf:hasPicture">
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td class="Reestr_fltr_lable">Повторные торги:</td>
+						<td class="Reestr_fltr_data">
+							<span class="inp-checkbox">
+								<input type="checkbox" name="RePurchase" content="leaf:RePurchase">
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td class="Reestr_fltr_lable">Имущество является предметом залога:</td>
+						<td class="Reestr_fltr_data">
+							<span class="inp-checkbox">
+								<input type="checkbox" name="IsPledge" content="leaf:IsPledge">
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td class="Reestr_fltr_lable">Начальная цена:</td>
+						<td class="Reestr_fltr_data">
+							<div class="range_wrap">
+								<div class="range_slider" id="range"></div>
+							</div>
+							<div class="clear range_inputs">
+								<span>от</span>
+								<span class="inp-box">
+									<span class="inp-text">
+										<input type="text" content="leaf:AmountStart" class="text range_i" id="range_min_i">
+									</span>
+								</span>
+								<span>до</span>
+								<span class="inp-box">
+									<span class="inp-text">
+										<input type="text" content="leaf:AmountEnd" class="text range_i" id="range_max_i">
+									</span>
+								</span>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td class="Reestr_fltr_lable">Текущая цена, руб:</td>
+						<td class="Reestr_fltr_data">
+								<span>от</span>
+								<span class="inp-box">
+									<span class="inp-text"><input type="text" content="leaf:CurrentAmountStart" class='text range_i' id='range_min_i' /></span>
+								</span>
+								<span>до</span>
+								<span class="inp-box">
+									<span class="inp-text"><input type="text" content="leaf:CurrentAmountEnd" class='text range_i' id='range_max_i' /></span>
+								<span>
+						</td>
+					</tr>
+					<tr>
+						<td class="Reestr_fltr_lable">Организатор:</td>
+						<td class="Reestr_fltr_data">
+							<b>
+								<span content="leaf:OrgId" style="display: none"></span>
+								<span content="leaf:OrgName"></span>
+							</b>
+							<a class="link-button orange" style="cursor: pointer;" onclick="OpenDictExt(&quot;/Bankruptcy/List/DictionaryCustomer/0&quot;, this, Array(&quot;OrgId&quot;, &quot;OrgName&quot;))">Выбрать...</a> 
+							<a class="link-button gray" style="cursor: pointer;" onclick="clearValues(this, Array(&quot;OrgId&quot;, &quot;OrgName&quot;))">Очистить</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="Reestr_fltr_lable">ИНН должника:</td>
+						<td class="Reestr_fltr_data">
+							<span class="inp-box">
+								<span class="inp-text">
+									<input type="text" maxlength="12" content="leaf:DebtorINN" id="tbDebtorINN">
+								</span>
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td class="Reestr_fltr_lable">Наименование должника:</td>
+						<td class="Reestr_fltr_data">
+							<span class="inp-box">
+								<span class="inp-text">
+									<input type="text" content="leaf:DebtorName" id="tbDebtorName">
+								</span>
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td class="Reestr_fltr_lable">Дата начала подачи заявок (предложений):</td>
+						<td class="Reestr_fltr_data">
+							<span>от</span>
+							<span class="inp-box">
+								<span class="inp-text">
+									<input type="text" content="leaf:RequestStartDateStart" id="RequestStartDateStart" class="dateRUS datepicker" name="RequestStartDateStart" maxlength="10" title="">
+								</span>
+							</span>
+							<span>до</span>
+							<span class="inp-box">
+								<span class="inp-text">
+									<input type="text" content="leaf:RequestStartDateEnd" id="RequestStartDateEnd" class="dateRUS datepicker" name="RequestStartDateEnd" maxlength="10" style="" title="">
+								</span>
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td class="Reestr_fltr_lable">Дата окончания подачи заявок (предложений):</td>
+						<td class="Reestr_fltr_data">
+							<span>от</span>
+							<span class="inp-box">
+								<span class="inp-text">
+									<input type="text" content="leaf:requestDateStart" id="requestDateStart" class="dateRUS datepicker" name="requestDateStart" maxlength="10" title="">
+								</span>
+							</span>
+							<span>до</span>
+							<span class="inp-box">
+								<span class="inp-text">
+									<input type="text" content="leaf:requestDateEnd" id="requestDateEnd" class="dateRUS datepicker " name="requestDateEnd" maxlength="10" title="">
+								</span>
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td class="Reestr_fltr_lable">Дата начала торгов:</td>
+						<td class="Reestr_fltr_data">
+							<span>от</span>
+							<span class="inp-box">
+								<span class="inp-text">
+									<input type="text" content="leaf:auctionStartDateStart" id="auctionStartDateStart" class="dateRUS datepicker" name="auctionStartDateStart" maxlength="10" title="">
+								</span>
+							</span>
+							<span>до</span>
+							<span class="inp-box">
+								<span class="inp-text">
+									<input type="text" content="leaf:auctionStartDateEnd" id="auctionStartDateEnd" class="dateRUS datepicker" name="auctionStartDateEnd" maxlength="10" style="" title="">
+								</span>
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td class="Reestr_fltr_lable">Сведения об имуществе (предприятии) должника, выставляемом на торги, его составе, характеристиках, описание:</td>
+						<td class="Reestr_fltr_data">
+							<span class="inp-box">
+								<span class="inp-text">
+									<input type="text" content="leaf:purchdescription" id="tbSearchDescription">
+								</span>
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td class="Reestr_fltr_lable">
+							Регион выставляемого на торги имущества:
+						</td>
+						<td class="Reestr_fltr_data">
+							<b>
+								<span content="leaf:RegionId" style="display: none"></span>
+								<span content="leaf:RegionName"></span>
+							</b>
+							<a class="link-button orange" style="cursor: pointer;" onclick="OpenDictExt(&quot;/Bankruptcy/Dictionary/Region/0&quot;, this, Array(&quot;RegionId&quot;, &quot;RegionName&quot;))">Выбрать...</a>
+							<a class="link-button gray" style="cursor: pointer;" onclick="clearValues(this, Array(&quot;RegionId&quot;, &quot;RegionName&quot;))">Очистить</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="Reestr_fltr_lable">
+							Категория выставляемого на торги имущества:
+						</td>
+						<td class="Reestr_fltr_data">
+							<b>
+								<span content="leaf:PurchaseGroupId" style="display: none"></span>
+								<span content="leaf:PurchaseGroupName"></span>
+							</b>
+							<a class="link-button orange" style="cursor: pointer;" onclick="OpenDictExt(&quot;/Bankruptcy/Dictionary/Category/0&quot;, this, Array(&quot;PurchaseGroupId&quot;, &quot;PurchaseGroupName&quot;))">Выбрать...</a>
+							<a class="link-button gray" style="cursor: pointer;" onclick="clearValues(this, Array(&quot;PurchaseGroupId&quot;, &quot;PurchaseGroupName&quot;))">Очистить</a>
+						</td>
+					</tr>
+				</table>
+			</div><!--/.tab-elem-->
+			<div class="tab-elem">
+				<!-- Дополнительный контент супер полного фильтра -->
+			</div><!--/.tab-elem-->
+		</div><!--/.tab-content-->
+	</div><!--/.tabs-->
+</div><!--/.its-filter-->
+    </div>
+
+        </div>
+        <script type="text/javascript">
+            function genXml() {
+                if (!$('#filterForm').valid())
+                    return false;
+                genXML(document.getElementById('FilterContainer'), document.getElementById("xmlFilter"));
+            }
+
+            function clearInput() {
+                $("#FilterContainer").find(":input:not(.noncleaned)").val("");
+                $("#FilterContainer").find("span:not(.noncleaned)").html("");
+                document.getElementById("hdnPageNum").value = "1";
+                genXml();
+                document.forms["filterForm"].submit();
+            }
+
+            function searсh() {
+                if (!$('#filterForm').valid())
+                    return false;
+                document.getElementById("hdnPageNum").value = "1";
+                genXml();
+                document.forms["filterForm"].submit();
+            }
+        </script>
+        <input type="hidden" id="hdnPageNum" name="hdnPageNum" value="" />
+        <div class="center">
+			<span class="inp-button orange"><input type="button" class="btnElastic" id="btnSearch" onclick="searсh();" value="Поиск" /></span>
+			<span class="inp-button gray"><input type="button" class="btnElastic" id="btnClear" onclick="clearInput()" value="Сброс" /></span>
+			<div id="Empty" style="text-align:left;"></div>
+		</div>
+		
+        <script type="text/javascript">
+            LoadXML(document.getElementById("xmlFilter"), document.getElementById("FilterContainer"));
+        </script>
+    </div>
+    
+</form><div id="dataPanel">
+    <input type="hidden" id="xmlData" value="&lt;List&gt;&lt;data&gt;&lt;row&gt;&lt;Id&gt;341691&lt;/Id&gt;&lt;BidId&gt;341691&lt;/BidId&gt;&lt;PurchaseId&gt;149008&lt;/PurchaseId&gt;&lt;PurchaseCode&gt;SBR013-1602070002&lt;/PurchaseCode&gt;&lt;PurchaseName&gt;Векселя в количестве 27-ми штук (общей номинальной стоимостью 243 095 000,00 руб., векселедатель: ООО &#171;Акита строй&#187;; срок платежа: по предъявлении, но не ранее 01.10.2015; место платежа - г.Москва).&lt;/PurchaseName&gt;&lt;BidName&gt;Векселя в количестве 27-ми штук (общей номинальной стоимостью 243 095 000,00 руб., векселедатель: ООО &#171;Акита строй&#187;; срок платежа: по предъявлении, но не ранее 01.10.2015; место платежа - г.Москва).&lt;/BidName&gt;&lt;BidNo&gt;1&lt;/BidNo&gt;&lt;hasPicture&gt;0&lt;/hasPicture&gt;&lt;Amount&gt;36540000.00&lt;/Amount&gt;&lt;Amount2&gt;36540000.00&lt;/Amount2&gt;&lt;CurrentAmount&gt;36540000.00&lt;/CurrentAmount&gt;&lt;PublicDate&gt;07.02.2016 17:27&lt;/PublicDate&gt;&lt;RequestStartDate&gt;11.02.2016 09:00&lt;/RequestStartDate&gt;&lt;RequestStopDate&gt;22.03.2016 18:00&lt;/RequestStopDate&gt;&lt;AuctionStartDate&gt;23.03.2016 12:00&lt;/AuctionStartDate&gt;&lt;PurchaseState&gt;Опубликован(-а)&lt;/PurchaseState&gt;&lt;CurrentStatusId&gt;1&lt;/CurrentStatusId&gt;&lt;TypeId&gt;4&lt;/TypeId&gt;&lt;OrgBuId&gt;42892&lt;/OrgBuId&gt;&lt;LastActionDt&gt;07.02.2016 17:28&lt;/LastActionDt&gt;&lt;OrgName&gt;Пискарев Николай Семенович&lt;/OrgName&gt;&lt;PurchaseTypeName&gt;Открытый аукцион / Открытая&lt;/PurchaseTypeName&gt;&lt;RequestCnt&gt;0&lt;/RequestCnt&gt;&lt;RequestCntState&gt;Нет&lt;/RequestCntState&gt;&lt;/row&gt;&lt;row&gt;&lt;Id&gt;341690&lt;/Id&gt;&lt;BidId&gt;341690&lt;/BidId&gt;&lt;PurchaseId&gt;149007&lt;/PurchaseId&gt;&lt;PurchaseCode&gt;SBR013-1602070001&lt;/PurchaseCode&gt;&lt;PurchaseName&gt;&#171;Права требования ООО &#171;ВертикальИнвестСтрой&#187; (г.Москва) на краткосрочные долговые обязательства иных лиц (дебиторская задолженность)&#187;&lt;/PurchaseName&gt;&lt;BidName&gt;Права требования ООО &#171;ВертикальИнвестСтрой&#187; (г.Москва) на краткосрочные долговые обязательства иных лиц (дебиторская задолженность).&lt;/BidName&gt;&lt;BidNo&gt;1&lt;/BidNo&gt;&lt;hasPicture&gt;0&lt;/hasPicture&gt;&lt;Amount&gt;10436187.92&lt;/Amount&gt;&lt;Amount2&gt;10436187.92&lt;/Amount2&gt;&lt;CurrentAmount&gt;10436187.92&lt;/CurrentAmount&gt;&lt;PublicDate&gt;07.02.2016 16:39&lt;/PublicDate&gt;&lt;RequestStartDate&gt;12.02.2016 00:00&lt;/RequestStartDate&gt;&lt;RequestStopDate&gt;29.02.2016 23:59&lt;/RequestStopDate&gt;&lt;PurchaseState&gt;Опубликован(-а)&lt;/PurchaseState&gt;&lt;CurrentStatusId&gt;1&lt;/CurrentStatusId&gt;&lt;TypeId&gt;53&lt;/TypeId&gt;&lt;OrgBuId&gt;42358&lt;/OrgBuId&gt;&lt;LastActionDt&gt;07.02.2016 16:40&lt;/LastActionDt&gt;&lt;OrgName&gt;Рунов Юрий Викторович&lt;/OrgName&gt;&lt;PurchaseTypeName&gt;Открытое публичное предложение / Открытая (432-ФЗ)&lt;/PurchaseTypeName&gt;&lt;RequestCnt&gt;0&lt;/RequestCnt&gt;&lt;RequestCntState&gt;Нет&lt;/RequestCntState&gt;&lt;/row&gt;&lt;row&gt;&lt;Id&gt;341686&lt;/Id&gt;&lt;BidId&gt;341686&lt;/BidId&gt;&lt;PurchaseId&gt;149004&lt;/PurchaseId&gt;&lt;PurchaseCode&gt;SBR013-1602060006&lt;/PurchaseCode&gt;&lt;PurchaseName&gt;Продажа имущества СПК &quot;Заря&quot; (Калужская область, Юхновский район, деревня Озеро)&lt;/PurchaseName&gt;&lt;BidName&gt;Телятник (д.Озеро) пл. 1100 кв. м; Коровник (д. Озеро) - 2 шт. пл. 3644,5 кв. м; Телятник (д. Озеро) пл. 1366,8 кв. м; Земельный участок в д. Озеро, пл. 32187 кв. м (без НДС); Телятник (д. Сулихово) пл. 1360,2 кв. м; Земельный участок в д. Сулихово пл. 14333 кв. м (без НДС); Комплекс Е-303; Комбайн КЗС-3; Сеялка СПТУ-4Д; Пресподборщик ПТМА; Контователь рулонов; Упаковочная машина; Сортировка ОВС-25; Плуг - 2 шт.; ДКУ; ШНЕК ТНП; Сеноворошилка; Доильное оборудование - 2 шт.; Стойловое оборудование ОСК-200 -2 шт.; Молоковоз; Прицеп 2ПТС-4&lt;/BidName&gt;&lt;BidNo&gt;1&lt;/BidNo&gt;&lt;hasPicture&gt;0&lt;/hasPicture&gt;&lt;Amount&gt;5769000.00&lt;/Amount&gt;&lt;Amount2&gt;5769000.00&lt;/Amount2&gt;&lt;CurrentAmount&gt;5769000.00&lt;/CurrentAmount&gt;&lt;PublicDate&gt;06.02.2016 16:19&lt;/PublicDate&gt;&lt;RequestStartDate&gt;08.02.2016 09:00&lt;/RequestStartDate&gt;&lt;RequestStopDate&gt;23.03.2016 12:00&lt;/RequestStopDate&gt;&lt;AuctionStartDate&gt;28.03.2016 10:00&lt;/AuctionStartDate&gt;&lt;PurchaseState&gt;Опубликован(-а)&lt;/PurchaseState&gt;&lt;CurrentStatusId&gt;1&lt;/CurrentStatusId&gt;&lt;TypeId&gt;4&lt;/TypeId&gt;&lt;OrgBuId&gt;43262&lt;/OrgBuId&gt;&lt;LastActionDt&gt;06.02.2016 16:20&lt;/LastActionDt&gt;&lt;OrgName&gt;Общество с ограниченной ответственностью &quot;Региональное долговое агентство&quot;&lt;/OrgName&gt;&lt;PurchaseTypeName&gt;Открытый аукцион / Открытая&lt;/PurchaseTypeName&gt;&lt;RequestCnt&gt;0&lt;/RequestCnt&gt;&lt;RequestCntState&gt;Нет&lt;/RequestCntState&gt;&lt;/row&gt;&lt;row&gt;&lt;Id&gt;341687&lt;/Id&gt;&lt;BidId&gt;341687&lt;/BidId&gt;&lt;PurchaseId&gt;149004&lt;/PurchaseId&gt;&lt;PurchaseCode&gt;SBR013-1602060006&lt;/PurchaseCode&gt;&lt;PurchaseName&gt;Продажа имущества СПК &quot;Заря&quot; (Калужская область, Юхновский район, деревня Озеро)&lt;/PurchaseName&gt;&lt;BidName&gt;трактор Беларус 82.1, 2007 года выпуска, государственный регистрационный знак 40 КА 6280, миксер кормораздатчик АКМ-9, 2007 года выпуска, танк охладитель Alfa Lava (6000 л), 2005 года выпуска&lt;/BidName&gt;&lt;BidNo&gt;2&lt;/BidNo&gt;&lt;hasPicture&gt;0&lt;/hasPicture&gt;&lt;Amount&gt;699300.00&lt;/Amount&gt;&lt;Amount2&gt;699300.00&lt;/Amount2&gt;&lt;CurrentAmount&gt;699300.00&lt;/CurrentAmount&gt;&lt;PublicDate&gt;06.02.2016 16:19&lt;/PublicDate&gt;&lt;RequestStartDate&gt;08.02.2016 09:00&lt;/RequestStartDate&gt;&lt;RequestStopDate&gt;23.03.2016 12:00&lt;/RequestStopDate&gt;&lt;AuctionStartDate&gt;28.03.2016 10:00&lt;/AuctionStartDate&gt;&lt;PurchaseState&gt;Опубликован(-а)&lt;/PurchaseState&gt;&lt;CurrentStatusId&gt;1&lt;/CurrentStatusId&gt;&lt;TypeId&gt;4&lt;/TypeId&gt;&lt;OrgBuId&gt;43262&lt;/OrgBuId&gt;&lt;LastActionDt&gt;06.02.2016 16:20&lt;/LastActionDt&gt;&lt;OrgName&gt;Общество с ограниченной ответственностью &quot;Региональное долговое агентство&quot;&lt;/OrgName&gt;&lt;PurchaseTypeName&gt;Открытый аукцион / Открытая&lt;/PurchaseTypeName&gt;&lt;RequestCnt&gt;0&lt;/RequestCnt&gt;&lt;RequestCntState&gt;Нет&lt;/RequestCntState&gt;&lt;/row&gt;&lt;row&gt;&lt;Id&gt;341684&lt;/Id&gt;&lt;BidId&gt;341684&lt;/BidId&gt;&lt;PurchaseId&gt;149003&lt;/PurchaseId&gt;&lt;PurchaseCode&gt;SBR013-1602060005&lt;/PurchaseCode&gt;&lt;PurchaseName&gt;ООО &quot;Галактика&quot; (публичка)&lt;/PurchaseName&gt;&lt;BidName&gt;АЗС&lt;/BidName&gt;&lt;BidNo&gt;1&lt;/BidNo&gt;&lt;hasPicture&gt;0&lt;/hasPicture&gt;&lt;Amount&gt;6311014.20&lt;/Amount&gt;&lt;Amount2&gt;6311014.20&lt;/Amount2&gt;&lt;CurrentAmount&gt;6311014.20&lt;/CurrentAmount&gt;&lt;PublicDate&gt;06.02.2016 14:25&lt;/PublicDate&gt;&lt;RequestStartDate&gt;10.03.2016 10:00&lt;/RequestStartDate&gt;&lt;RequestStopDate&gt;18.05.2016 16:00&lt;/RequestStopDate&gt;&lt;PurchaseState&gt;Опубликован(-а)&lt;/PurchaseState&gt;&lt;CurrentStatusId&gt;1&lt;/CurrentStatusId&gt;&lt;TypeId&gt;53&lt;/TypeId&gt;&lt;OrgBuId&gt;42816&lt;/OrgBuId&gt;&lt;LastActionDt&gt;06.02.2016 14:26&lt;/LastActionDt&gt;&lt;OrgName&gt;Ершов Николай Анатольевич&lt;/OrgName&gt;&lt;PurchaseTypeName&gt;Открытое публичное предложение / Открытая (432-ФЗ)&lt;/PurchaseTypeName&gt;&lt;RequestCnt&gt;0&lt;/RequestCnt&gt;&lt;RequestCntState&gt;Нет&lt;/RequestCntState&gt;&lt;/row&gt;&lt;row&gt;&lt;Id&gt;341685&lt;/Id&gt;&lt;BidId&gt;341685&lt;/BidId&gt;&lt;PurchaseId&gt;149003&lt;/PurchaseId&gt;&lt;PurchaseCode&gt;SBR013-1602060005&lt;/PurchaseCode&gt;&lt;PurchaseName&gt;ООО &quot;Галактика&quot; (публичка)&lt;/PurchaseName&gt;&lt;BidName&gt;Склад&lt;/BidName&gt;&lt;BidNo&gt;2&lt;/BidNo&gt;&lt;hasPicture&gt;0&lt;/hasPicture&gt;&lt;Amount&gt;3580200.00&lt;/Amount&gt;&lt;Amount2&gt;3580200.00&lt;/Amount2&gt;&lt;CurrentAmount&gt;3580200.00&lt;/CurrentAmount&gt;&lt;PublicDate&gt;06.02.2016 14:25&lt;/PublicDate&gt;&lt;RequestStartDate&gt;10.03.2016 10:00&lt;/RequestStartDate&gt;&lt;RequestStopDate&gt;18.05.2016 16:00&lt;/RequestStopDate&gt;&lt;PurchaseState&gt;Опубликован(-а)&lt;/PurchaseState&gt;&lt;CurrentStatusId&gt;1&lt;/CurrentStatusId&gt;&lt;TypeId&gt;53&lt;/TypeId&gt;&lt;OrgBuId&gt;42816&lt;/OrgBuId&gt;&lt;LastActionDt&gt;06.02.2016 14:26&lt;/LastActionDt&gt;&lt;OrgName&gt;Ершов Николай Анатольевич&lt;/OrgName&gt;&lt;PurchaseTypeName&gt;Открытое публичное предложение / Открытая (432-ФЗ)&lt;/PurchaseTypeName&gt;&lt;RequestCnt&gt;0&lt;/RequestCnt&gt;&lt;RequestCntState&gt;Нет&lt;/RequestCntState&gt;&lt;/row&gt;&lt;row&gt;&lt;Id&gt;341678&lt;/Id&gt;&lt;BidId&gt;341678&lt;/BidId&gt;&lt;PurchaseId&gt;149002&lt;/PurchaseId&gt;&lt;PurchaseCode&gt;SBR013-1602060004&lt;/PurchaseCode&gt;&lt;PurchaseName&gt;имущество ООО &#171;СальскИнвест&#187;&lt;/PurchaseName&gt;&lt;BidName&gt;Зерносклад, назначение: складское. Площадь 2449,60 кв.м. Инвентарный номер: 205, Литер ББ1, Этажность: 1, адрес объекта: Ростовская область, Сальский район, 2 км северо-западнее х. Маяк; -Производственное здание, назначение: нежилое. Площадь: общая 126,80 кв.м. Инвентарный номер: 205. Литер: А. Этажность: 1, адрес объекта: Ростовская область, Сальский район, 2 км северо-западнее х. Маяк; -Земельный участок. Категория земель: земли сельскохозяйственного назначения - для эксплуатации производственного здания, зерносклада. Площадь 70021,00 кв.м., адрес объекта: Ростовская область, Сальский район, установлено относительно ориентира 2 км северо-западнее х. Маяк, расположенного в границах участка.Кадастровый номер 61:34:0600014:965&lt;/BidName&gt;&lt;BidNo&gt;1&lt;/BidNo&gt;&lt;hasPicture&gt;0&lt;/hasPicture&gt;&lt;Amount&gt;8559000.00&lt;/Amount&gt;&lt;Amount2&gt;8559000.00&lt;/Amount2&gt;&lt;CurrentAmount&gt;8559000.00&lt;/CurrentAmount&gt;&lt;PublicDate&gt;06.02.2016 13:46&lt;/PublicDate&gt;&lt;RequestStartDate&gt;10.02.2016 10:00&lt;/RequestStartDate&gt;&lt;RequestStopDate&gt;09.03.2016 17:00&lt;/RequestStopDate&gt;&lt;PurchaseState&gt;Опубликован(-а)&lt;/PurchaseState&gt;&lt;CurrentStatusId&gt;1&lt;/CurrentStatusId&gt;&lt;TypeId&gt;53&lt;/TypeId&gt;&lt;OrgBuId&gt;43075&lt;/OrgBuId&gt;&lt;LastActionDt&gt;06.02.2016 13:47&lt;/LastActionDt&gt;&lt;OrgName&gt;Общество с ограниченной ответственностью &quot;ЛюксСервис&quot;&lt;/OrgName&gt;&lt;PurchaseTypeName&gt;Открытое публичное предложение / Открытая (432-ФЗ)&lt;/PurchaseTypeName&gt;&lt;RequestCnt&gt;0&lt;/RequestCnt&gt;&lt;RequestCntState&gt;Нет&lt;/RequestCntState&gt;&lt;/row&gt;&lt;row&gt;&lt;Id&gt;341679&lt;/Id&gt;&lt;BidId&gt;341679&lt;/BidId&gt;&lt;PurchaseId&gt;149002&lt;/PurchaseId&gt;&lt;PurchaseCode&gt;SBR013-1602060004&lt;/PurchaseCode&gt;&lt;PurchaseName&gt;имущество ООО &#171;СальскИнвест&#187;&lt;/PurchaseName&gt;&lt;BidName&gt;Земельный участок. Категория земель: земли сельскохозяйственного назначения - для сельскохозяйственного производства. Площадь: 164000 кв.м., адрес объекта: Ростовская область, Сальский район, установлено относительно ориентира в кадастровом квартале 61:34:600014 с условным центром в х. Маяк, отделение №1, поле III, участок 4, расположенного в границах участка начальной стоимостью- 540 000,00 рублей;кадастровый номер 61:34:0600014:171&lt;/BidName&gt;&lt;BidNo&gt;2&lt;/BidNo&gt;&lt;hasPicture&gt;0&lt;/hasPicture&gt;&lt;Amount&gt;540000.00&lt;/Amount&gt;&lt;Amount2&gt;540000.00&lt;/Amount2&gt;&lt;CurrentAmount&gt;540000.00&lt;/CurrentAmount&gt;&lt;PublicDate&gt;06.02.2016 13:46&lt;/PublicDate&gt;&lt;RequestStartDate&gt;10.02.2016 10:00&lt;/RequestStartDate&gt;&lt;RequestStopDate&gt;09.03.2016 17:00&lt;/RequestStopDate&gt;&lt;PurchaseState&gt;Опубликован(-а)&lt;/PurchaseState&gt;&lt;CurrentStatusId&gt;1&lt;/CurrentStatusId&gt;&lt;TypeId&gt;53&lt;/TypeId&gt;&lt;OrgBuId&gt;43075&lt;/OrgBuId&gt;&lt;LastActionDt&gt;06.02.2016 13:47&lt;/LastActionDt&gt;&lt;OrgName&gt;Общество с ограниченной ответственностью &quot;ЛюксСервис&quot;&lt;/OrgName&gt;&lt;PurchaseTypeName&gt;Открытое публичное предложение / Открытая (432-ФЗ)&lt;/PurchaseTypeName&gt;&lt;RequestCnt&gt;0&lt;/RequestCnt&gt;&lt;RequestCntState&gt;Нет&lt;/RequestCntState&gt;&lt;/row&gt;&lt;row&gt;&lt;Id&gt;341680&lt;/Id&gt;&lt;BidId&gt;341680&lt;/BidId&gt;&lt;PurchaseId&gt;149002&lt;/PurchaseId&gt;&lt;PurchaseCode&gt;SBR013-1602060004&lt;/PurchaseCode&gt;&lt;PurchaseName&gt;имущество ООО &#171;СальскИнвест&#187;&lt;/PurchaseName&gt;&lt;BidName&gt;Единое землепользование, состоящее из: обособленного участка 61:34:600014:0943, обособленного участка 61:34:600014:0944, обособленного участка 61:34:600014:0945. Категория земель: земли сельскохозяйственного назначения - для сельскохозяйственного производства. Площадь 164000 кв.м., адрес объекта: Ростовская область, Сальский район, установлено относительно ориентира в кадастровом квартале 61:34:600014 с условным центром в х. Маяк, отделение №2, поле IX, участок 4,2 отделение №2, поле IX, участок 3,2, отделение №2, поле VI, поле 3, расположенного в границах участка начальной стоимостью- 540 000,00 рублей,кадастровый номер 61:34:0600014:946&lt;/BidName&gt;&lt;BidNo&gt;3&lt;/BidNo&gt;&lt;hasPicture&gt;0&lt;/hasPicture&gt;&lt;Amount&gt;540000.00&lt;/Amount&gt;&lt;Amount2&gt;540000.00&lt;/Amount2&gt;&lt;CurrentAmount&gt;540000.00&lt;/CurrentAmount&gt;&lt;PublicDate&gt;06.02.2016 13:46&lt;/PublicDate&gt;&lt;RequestStartDate&gt;10.02.2016 10:00&lt;/RequestStartDate&gt;&lt;RequestStopDate&gt;09.03.2016 17:00&lt;/RequestStopDate&gt;&lt;PurchaseState&gt;Опубликован(-а)&lt;/PurchaseState&gt;&lt;CurrentStatusId&gt;1&lt;/CurrentStatusId&gt;&lt;TypeId&gt;53&lt;/TypeId&gt;&lt;OrgBuId&gt;43075&lt;/OrgBuId&gt;&lt;LastActionDt&gt;06.02.2016 13:47&lt;/LastActionDt&gt;&lt;OrgName&gt;Общество с ограниченной ответственностью &quot;ЛюксСервис&quot;&lt;/OrgName&gt;&lt;PurchaseTypeName&gt;Открытое публичное предложение / Открытая (432-ФЗ)&lt;/PurchaseTypeName&gt;&lt;RequestCnt&gt;0&lt;/RequestCnt&gt;&lt;RequestCntState&gt;Нет&lt;/RequestCntState&gt;&lt;/row&gt;&lt;row&gt;&lt;Id&gt;341681&lt;/Id&gt;&lt;BidId&gt;341681&lt;/BidId&gt;&lt;PurchaseId&gt;149002&lt;/PurchaseId&gt;&lt;PurchaseCode&gt;SBR013-1602060004&lt;/PurchaseCode&gt;&lt;PurchaseName&gt;имущество ООО &#171;СальскИнвест&#187;&lt;/PurchaseName&gt;&lt;BidName&gt;Земельный участок. Категория земель: земли сельскохозяйственного назначения - для сельскохозяйственного производства. Площадь: 164000 кв.м., адрес объекта: Ростовская область, Сальский район, установлено относительно ориентира в кадастровом квартале 61:34:600014 с условным центром в х. Маяк, отделение №1, поле III, участок 4, расположенного в границах участка начальной стоимостью- 540 000,00 рублей; кадастровый номер 61:34:0600014:275&lt;/BidName&gt;&lt;BidNo&gt;4&lt;/BidNo&gt;&lt;hasPicture&gt;0&lt;/hasPicture&gt;&lt;Amount&gt;540000.00&lt;/Amount&gt;&lt;Amount2&gt;540000.00&lt;/Amount2&gt;&lt;CurrentAmount&gt;540000.00&lt;/CurrentAmount&gt;&lt;PublicDate&gt;06.02.2016 13:46&lt;/PublicDate&gt;&lt;RequestStartDate&gt;10.02.2016 10:00&lt;/RequestStartDate&gt;&lt;RequestStopDate&gt;09.03.2016 17:00&lt;/RequestStopDate&gt;&lt;PurchaseState&gt;Опубликован(-а)&lt;/PurchaseState&gt;&lt;CurrentStatusId&gt;1&lt;/CurrentStatusId&gt;&lt;TypeId&gt;53&lt;/TypeId&gt;&lt;OrgBuId&gt;43075&lt;/OrgBuId&gt;&lt;LastActionDt&gt;06.02.2016 13:47&lt;/LastActionDt&gt;&lt;OrgName&gt;Общество с ограниченной ответственностью &quot;ЛюксСервис&quot;&lt;/OrgName&gt;&lt;PurchaseTypeName&gt;Открытое публичное предложение / Открытая (432-ФЗ)&lt;/PurchaseTypeName&gt;&lt;RequestCnt&gt;0&lt;/RequestCnt&gt;&lt;RequestCntState&gt;Нет&lt;/RequestCntState&gt;&lt;/row&gt;&lt;row&gt;&lt;Id&gt;341682&lt;/Id&gt;&lt;BidId&gt;341682&lt;/BidId&gt;&lt;PurchaseId&gt;149002&lt;/PurchaseId&gt;&lt;PurchaseCode&gt;SBR013-1602060004&lt;/PurchaseCode&gt;&lt;PurchaseName&gt;имущество ООО &#171;СальскИнвест&#187;&lt;/PurchaseName&gt;&lt;BidName&gt;Земельный участок. Категория земель: земли сельскохозяйственного назначения - для сельскохозяйственного производства. Площадь: 96700 кв.м., адрес объекта: Ростовская область, Сальский район, установлено относительно ориентира в кадастровом квартале 61:34:600014 с условным центром в х. Маяк, отделение №2, поле IV, участок 3, расположенного в границах участка начальной стоимостью- 324 000,00 рублей;кадастровый номер 61:34:0600014:978&lt;/BidName&gt;&lt;BidNo&gt;5&lt;/BidNo&gt;&lt;hasPicture&gt;0&lt;/hasPicture&gt;&lt;Amount&gt;324000.00&lt;/Amount&gt;&lt;Amount2&gt;324000.00&lt;/Amount2&gt;&lt;CurrentAmount&gt;324000.00&lt;/CurrentAmount&gt;&lt;PublicDate&gt;06.02.2016 13:46&lt;/PublicDate&gt;&lt;RequestStartDate&gt;10.02.2016 10:00&lt;/RequestStartDate&gt;&lt;RequestStopDate&gt;09.03.2016 17:00&lt;/RequestStopDate&gt;&lt;PurchaseState&gt;Опубликован(-а)&lt;/PurchaseState&gt;&lt;CurrentStatusId&gt;1&lt;/CurrentStatusId&gt;&lt;TypeId&gt;53&lt;/TypeId&gt;&lt;OrgBuId&gt;43075&lt;/OrgBuId&gt;&lt;LastActionDt&gt;06.02.2016 13:47&lt;/LastActionDt&gt;&lt;OrgName&gt;Общество с ограниченной ответственностью &quot;ЛюксСервис&quot;&lt;/OrgName&gt;&lt;PurchaseTypeName&gt;Открытое публичное предложение / Открытая (432-ФЗ)&lt;/PurchaseTypeName&gt;&lt;RequestCnt&gt;0&lt;/RequestCnt&gt;&lt;RequestCntState&gt;Нет&lt;/RequestCntState&gt;&lt;/row&gt;&lt;row&gt;&lt;Id&gt;341683&lt;/Id&gt;&lt;BidId&gt;341683&lt;/BidId&gt;&lt;PurchaseId&gt;149002&lt;/PurchaseId&gt;&lt;PurchaseCode&gt;SBR013-1602060004&lt;/PurchaseCode&gt;&lt;PurchaseName&gt;имущество ООО &#171;СальскИнвест&#187;&lt;/PurchaseName&gt;&lt;BidName&gt;Земельный участок. Категория земель: земли сельскохозяйственного назначения - для сельскохозяйственного производства. Площадь: 164000 кв.м., адрес объекта: Ростовская область, Сальский район, установлено относительно ориентира в кадастровом квартале 61:34:600014 с условным центром в х. Маяк, отделение №2, поле IX, участок 4, расположенного в границах участка начальной стоимостью- 540 000,00 рублей, кадастровый номер 61:34:0600014:966&lt;/BidName&gt;&lt;BidNo&gt;6&lt;/BidNo&gt;&lt;hasPicture&gt;0&lt;/hasPicture&gt;&lt;Amount&gt;540000.00&lt;/Amount&gt;&lt;Amount2&gt;540000.00&lt;/Amount2&gt;&lt;CurrentAmount&gt;540000.00&lt;/CurrentAmount&gt;&lt;PublicDate&gt;06.02.2016 13:46&lt;/PublicDate&gt;&lt;RequestStartDate&gt;10.02.2016 10:00&lt;/RequestStartDate&gt;&lt;RequestStopDate&gt;09.03.2016 17:00&lt;/RequestStopDate&gt;&lt;PurchaseState&gt;Опубликован(-а)&lt;/PurchaseState&gt;&lt;CurrentStatusId&gt;1&lt;/CurrentStatusId&gt;&lt;TypeId&gt;53&lt;/TypeId&gt;&lt;OrgBuId&gt;43075&lt;/OrgBuId&gt;&lt;LastActionDt&gt;06.02.2016 13:47&lt;/LastActionDt&gt;&lt;OrgName&gt;Общество с ограниченной ответственностью &quot;ЛюксСервис&quot;&lt;/OrgName&gt;&lt;PurchaseTypeName&gt;Открытое публичное предложение / Открытая (432-ФЗ)&lt;/PurchaseTypeName&gt;&lt;RequestCnt&gt;0&lt;/RequestCnt&gt;&lt;RequestCntState&gt;Нет&lt;/RequestCntState&gt;&lt;/row&gt;&lt;row&gt;&lt;Id&gt;341674&lt;/Id&gt;&lt;BidId&gt;341674&lt;/BidId&gt;&lt;PurchaseId&gt;149001&lt;/PurchaseId&gt;&lt;PurchaseCode&gt;SBR013-1602060003&lt;/PurchaseCode&gt;&lt;PurchaseName&gt;ООО &quot;Ремстройсервис 1&quot; - дебиторская задолженность&lt;/PurchaseName&gt;&lt;BidName&gt;Дебиторская задолженность ООО &quot;Сахбытсервис-1&quot;&lt;/BidName&gt;&lt;BidNo&gt;1&lt;/BidNo&gt;&lt;hasPicture&gt;0&lt;/hasPicture&gt;&lt;Amount&gt;253000.00&lt;/Amount&gt;&lt;Amount2&gt;253000.00&lt;/Amount2&gt;&lt;CurrentAmount&gt;253000.00&lt;/CurrentAmount&gt;&lt;PublicDate&gt;06.02.2016 10:06&lt;/PublicDate&gt;&lt;RequestStartDate&gt;08.02.2016 04:00&lt;/RequestStartDate&gt;&lt;RequestStopDate&gt;16.03.2016 04:00&lt;/RequestStopDate&gt;&lt;AuctionStartDate&gt;18.03.2016 04:00&lt;/AuctionStartDate&gt;&lt;PurchaseState&gt;Прием заявок&lt;/PurchaseState&gt;&lt;CurrentStatusId&gt;2&lt;/CurrentStatusId&gt;&lt;TypeId&gt;4&lt;/TypeId&gt;&lt;OrgBuId&gt;613369&lt;/OrgBuId&gt;&lt;LastActionDt&gt;08.02.2016 04:00&lt;/LastActionDt&gt;&lt;OrgName&gt;Евсеев Денис Васильевич&lt;/OrgName&gt;&lt;PurchaseTypeName&gt;Открытый аукцион / Открытая&lt;/PurchaseTypeName&gt;&lt;RequestCnt&gt;0&lt;/RequestCnt&gt;&lt;RequestCntState&gt;Нет&lt;/RequestCntState&gt;&lt;/row&gt;&lt;row&gt;&lt;Id&gt;341675&lt;/Id&gt;&lt;BidId&gt;341675&lt;/BidId&gt;&lt;PurchaseId&gt;149001&lt;/PurchaseId&gt;&lt;PurchaseCode&gt;SBR013-1602060003&lt;/PurchaseCode&gt;&lt;PurchaseName&gt;ООО &quot;Ремстройсервис 1&quot; - дебиторская задолженность&lt;/PurchaseName&gt;&lt;BidName&gt;Дебиторская задолженность ООО &quot;Благоустройство&quot;&lt;/BidName&gt;&lt;BidNo&gt;2&lt;/BidNo&gt;&lt;hasPicture&gt;0&lt;/hasPicture&gt;&lt;Amount&gt;482000.00&lt;/Amount&gt;&lt;Amount2&gt;482000.00&lt;/Amount2&gt;&lt;CurrentAmount&gt;482000.00&lt;/CurrentAmount&gt;&lt;PublicDate&gt;06.02.2016 10:06&lt;/PublicDate&gt;&lt;RequestStartDate&gt;08.02.2016 04:00&lt;/RequestStartDate&gt;&lt;RequestStopDate&gt;16.03.2016 04:00&lt;/RequestStopDate&gt;&lt;AuctionStartDate&gt;18.03.2016 04:00&lt;/AuctionStartDate&gt;&lt;PurchaseState&gt;Прием заявок&lt;/PurchaseState&gt;&lt;CurrentStatusId&gt;2&lt;/CurrentStatusId&gt;&lt;TypeId&gt;4&lt;/TypeId&gt;&lt;OrgBuId&gt;613369&lt;/OrgBuId&gt;&lt;LastActionDt&gt;08.02.2016 04:00&lt;/LastActionDt&gt;&lt;OrgName&gt;Евсеев Денис Васильевич&lt;/OrgName&gt;&lt;PurchaseTypeName&gt;Открытый аукцион / Открытая&lt;/PurchaseTypeName&gt;&lt;RequestCnt&gt;0&lt;/RequestCnt&gt;&lt;RequestCntState&gt;Нет&lt;/RequestCntState&gt;&lt;/row&gt;&lt;row&gt;&lt;Id&gt;341676&lt;/Id&gt;&lt;BidId&gt;341676&lt;/BidId&gt;&lt;PurchaseId&gt;149001&lt;/PurchaseId&gt;&lt;PurchaseCode&gt;SBR013-1602060003&lt;/PurchaseCode&gt;&lt;PurchaseName&gt;ООО &quot;Ремстройсервис 1&quot; - дебиторская задолженность&lt;/PurchaseName&gt;&lt;BidName&gt;Дебиторская задолженность ООО &quot;Сахбытхим&quot;&lt;/BidName&gt;&lt;BidNo&gt;3&lt;/BidNo&gt;&lt;hasPicture&gt;0&lt;/hasPicture&gt;&lt;Amount&gt;60000.00&lt;/Amount&gt;&lt;Amount2&gt;60000.00&lt;/Amount2&gt;&lt;CurrentAmount&gt;60000.00&lt;/CurrentAmount&gt;&lt;PublicDate&gt;06.02.2016 10:06&lt;/PublicDate&gt;&lt;RequestStartDate&gt;08.02.2016 04:00&lt;/RequestStartDate&gt;&lt;RequestStopDate&gt;16.03.2016 04:00&lt;/RequestStopDate&gt;&lt;AuctionStartDate&gt;18.03.2016 04:00&lt;/AuctionStartDate&gt;&lt;PurchaseState&gt;Прием заявок&lt;/PurchaseState&gt;&lt;CurrentStatusId&gt;2&lt;/CurrentStatusId&gt;&lt;TypeId&gt;4&lt;/TypeId&gt;&lt;OrgBuId&gt;613369&lt;/OrgBuId&gt;&lt;LastActionDt&gt;08.02.2016 04:00&lt;/LastActionDt&gt;&lt;OrgName&gt;Евсеев Денис Васильевич&lt;/OrgName&gt;&lt;PurchaseTypeName&gt;Открытый аукцион / Открытая&lt;/PurchaseTypeName&gt;&lt;RequestCnt&gt;0&lt;/RequestCnt&gt;&lt;RequestCntState&gt;Нет&lt;/RequestCntState&gt;&lt;/row&gt;&lt;row&gt;&lt;Id&gt;341677&lt;/Id&gt;&lt;BidId&gt;341677&lt;/BidId&gt;&lt;PurchaseId&gt;149001&lt;/PurchaseId&gt;&lt;PurchaseCode&gt;SBR013-1602060003&lt;/PurchaseCode&gt;&lt;PurchaseName&gt;ООО &quot;Ремстройсервис 1&quot; - дебиторская задолженность&lt;/PurchaseName&gt;&lt;BidName&gt;Дебиторская задолженность физических лиц&lt;/BidName&gt;&lt;BidNo&gt;4&lt;/BidNo&gt;&lt;hasPicture&gt;0&lt;/hasPicture&gt;&lt;Amount&gt;314000.00&lt;/Amount&gt;&lt;Amount2&gt;314000.00&lt;/Amount2&gt;&lt;CurrentAmount&gt;314000.00&lt;/CurrentAmount&gt;&lt;PublicDate&gt;06.02.2016 10:06&lt;/PublicDate&gt;&lt;RequestStartDate&gt;08.02.2016 04:00&lt;/RequestStartDate&gt;&lt;RequestStopDate&gt;16.03.2016 04:00&lt;/RequestStopDate&gt;&lt;AuctionStartDate&gt;18.03.2016 04:00&lt;/AuctionStartDate&gt;&lt;PurchaseState&gt;Прием заявок&lt;/PurchaseState&gt;&lt;CurrentStatusId&gt;2&lt;/CurrentStatusId&gt;&lt;TypeId&gt;4&lt;/TypeId&gt;&lt;OrgBuId&gt;613369&lt;/OrgBuId&gt;&lt;LastActionDt&gt;08.02.2016 04:00&lt;/LastActionDt&gt;&lt;OrgName&gt;Евсеев Денис Васильевич&lt;/OrgName&gt;&lt;PurchaseTypeName&gt;Открытый аукцион / Открытая&lt;/PurchaseTypeName&gt;&lt;RequestCnt&gt;0&lt;/RequestCnt&gt;&lt;RequestCntState&gt;Нет&lt;/RequestCntState&gt;&lt;/row&gt;&lt;row&gt;&lt;Id&gt;341672&lt;/Id&gt;&lt;BidId&gt;341672&lt;/BidId&gt;&lt;PurchaseId&gt;149000&lt;/PurchaseId&gt;&lt;PurchaseCode&gt;SBR013-1602060002&lt;/PurchaseCode&gt;&lt;PurchaseName&gt;Торги по продаже имущества ООО &#171;Деревоперерабатывающее предприятие &#171;Интер-Древ&#187;: оборудование и права требования&lt;/PurchaseName&gt;&lt;BidName&gt;Автоматическая линия склеивания деталей в поперечном сечении turbo s.&lt;/BidName&gt;&lt;BidNo&gt;1&lt;/BidNo&gt;&lt;hasPicture&gt;0&lt;/hasPicture&gt;&lt;Amount&gt;2250000.00&lt;/Amount&gt;&lt;Amount2&gt;2250000.00&lt;/Amount2&gt;&lt;CurrentAmount&gt;2250000.00&lt;/CurrentAmount&gt;&lt;PublicDate&gt;06.02.2016 09:03&lt;/PublicDate&gt;&lt;RequestStartDate&gt;29.02.2016 00:00&lt;/RequestStartDate&gt;&lt;RequestStopDate&gt;10.04.2016 23:59&lt;/RequestStopDate&gt;&lt;PurchaseState&gt;Опубликован(-а)&lt;/PurchaseState&gt;&lt;CurrentStatusId&gt;1&lt;/CurrentStatusId&gt;&lt;TypeId&gt;53&lt;/TypeId&gt;&lt;OrgBuId&gt;43626&lt;/OrgBuId&gt;&lt;LastActionDt&gt;06.02.2016 09:04&lt;/LastActionDt&gt;&lt;OrgName&gt;Дронов Олег Владимирович&lt;/OrgName&gt;&lt;PurchaseTypeName&gt;Открытое публичное предложение / Открытая (432-ФЗ)&lt;/PurchaseTypeName&gt;&lt;RequestCnt&gt;0&lt;/RequestCnt&gt;&lt;RequestCntState&gt;Нет&lt;/RequestCntState&gt;&lt;/row&gt;&lt;row&gt;&lt;Id&gt;341673&lt;/Id&gt;&lt;BidId&gt;341673&lt;/BidId&gt;&lt;PurchaseId&gt;149000&lt;/PurchaseId&gt;&lt;PurchaseCode&gt;SBR013-1602060002&lt;/PurchaseCode&gt;&lt;PurchaseName&gt;Торги по продаже имущества ООО &#171;Деревоперерабатывающее предприятие &#171;Интер-Древ&#187;: оборудование и права требования&lt;/PurchaseName&gt;&lt;BidName&gt;Право требования ООО &#171;ДПП &#171;Интер-Древ&#187; к ООО &#171;Корса&#187;, ООО &#171;Трида&#187;, ООО &#171;Пластидтрейд ЛТД&#187;, ООО &#171;ТоргЛес&#187;, ООО &#171;Престиж&#187;, ООО &#171;БашХольц&#187;, ООО &#171;Евролюкс&#187;, ООО &#171;Октавия&#187;, ООО &#171;Синтез&#187;, Галиулину О.Р., ООО &#171;Дубрава&#187;, ООО &#171;Велта&#187; в общем размере 3.608.637,20 руб.&lt;/BidName&gt;&lt;BidNo&gt;2&lt;/BidNo&gt;&lt;hasPicture&gt;0&lt;/hasPicture&gt;&lt;Amount&gt;45450.00&lt;/Amount&gt;&lt;Amount2&gt;45450.00&lt;/Amount2&gt;&lt;CurrentAmount&gt;45450.00&lt;/CurrentAmount&gt;&lt;PublicDate&gt;06.02.2016 09:03&lt;/PublicDate&gt;&lt;RequestStartDate&gt;29.02.2016 00:00&lt;/RequestStartDate&gt;&lt;RequestStopDate&gt;10.04.2016 23:59&lt;/RequestStopDate&gt;&lt;PurchaseState&gt;Опубликован(-а)&lt;/PurchaseState&gt;&lt;CurrentStatusId&gt;1&lt;/CurrentStatusId&gt;&lt;TypeId&gt;53&lt;/TypeId&gt;&lt;OrgBuId&gt;43626&lt;/OrgBuId&gt;&lt;LastActionDt&gt;06.02.2016 09:04&lt;/LastActionDt&gt;&lt;OrgName&gt;Дронов Олег Владимирович&lt;/OrgName&gt;&lt;PurchaseTypeName&gt;Открытое публичное предложение / Открытая (432-ФЗ)&lt;/PurchaseTypeName&gt;&lt;RequestCnt&gt;0&lt;/RequestCnt&gt;&lt;RequestCntState&gt;Нет&lt;/RequestCntState&gt;&lt;/row&gt;&lt;row&gt;&lt;Id&gt;341665&lt;/Id&gt;&lt;BidId&gt;341665&lt;/BidId&gt;&lt;PurchaseId&gt;148998&lt;/PurchaseId&gt;&lt;PurchaseCode&gt;SBR013-1602060001&lt;/PurchaseCode&gt;&lt;PurchaseName&gt;Продажа имущества (предприятия) банкротов&lt;/PurchaseName&gt;&lt;BidName&gt;Автопогрузчик фронтальный XCMG ZL 50G 6848&lt;/BidName&gt;&lt;BidNo&gt;1&lt;/BidNo&gt;&lt;hasPicture&gt;0&lt;/hasPicture&gt;&lt;Amount&gt;1129496.22&lt;/Amount&gt;&lt;Amount2&gt;1129496.22&lt;/Amount2&gt;&lt;CurrentAmount&gt;1129496.22&lt;/CurrentAmount&gt;&lt;PublicDate&gt;06.02.2016 06:00&lt;/PublicDate&gt;&lt;RequestStartDate&gt;06.02.2016 09:00&lt;/RequestStartDate&gt;&lt;RequestStopDate&gt;16.03.2016 09:00&lt;/RequestStopDate&gt;&lt;AuctionStartDate&gt;17.03.2016 09:00&lt;/AuctionStartDate&gt;&lt;PurchaseState&gt;Прием заявок&lt;/PurchaseState&gt;&lt;CurrentStatusId&gt;2&lt;/CurrentStatusId&gt;&lt;TypeId&gt;4&lt;/TypeId&gt;&lt;OrgBuId&gt;675530&lt;/OrgBuId&gt;&lt;LastActionDt&gt;06.02.2016 09:00&lt;/LastActionDt&gt;&lt;OrgName&gt;Сайгушев Денис Сергеевич&lt;/OrgName&gt;&lt;PurchaseTypeName&gt;Открытый аукцион / Открытая&lt;/PurchaseTypeName&gt;&lt;RequestCnt&gt;0&lt;/RequestCnt&gt;&lt;RequestCntState&gt;Нет&lt;/RequestCntState&gt;&lt;/row&gt;&lt;row&gt;&lt;Id&gt;341666&lt;/Id&gt;&lt;BidId&gt;341666&lt;/BidId&gt;&lt;PurchaseId&gt;148998&lt;/PurchaseId&gt;&lt;PurchaseCode&gt;SBR013-1602060001&lt;/PurchaseCode&gt;&lt;PurchaseName&gt;Продажа имущества (предприятия) банкротов&lt;/PurchaseName&gt;&lt;BidName&gt;Грузовой тягач седельный SHANXI SZ 4254&lt;/BidName&gt;&lt;BidNo&gt;2&lt;/BidNo&gt;&lt;hasPicture&gt;0&lt;/hasPicture&gt;&lt;Amount&gt;1830900.58&lt;/Amount&gt;&lt;Amount2&gt;1830900.58&lt;/Amount2&gt;&lt;CurrentAmount&gt;1830900.58&lt;/CurrentAmount&gt;&lt;PublicDate&gt;06.02.2016 06:00&lt;/PublicDate&gt;&lt;RequestStartDate&gt;06.02.2016 09:00&lt;/RequestStartDate&gt;&lt;RequestStopDate&gt;16.03.2016 09:00&lt;/RequestStopDate&gt;&lt;AuctionStartDate&gt;17.03.2016 09:00&lt;/AuctionStartDate&gt;&lt;PurchaseState&gt;Прием заявок&lt;/PurchaseState&gt;&lt;CurrentStatusId&gt;2&lt;/CurrentStatusId&gt;&lt;TypeId&gt;4&lt;/TypeId&gt;&lt;OrgBuId&gt;675530&lt;/OrgBuId&gt;&lt;LastActionDt&gt;06.02.2016 09:00&lt;/LastActionDt&gt;&lt;OrgName&gt;Сайгушев Денис Сергеевич&lt;/OrgName&gt;&lt;PurchaseTypeName&gt;Открытый аукцион / Открытая&lt;/PurchaseTypeName&gt;&lt;RequestCnt&gt;0&lt;/RequestCnt&gt;&lt;RequestCntState&gt;Нет&lt;/RequestCntState&gt;&lt;/row&gt;&lt;/data&gt;&lt;/List&gt;" />
+    <table class="noborder" width="100%">
+        <tr>
+            <td>
+                
+                <div id="XMLContainer">
+                    
+	<div class="reestr-tbl-div" content="node:List">
+	<table class="reestr-tbl its" content="node:data" id="tbl" cellpadding="0" cellspacing="0">
+		<thead>
+			<tr>
+				<th>&nbsp;</th>
+				<th>Код торгов</th>
+                <th>Наименование торгов / лота</th>
+				<th>Фото</th>
+				<th>Форма<br> проведения торгов</th>
+				<th>Цена, руб.</th>
+				<th>Организатор</th>
+                <th>Дата и время начала срока подачи заявок</th>
+                <th>Дата и время окончания срока подачи заявок</th>
+				<th>Дата&nbsp;и&nbsp;время начала торгов</th>
+				<th>Состояние торгов по лоту</th>
+			</tr>
+		</thead>
+		<tfoot>
+		</tfoot>
+		<tbody>
+			<tr style="display: none;" content="node:row">
+				<td nowrap>
+					<input type="hidden" content="leaf:PurchaseId" id="purchID" />
+					<input type="hidden" content="leaf:BidId" id="bidID" />
+					<input type="hidden" content="leaf:TypeId" id="typeID" />
+					<input type="hidden" content="leaf:hasPicture" id="hasPicture"/>
+					<input type="hidden" content="leaf:OrgBuId" id="OrgBuID" onchange="bidAncorsDraw(this);" />
+				</td>
+				<td>
+					<a style="display: none;" title="Просмотреть информацию по торгам"><span content="leaf:PurchaseCode"></span>.<span content="leaf:BidNo"></span></a>
+				</td>
+				<td>
+					<div style="width: 300px; word-wrap: break-word;">					
+						<b>Торги:&nbsp;</b>
+						<span id="PurchaseName" content="leaf:PurchaseName"></span>
+						<br>
+						<b>Лот:&nbsp;</b>
+						<span id="BidName" content="leaf:BidName"></span>
+					</div>
+				</td>
+				<td content="leaf:BidPhoto">
+					<a style="display: inline; cursor: pointer">
+						<img style="display: inline" src="/Content/image/bidphoto.png" title="Изображения объекта торгов" alt="Изображения объекта торгов">
+					</a>
+				</td>
+				<td content="leaf:PurchaseTypeName">&nbsp;</td>
+				<td>
+					<div style="width: 110px; word-wrap: break-word;">					
+						<a style="display: none">
+							<b>Начальная цена:&nbsp;</b><br><span content="leaf:Amount" format="money"></span>
+							<br>
+							<b>Текущая цена:&nbsp;</b><br><span content="leaf:CurrentAmount" format="money"></span>
+						</a>
+						<a style="display: none">
+							<b>Начальная цена:&nbsp;</b><br><span content="leaf:Amount2" format="money"></span>
+						</a>
+					</div>
+				</td>
+				<td>
+					<span id="OrgName" content="leaf:OrgName"></span>
+				</td>
+				<td content="leaf:RequestStartDate">&nbsp;</td>
+				<td content="leaf:RequestStopDate">&nbsp;</td>
+				<td content="leaf:AuctionStartDate">&nbsp;</td>
+				<td content="leaf:PurchaseState">&nbsp;</td>
+			</tr>
+		</tbody>
+	</table>
+    </div>
+
+                </div>
+            </td>
+        </tr>
+            <tr runat="server" id="ctrlPaging">
+                <td>
+                    <a onclick="pageChange(1-1);" style="cursor:pointer;display:none">
+                        <<</a> Страница 1
+                    <a onclick="pageChange(1+1);" style="cursor:pointer;">>></a>
+                </td>
+            </tr>
+    </table>
+</div>
+<script type="text/javascript">
+    $(function () {
+		var f = document.getElementById("xmlData");
+		var c = document.getElementById("XMLContainer");
+		LoadXML(f, c);
+    });
+
+    function pageChange(pageNum) {
+        document.getElementById("hdnPageNum").value = pageNum;
+        genXml();
+        document.forms["filterForm"].submit();
+    }
+</script>
+
+    <script type="text/javascript">
+        function bidAncorsDraw(ctrl) {
+            var tr			= $(ctrl).closest('tr');
+            var id			= tr.find('input[id^="purchID"]').val();
+			var bidid		= tr.find('input[id^="bidID"]').val();
+            var typeid		= tr.find('input[id^="typeID"]').val();
+            var hasPicture	= tr.find('input[id^="hasPicture"]').val();
+            var ancors		= tr.find("a");
+					ancors.eq(0).attr("href", href('PurchaseView', typeid, 0, 0, id)).show();
+					ancors.eq(1).attr("href", href('BidView', typeid, 0, 0, bidid)).show();
+			
+			
+			if (hasPicture == '0' || typeid == 1195) {
+				tr.find('img').hide();
+				}
+
+			if ((typeid == 52) || (typeid == 1205) || (typeid == 53) || (typeid == 1206)) {
+					ancors.eq(2).show()
+					.attr("onclick", "return false;")
+                    .attr("style", "text-decoration:none; color: #333");
+				}
+			if ((typeid == 49) || (typeid == 50) || (typeid == 51) || (typeid == 4) || (typeid == 1195) || (typeid == 1201) || (typeid == 1202) || (typeid == 1203) || (typeid == 1204)) {
+					ancors.eq(3).show()
+					.attr("onclick", "return false;")
+                    .attr("style", "text-decoration:none; color: #333");
+				}
+        };
+
+        $(function () {
+            $('#fullLink').click(function () {
+                $('.reestr-fltr-div').slideToggle(400);
+            });
+            $('.reestr-fltr-div').hide();
+
+            var f = document.getElementById("xmlData");
+            var c = document.getElementById("AdvertCtrl");
+            if (c != null)
+                LoadXML(f, c);
+        });
+
+    </script>
+
+
+            </div>
+        </div>
+        <footer id="footer" class='holder'>
+            <div class="contents">
+                <p>
+                    &copy; 2011 СБЕРБАНК-АСТ Все права защищены
+                    <br/>101000, г. Москва, Милютинский пер., дом 10, стр. 4.
+                    <br/>тел: (495) 787-29-97, (495) 787-29-99
+                    <br/>company@sberbank-ast.ru
+                </p>
+            </div>
+        </footer>
+    </div>
+    <div id="DictDialog" visible="false" style="height: 0">
+        <iframe id="spravIframe" name="spravIframe" width="100%" height="500" frameborder="0" src="" scrolling="auto"></iframe>
+    </div>
+    <div id="ImageViewDialog" visible="false" style="height: 0">
+            <img id="viewFullImg" src="" alt="Изображение" onclick="window.open($(this).attr('src'));"/>
+    </div>
+	<style type="text/css">.nbtDialog { position: fixed; }</style>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#DictDialog").dialog({ autoOpen: false, width: 640, height: 'auto', modal: true, draggable: false, resizable: false, closeOnEscape: true, title: " ", dialogClass: "nbtDialog" });
+            $("#ImageViewDialog").dialog({ autoOpen: false, width: 'auto', height: 'auto', modal: true, closeOnEscape: true, title: " " });
+            var showEventCalendar = false;
+            
+			//alert(showEventCalendar);
+			var showtotals = true;
+            if(showEventCalendar == true)
+            {
+                ///TODO: параметризировать опции календаря
+                //выводим календарь
+                $(".eventCalendarContainer").eventCalendar({
+                    tradeSectionId: 13,
+                    getDataUrl: "/EventCalendar/GetData",
+                    dateMarginLeft: -9, //левая граница дат (от текущей)
+                    dateMarginRight: 30, //правая граница дат (от текущей)
+                    step: 7,
+                    showTotals: showtotals,
+                    currentYear : 2016, //текущий год (число, 1982)
+                    currentMonth : 1, //текущий месяц (число от 0 до 11, 0 - январь)
+                    currentDate : 8 //текущая дата (число, от 1 до 31)
+                });
+            }
+
+            nForms = document.getElementsByTagName('form');
+            for (n = 0; n < nForms.length; n++) {
+                nFields = document.forms[n].getElementsByTagName('input');
+                for (i = 0; i < nFields.length; i++) {
+                    if (nFields[i].className.toUpperCase().indexOf("READONLY") > -1) nFields[i].readOnly = true;
+                }
+            }
+        });
+
+        var currentHelpText;
+
+        $('.formElement-showHelpText').live('click', function () {
+
+
+
+
+            var form = $(this).parents('.formElement-HelpContainer:first');
+
+            var helpText = form.find('.HelpText:first');
+            currentHelpText = helpText;
+
+            var showHelpButton = $(this);
+            var buttonShowHelpPosition = showHelpButton.position();
+            helpText.css({ "top": (buttonShowHelpPosition.top - 80) + "px", "right": "0px" });
+            helpText.show();
+            /*
+            var screenWidth = $(document).width();
+            var leftSpace = buttonShowHelpPosition.left;
+            var buttonWidthSpace = showHelpButton.width();
+            var helpTextSpace = helpText.width();
+            */
+            var helpFormRightSpace = 10;
+            helpText.animate({
+                marginRight: helpFormRightSpace
+            }, 600);
+
+            //var onlipeHelpCloseButton = "<img src='/Content/Image/onlinehelp.png' class='closeHelpTextButton' title='Закрыть окно Онлайн помощи'>"
+
+            //showHelpButton.replaceWith(onlipeHelpCloseButton);
+
+            $('body').one('click', function () {
+                closeHelpForm();
+            });
+        });
+
+        function closeHelpForm() {
+            var screenWidth = $(document).width();
+			
+			if(currentHelpText) {
+				var helpTextPosition = currentHelpText.position();
+				var rightSpace = 10; //screenWidth - (helpTextPosition.left + currentHelpText.width());
+				currentHelpText.animate({
+					marginRight: "-=" + rightSpace,
+					opacity: "hide"
+				}, 600);
+
+				var closeButton = currentHelpText.parents('.formElement-HelpContainer:first').find('.closeHelpTextButton:first');
+				var showHelpButton = "<img src='/Content/image/help.png' class='formElement-showHelpText' title='Нажмите для получения более подробной информации'/>";
+				closeButton.replaceWith(showHelpButton);
+				currentHelpText = null;
+			}
+        }
+
+        $('.close').on('click', function (event) {
+            closeHelpForm();
+        })
+
+        $('.clickNotClosed').on('click', function (event) {
+            event.stopPropagation();
+        })
+
+        function checkOS() {
+            var OperationSystem;
+            if (navigator.userAgent.indexOf('UNIX') != -1) OperationSystem = "UNIX";
+            if (navigator.userAgent.indexOf('IRIX') != -1) OperationSystem = "Irix";
+
+            if (navigator.userAgent.indexOf('Win') != -1) OperationSystem = "Windows3.1 или NT";
+            if ((navigator.userAgent.indexOf('Win') != -1) && (navigator.userAgent.indexOf('95') != -1)) OperationSystem = "Windows 95";
+            if ((navigator.userAgent.indexOf('Win') != -1) && (navigator.userAgent.indexOf('98') != -1)) OperationSystem = "Windows 98";
+            if ((navigator.userAgent.indexOf('Win') != -1) && (navigator.userAgent.indexOf('2000') != -1)) OperationSystem = "Windows 2000";
+            if (navigator.userAgent.indexOf('Windows') != -1) OperationSystem = "Windows XP";
+            if (navigator.userAgent.indexOf("Windows NT 6.0") != -1) OperationSystem = "Windows Vista";
+            if (navigator.userAgent.indexOf("Windows NT 6.1") != -1) OperationSystem = "Windows 7";
+            if (navigator.userAgent.indexOf("Windows NT 6.2") != -1) OperationSystem = "Windows 8";
+            // Windows Phone, планшет, и Surface 
+            if (navigator.platform.toLowerCase().indexOf("win") != -1 && navigator.userAgent.toLowerCase().indexOf("touch") != -1) OperationSystem = "Windows 8 multitouch";
+            //---------------  
+            if (navigator.userAgent.indexOf('Linux') != -1) OperationSystem = "Linux";
+            if (navigator.userAgent.indexOf('Mac') != -1) OperationSystem = "Mac OS";
+            if (navigator.userAgent.indexOf('SunOS') != -1) OperationSystem = "Sun Solaris";
+            if (navigator.userAgent.indexOf('FreeBSD') != -1) OperationSystem = "FreeBSD";
+            return OperationSystem;
+        }
+
+        function checkBroswer(chrAfterPoint) {
+            var UA = window.navigator.userAgent,
+			OperaB = /Opera[ \/]+\w+\.\w+/i,
+			OperaV = /Version[ \/]+\w+\.\w+/i,
+			FirefoxB = /Firefox\/\w+\.\w+/i,
+			ChromeB = /Chrome\/\w+\.\w+/i,
+			SafariB = /Version\/\w+\.\w+/i,
+			IEB = /MSIE *\d+\.\w+/i,
+			SafariV = /Safari\/\w+\.\w+/i,
+			browser = new Array(),
+			browserSplit = /[ \/\.]/i,
+			OperaV = UA.match(OperaV),
+			Firefox = UA.match(FirefoxB),
+			Chrome = UA.match(ChromeB),
+			Safari = UA.match(SafariB),
+			SafariV = UA.match(SafariV),
+			IE = UA.match(IEB),
+			Opera = UA.match(OperaB);
+            //----- Opera ----
+            if ((!Opera == "") & (!OperaV == "")) browser[0] = OperaV[0].replace(/Version/, "Opera")
+            else
+                if (!Opera == "") browser[0] = Opera[0]
+                else
+                //----- IE -----
+                    if (!IE == "") browser[0] = IE[0]
+                    else
+                    //----- Firefox ----
+                        if (!Firefox == "") browser[0] = Firefox[0]
+                        else
+                        //----- Chrom ----
+                            if (!Chrome == "") browser[0] = Chrome[0]
+                            else
+                            //----- Safari ----
+                                if ((!Safari == "") && (!SafariV == "")) browser[0] = Safari[0].replace("Version", "Safari");
+            //------------ Разбивка версии -----------
+            var outputData;
+            if (browser[0] != null) outputData = browser[0].split(browserSplit);
+            if ((chrAfterPoint == null) && (outputData != null)) {
+                chrAfterPoint = outputData[2].length;
+                outputData[2] = outputData[2].substring(0, chrAfterPoint); // берем нужное ко-во знаков
+                return (outputData);
+            }
+            else return (false);
+        }
+
+        function SendTechMail(href) {
+            var subject = "Вопрос от пользователя УТП";
+            var body = "Сформулируйте свой вопрос\r\n\r\n";
+            body += "Технические сведения о пользователе:\n";
+            body += "Операционная система: " + checkOS() + '\n';
+            body += "Ip адрес: 172.30.230.20 \n";
+            body += "Браузер: " + checkBroswer() + '\n';
+            body += "Часовой пояс: utc+" + checkTimeZone() + '\n';
+            body += window.location.href;
+            var uri = "mailto:company@sberbank-ast.ru?subject=";
+            uri += encodeURIComponent(subject);
+            uri += "&body=";
+            uri += encodeURIComponent(body);
+            window.open(uri);
+        }
+
+        //определение часового пояса
+        function checkTimeZone() {
+            var rightNow = new Date();
+            var date1 = new Date(rightNow.getFullYear(), 0, 1, 0, 0, 0, 0);
+            var temp = date1.toGMTString();
+            var date3 = new Date(temp.substring(0, temp.lastIndexOf(" ") - 1));
+            var hoursDiffStdTime = (date1 - date3) / (1000 * 60 * 60);
+            return hoursDiffStdTime;
+        }
+
+        $('input').attr('data-yandex-suggest', 'false');
+
+    </script>
+    <script type="text/javascript" src="/Scripts/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.extender.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.unobtrusive-ajax.js"></script>
+    
+
+<script src="/js/its_script.js" type="text/javascript"></script>
+
+<!-- Yandex.Metrika counter -->
+<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
+<script type="text/javascript">
+try { var yaCounter13379443 = new Ya.Metrika({id:13379443,
+			  clickmap:true,
+			  trackLinks:true});
+} catch(e) { }
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/13379443" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<!-- Google.Analytics counter -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-10409666-6', 'sberbank-ast.ru');
+  ga('send', 'pageview');
+
+</script>
+<!-- /Google.Analytics counter -->
+
+    
+
+
+    
+
+
+</body>
+</html>

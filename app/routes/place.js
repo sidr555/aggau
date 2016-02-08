@@ -6,6 +6,7 @@
 var _ = require('underscore');
 var log = require('log')(module);
 var promise = require("bluebird");
+var parser = require("utp_parser");
 
 
 var placeRoute = module.exports = {}
@@ -39,4 +40,17 @@ placeRoute.list = function(req, res) {
             log.error("Ошибка в списке площадок");
             next(new Error("Ошибка в списке площадок"));
         });
+}
+
+placeRoute.parse = function(req, res) {
+
+    // загрузим настройки для парсера
+
+
+
+    // загрузим документ
+
+    // парсим!
+
+
 }

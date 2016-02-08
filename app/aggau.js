@@ -65,7 +65,6 @@ if (!module.parent) { // it is for Zombie
 
         var redisAuth = conf("redis:pass") ? redis.authAsync(conf("redis:pass")) : promise.resolve();
 
-
         redisAuth.then(function() {
             redis.selectAsync("2").then(function() {
                 var now = new Date();
@@ -85,11 +84,22 @@ if (!module.parent) { // it is for Zombie
                             process.exit();
                         }
                     });
+
+                test();
             })
         }).catch(function(err){
             log.error("Redis auth failed: " + err.message);
             process.exit();
         });
 
+    });
+}
+
+
+function test() {
+    var Parser = require("utp_parser");
+    var parser = new Parser(2, 'torg');
+    parser.parse(function(err, data){
+        log.warn("PARSED DATA", data);
     });
 }

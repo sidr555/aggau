@@ -1,0 +1,92 @@
+<BidView>
+    <Bids>
+        <BidDebtorInfo>
+            <BidAdditionalDocEDS>
+                <file>
+                    <fileid>cf829d56-cb2d-4ddc-8a66-587d8a707b13</fileid>
+                    <filename>дополнительная информация лот 2.doc</filename>
+                    <signinfo/>
+                    <hash>798216340B16158AFC068B14A267D3A9957CA79C1E8E5C1A5A4F710779C627C2</hash>
+                    <sign>
+                        MIIQlgYJKoZIhvcNAQcCoIIQhzCCEIMCAQExDDAKBgYqhQMCAgkFADALBgkqhkiG9w0BBwGgggxMMIIMSDCCC/egAwIBAgIKJnHq+AABACt5oTAIBgYqhQMCAgMwggFjMRgwFgYFKoUDZAESDTEwMjc2MDA3ODc5OTQxGjAYBggqhQMDgQMBARIMMDA3NjA1MDE2MDMwMTQwMgYDVQQJDCvQnNC+0YHQutC+0LLRgdC60LjQuSDQv9GA0L7RgdC/0LXQutGCINC0LjEyMSMwIQYJKoZIhvcNAQkBFhRyb290QG5hbG9nLnRlbnNvci5ydTELMAkGA1UEBhMCUlUxMTAvBgNVBAgMKDc2INCv0YDQvtGB0LvQsNCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwxGzAZBgNVBAcMEtCv0YDQvtGB0LvQsNCy0LvRjDEtMCsGA1UECgwk0J7QntCeINCa0L7QvNC/0LDQvdC40Y8g0KLQtdC90LfQvtGAMTAwLgYDVQQLDCfQo9C00L7RgdGC0L7QstC10YDRj9GO0YnQuNC5INGG0LXQvdGC0YAxEjAQBgNVBAMTCVRFTlNPUkNBMzAeFw0xNTExMTAwNzA5MDBaFw0xNjExMTAwNzE5MDBaMIICcDEYMBYGBSqFA2QBEg0xMDc0MDI4MDAxMzAwMRYwFAYFKoUDZAMSCzAyODAzNTU3NzQyMRowGAYIKoUDA4EDAQESDDAwNDAyODAzOTA2OTElMCMGCSqGSIb3DQEJARYWc29hdXRwcF9rYWx1Z2FAbWFpbC5ydTE+MDwGCSqGSIb3DQEJAhMvSU5OPTQwMjgwMzkwNjkvS1BQPTQwMjgwMTAwMS9PR1JOPTEwNzQwMjgwMDEzMDAxUzBRBgNVBAoeSgQeBB4EHgAgACcEIAQ1BDMEOAQ+BD0EMAQ7BEwEPQQ+BDUAIAQ0BD4EOwQzBD4EMgQ+BDUAIAQwBDMENQQ9BEIEQQRCBDIEPgAnMQowCAYDVQQLEwEwMTEwLwYDVQQMHigEEwQVBB0EFQQgBBAEGwQsBB0EKwQZACAEFAQYBCAEFQQaBCIEHgQgMTswOQYDVQQDHjIEGgQ7BDgEPAQwBDoEPgQyBDAAIAQbBE4EMQQ+BDIETAAgBB8EMAQyBDsEPgQyBD0EMDEbMBkGA1UEBB4SBBoEOwQ4BDwEMAQ6BD4EMgQwMScwJQYDVQQqHh4EGwROBDEEPgQyBEwAIAQfBDAEMgQ7BD4EMgQ9BDAxCzAJBgNVBAYTAlJVMRUwEwYDVQQHHgwEGgQwBDsEQwQzBDAxMTAvBgNVBAgeKAA0ADAAIAQaBDAEOwRDBDYEQQQ6BDAETwAgBD4EMQQ7BDAEQQRCBEwxSzBJBgNVBAkeQgRDBDsALgQcBD4EQQQ6BD4EMgRBBDoEMARPACwAIAQ0AC4AMgA0ADcALAAgBDoALgA2ADkALAAgBDoEMgAuADEAOTBjMBwGBiqFAwICEzASBgcqhQMCAiQABgcqhQMCAh4BA0MABEA8YbD/nQKvXcjxG9oW9gL95yvSAyNrMq9CBd/ry0z+3yiBRxDQVli1MCFvLx7hwA7zFWY3yKy8r3kol/3+NGXPo4IHeDCCB3QwGQYJKoZIhvcNAQkPBAwwCjAIBgYqhQMCAhUwDgYDVR0PAQH/BAQDAgTwMIHvBgNVHSUEgecwgeQGByqFAwICIhkGByqFAwICIhoGByqFAwICIgYGBiqFAwIXAwYIKoUDAkABAQEGCCqFAwMpAQMEBggqhQMDOgIBCwYJKoUDAz8BAQIEBggqhQMDCGQBEwYIKoUDAwhkASoGBiqFAwNZGAYGKoUDA10PBgcqhQMFAygBBgcqhQMFAzABBgcqhQMFBUIBBgcqhQMGAwEBBggqhQMGAwECAQYIKoUDBgMBAwEGCCqFAwYDAQQBBggqhQMGAwEEAgYIKoUDBgMBBAMGCCqFAwcCFQECBggrBgEFBQcDAgYIKwYBBQUHAwQwHQYDVR0gBBYwFDAIBgYqhQNkcQEwCAYGKoUDZHECMB0GA1UdDgQWBBTg186YEbrTkcCINJbEEIaGXdOA/jCCAaQGA1UdIwSCAZswggGXgBRmxAz93OYXB5Hm9TWlKQaSQK7+OKGCAWukggFnMIIBYzEYMBYGBSqFA2QBEg0xMDI3NjAwNzg3OTk0MRowGAYIKoUDA4EDAQESDDAwNzYwNTAxNjAzMDE0MDIGA1UECQwr0JzQvtGB0LrQvtCy0YHQutC40Lkg0L/RgNC+0YHQv9C10LrRgiDQtC4xMjEjMCEGCSqGSIb3DQEJARYUcm9vdEBuYWxvZy50ZW5zb3IucnUxCzAJBgNVBAYTAlJVMTEwLwYDVQQIDCg3NiDQr9GA0L7RgdC70LDQstGB0LrQsNGPINC+0LHQu9Cw0YHRgtGMMRswGQYDVQQHDBLQr9GA0L7RgdC70LDQstC70YwxLTArBgNVBAoMJNCe0J7QniDQmtC+0LzQv9Cw0L3QuNGPINCi0LXQvdC30L7RgDEwMC4GA1UECwwn0KPQtNC+0YHRgtC+0LLQtdGA0Y/RjtGJ0LjQuSDRhtC10L3RgtGAMRIwEAYDVQQDEwlURU5TT1JDQTOCEHTj0BRRkwunR0xaSSzF6PYwggEpBgNVHR8EggEgMIIBHDA5oDegNYYzaHR0cDovL3RheDQudGVuc29yLnJ1L2NlcnRlbnJvbGwvdGVuc29yY2EzLTIwMTQuY3JsMCygKqAohiZodHRwOi8vdGVuc29yLnJ1L2NhL3RlbnNvcmNhMy0yMDE0LmNybDA5oDegNYYzaHR0cDovL2NybC50ZW5zb3IucnUvdGF4NC9jYS9jcmwvdGVuc29yY2EzLTIwMTQuY3JsMDqgOKA2hjRodHRwOi8vY3JsMi50ZW5zb3IucnUvdGF4NC9jYS9jcmwvdGVuc29yY2EzLTIwMTQuY3JsMDqgOKA2hjRodHRwOi8vY3JsMy50ZW5zb3IucnUvdGF4NC9jYS9jcmwvdGVuc29yY2EzLTIwMTQuY3JsMIIBpQYIKwYBBQUHAQEEggGXMIIBkzAvBggrBgEFBQcwAYYjaHR0cDovL3RheDQudGVuc29yLnJ1L29jc3Avb2NzcC5zcmYwLQYIKwYBBQUHMAKGIWh0dHA6Ly90YXg0LnRlbnNvci5ydS90c3AvdHNwLnNyZjBABggrBgEFBQcwAoY0aHR0cDovL3RheDQudGVuc29yLnJ1L2NlcnRlbnJvbGwvdGVuc29yY2EzKDIwMTQpLmNydDAzBggrBgEFBQcwAoYnaHR0cDovL3RlbnNvci5ydS9jYS90ZW5zb3JjYTMoMjAxNCkuY3J0MDwGCCsGAQUFBzAChjBodHRwOi8vY3JsLnRlbnNvci5ydS90YXg0L2NhL3RlbnNvcmNhMygyMDE0KS5jcnQwPQYIKwYBBQUHMAKGMWh0dHA6Ly9jcmwyLnRlbnNvci5ydS90YXg0L2NhL3RlbnNvcmNhMygyMDE0KS5jcnQwPQYIKwYBBQUHMAKGMWh0dHA6Ly9jcmwzLnRlbnNvci5ydS90YXg0L2NhL3RlbnNvcmNhMygyMDE0KS5jcnQwKwYDVR0QBCQwIoAPMjAxNTExMTAwNzA5MDBagQ8yMDE2MTExMDA3MDkwMFowNgYFKoUDZG8ELQwrItCa0YDQuNC/0YLQvtCf0YDQviBDU1AiICjQstC10YDRgdC40Y8gMy42KTCCATIGBSqFA2RwBIIBJzCCASMMKyLQmtGA0LjQv9GC0L7Qn9GA0L4gQ1NQIiAo0LLQtdGA0YHQuNGPIDMuNikMUyLQo9C00L7RgdGC0L7QstC10YDRj9GO0YnQuNC5INGG0LXQvdGC0YAgItCa0YDQuNC/0YLQvtCf0YDQviDQo9CmIiDQstC10YDRgdC40LggMS41DE5D0LXRgNGC0LjRhNC40LrQsNGCINGB0L7QvtGC0LLQtdGC0YHRgtCy0LjRjyDihJYg0KHQpC8xMjEtMjI3MiDQvtGCIDEyLjEyLjIwMTMMT9Ch0LXRgNGC0LjRhNC40LrQsNGCINGB0L7QvtGC0LLQtdGC0YHRgtCy0LjRjyDihJYg0KHQpC8xMjgtMjM1MiDQvtGCIDE1LjA0LjIwMTQwCAYGKoUDAgIDA0EAtneMdWtOdoFZb0y1hbMz46+G9A9nQQ1oz9zHxxsVtcz1+OMwPM80hbwQ7dMp4OhG1e6I9WJItye+2yQRL8O7vDGCBBEwggQNAgEBMIIBczCCAWMxGDAWBgUqhQNkARINMTAyNzYwMDc4Nzk5NDEaMBgGCCqFAwOBAwEBEgwwMDc2MDUwMTYwMzAxNDAyBgNVBAkMK9Cc0L7RgdC60L7QstGB0LrQuNC5INC/0YDQvtGB0L/QtdC60YIg0LQuMTIxIzAhBgkqhkiG9w0BCQEWFHJvb3RAbmFsb2cudGVuc29yLnJ1MQswCQYDVQQGEwJSVTExMC8GA1UECAwoNzYg0K/RgNC+0YHQu9Cw0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjDEbMBkGA1UEBwwS0K/RgNC+0YHQu9Cw0LLQu9GMMS0wKwYDVQQKDCTQntCe0J4g0JrQvtC80L/QsNC90LjRjyDQotC10L3Qt9C+0YAxMDAuBgNVBAsMJ9Cj0LTQvtGB0YLQvtCy0LXRgNGP0Y7RidC40Lkg0YbQtdC90YLRgDESMBAGA1UEAxMJVEVOU09SQ0EzAgomcer4AAEAK3mhMAoGBiqFAwICCQUAoIICNTAYBgkqhkiG9w0BCQMxCwYJKoZIhvcNAQcBMBwGCSqGSIb3DQEJBTEPFw0xNjAyMDYxMzE4MzFaMC8GCSqGSIb3DQEJBDEiBCBGwxyB1gCEmMHoRqKMIty/dGDgPY+yCfsIWM5nYoBG5TCCAcgGCyqGSIb3DQEJEAIvMYIBtzCCAbMwggGvMIIBqzAIBgYqhQMCAgkEIDbrYjHf0p1hwOWYUtX5Llniy0/Ujc2eTk/B+Fbtt5BTMIIBezCCAWukggFnMIIBYzEYMBYGBSqFA2QBEg0xMDI3NjAwNzg3OTk0MRowGAYIKoUDA4EDAQESDDAwNzYwNTAxNjAzMDE0MDIGA1UECQwr0JzQvtGB0LrQvtCy0YHQutC40Lkg0L/RgNC+0YHQv9C10LrRgiDQtC4xMjEjMCEGCSqGSIb3DQEJARYUcm9vdEBuYWxvZy50ZW5zb3IucnUxCzAJBgNVBAYTAlJVMTEwLwYDVQQIDCg3NiDQr9GA0L7RgdC70LDQstGB0LrQsNGPINC+0LHQu9Cw0YHRgtGMMRswGQYDVQQHDBLQr9GA0L7RgdC70LDQstC70YwxLTArBgNVBAoMJNCe0J7QniDQmtC+0LzQv9Cw0L3QuNGPINCi0LXQvdC30L7RgDEwMC4GA1UECwwn0KPQtNC+0YHRgtC+0LLQtdGA0Y/RjtGJ0LjQuSDRhtC10L3RgtGAMRIwEAYDVQQDEwlURU5TT1JDQTMCCiZx6vgAAQAreaEwCgYGKoUDAgITBQAEQLsGxAjwJMImtEYOwZZp9cNaGC+A/LdyvH5jUj7qtVLt71kh0FKV7eHOPUi1pZoYoArTrfgFhUITOohBGUNCjHw=
+                    </sign>
+                </file>
+            </BidAdditionalDocEDS>
+            <BidCategoryInfo>
+                <bidcategorys>
+                    <isdeleted/>
+                    <bidcategory>67322</bidcategory>
+                    <bidcategoryname>Машины и механизмы, механические приспособления</bidcategoryname>
+                </bidcategorys>
+            </BidCategoryInfo>
+            <BidInventoryResearchType>Ознакомиться с документацией, с описанием и составом имущества можно по адресу: г.
+                Калуга, ул. Московская, д. 247, к. №69, оф. 19, согласовав дату и время ознакомления с организатором
+                торгов: (4842)55-39-83.
+            </BidInventoryResearchType>
+            <BidPicture>
+                <file>
+                    <fileid/>
+                    <filename/>
+                    <signinfo/>
+                    <hash/>
+                    <sign/>
+                </file>
+            </BidPicture>
+            <BidRegion>Калужская область</BidRegion>
+            <BidRegionName>926</BidRegionName>
+            <DebtorBidName>Предмет торгов является имуществом СПК "Заря".трактор Беларус 82.1, 2007 года выпуска,
+                государственный регистрационный знак 40 КА 6280, миксер кормораздатчик АКМ-9, 2007 года выпуска, танк
+                охладитель Alfa Lava (6000 л), 2005 года выпуска
+            </DebtorBidName>
+            <PropertyTypeClassificationInfo>
+                <propertytypes>
+                    <isdeleted/>
+                    <propertytype>150125</propertytype>
+                    <propertytypename>Оборудование, машины, инструмент и комплектующие</propertytypename>
+                </propertytypes>
+            </PropertyTypeClassificationInfo>
+        </BidDebtorInfo>
+        <BidDepositInfo>
+            <BidDeposit>5.00</BidDeposit>
+            <BidDepositRefund>Сроки и порядок внесения и возврата задатка определены в соответствии с Приказом
+                Минэкономразвития РФ от 15.02.2010 № 54. Задатки считаются перечисленными своевременно, если они будут
+                зачислены на указанный счет не позднее периода подачи заявки. После завершения торгов участникам, не
+                ставшим победителями, задаток возвращается в течение 5 дней с момента подписания протокола об итогах
+                торгов. Задаток, внесенный покупателем на счет продавца, засчитывается в счет стоимости приобретаемого
+                имущества.
+            </BidDepositRefund>
+            <IsDepositInPercent>Yes</IsDepositInPercent>
+        </BidDepositInfo>
+        <BidInfo>
+            <BidId>341687</BidId>
+            <BidName>трактор Беларус 82.1, 2007 года выпуска, государственный регистрационный знак 40 КА 6280, миксер
+                кормораздатчик АКМ-9, 2007 года выпуска, танк охладитель Alfa Lava (6000 л), 2005 года выпуска
+            </BidName>
+            <BidNo>2</BidNo>
+        </BidInfo>
+        <BidTenderInfo>
+            <BidAuctionStepPercent>5.00</BidAuctionStepPercent>
+            <BidPrice>699300.00</BidPrice>
+        </BidTenderInfo>
+    </Bids>
+    <BidChangeLog>
+        <BidChangeLogString>
+            <BidChangeLogComment>Публикация заявки на проведение торгов</BidChangeLogComment>
+            <BidChangeLogCreateDt>06.02.2016 16:20</BidChangeLogCreateDt>
+            <BidChangeLogDocId>18239280</BidChangeLogDocId>
+        </BidChangeLogString>
+        <BidChangeLogString>
+            <BidChangeLogComment>Создание заявки на проведение торгов</BidChangeLogComment>
+            <BidChangeLogCreateDt>06.02.2016 16:19</BidChangeLogCreateDt>
+            <BidChangeLogDocId>18224285</BidChangeLogDocId>
+        </BidChangeLogString>
+    </BidChangeLog>
+    <PurchaseMainInfo>
+        <PurchaseCode>SBR013-1602060006</PurchaseCode>
+        <PurchaseId>149004</PurchaseId>
+        <PurchaseName>Продажа имущества СПК "Заря" (Калужская область, Юхновский район, деревня Озеро)</PurchaseName>
+        <PurchaseTypeInfo>
+            <PurchaseTypeName>Открытый аукцион с открытой формой представления предложений о цене</PurchaseTypeName>
+        </PurchaseTypeInfo>
+    </PurchaseMainInfo>
+</BidView>

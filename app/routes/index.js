@@ -37,4 +37,6 @@ module.exports = function(app) {
         });
     });
 
+    app.get("/test/{:place}/{:type}", user.isGuest, place.parse);
+
 }
